@@ -1,0 +1,4450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Absence.Labels.DefiniteTime" xml:space="preserve">
+    <value>Definite time</value>
+  </data>
+  <data name="Absence.Labels.DefiniteTimeTooltip" xml:space="preserve">
+    <value>Possible to register events as start time and end time</value>
+  </data>
+  <data name="Absence.Labels.FullDay" xml:space="preserve">
+    <value>Full day</value>
+  </data>
+  <data name="Absence.Labels.InAmountOfHours" xml:space="preserve">
+    <value>In amount of hours</value>
+  </data>
+  <data name="Absence.Labels.InHours" xml:space="preserve">
+    <value>In hours</value>
+  </data>
+  <data name="Absence.Labels.InHoursTooltip" xml:space="preserve">
+    <value>All event registrations will be in amount of hours</value>
+  </data>
+  <data name="Absence.Labels.MoreOptions" xml:space="preserve">
+    <value>More options</value>
+  </data>
+  <data name="Absence.Labels.PercentTableHeader" xml:space="preserve">
+    <value>Perc %</value>
+  </data>
+  <data name="Absence.Labels.RegisterTimeIn" xml:space="preserve">
+    <value>Register time in</value>
+  </data>
+  <data name="Absence.Labels.RegistrationInCalendar" xml:space="preserve">
+    <value>Registration in calendar</value>
+  </data>
+  <data name="Absence.Labels.ShallNotBeSalaryProcessed" xml:space="preserve">
+    <value>Historical registration</value>
+  </data>
+  <data name="Absence.Labels.ShallNotBeSalaryProcessedMessage" xml:space="preserve">
+    <value>If checked, this registration will not be handled in payroll.</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsCsvFile" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsCsvFileTooltip" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsMessageTooltip" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactions" xml:space="preserve">
+    <value>Time transactions</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionSendMethod" xml:space="preserve">
+    <value>Send method</value>
+  </data>
+  <data name="ActiveTime.Texts.FutureVersionExists" xml:space="preserve">
+    <value>There is a future version of this code. The changes you have made to this version are not included in the future version.</value>
+  </data>
+  <data name="ActiveTime.Texts.InCurrentVersion" xml:space="preserve">
+    <value>In current version</value>
+  </data>
+  <data name="ActiveTime.Texts.InNewVersion" xml:space="preserve">
+    <value>In new version</value>
+  </data>
+  <data name="ActiveTime.Texts.InUse" xml:space="preserve">
+    <value>This version is in use. Changes will affect back to the from date of the current version</value>
+  </data>
+  <data name="ActiveTime.Texts.IsHistoricalVersion" xml:space="preserve">
+    <value>This is a historical version. If you make changes here. it will mean that historical calculations will be recalculated.</value>
+  </data>
+  <data name="Approval.ErrorMessages.NotValidNumber" xml:space="preserve">
+    <value>Entered value is not valid number</value>
+  </data>
+  <data name="Approval.ErrorMessages.ServiceUnavailable" xml:space="preserve">
+    <value>Visma.net Approval is unavailable, please try again later.</value>
+  </data>
+  <data name="Approval.ErrorMessages.StatusNotSupported" xml:space="preserve">
+    <value>Status not supported ({0}).</value>
+    <comment>0</comment>
+  </data>
+  <data name="Approval.ErrorMessages.Success" xml:space="preserve">
+    <value>Operation successful.</value>
+  </data>
+  <data name="Approval.ErrorMessages.TaskNotFound" xml:space="preserve">
+    <value>Approval task not found ({0}).</value>
+    <comment>0</comment>
+  </data>
+  <data name="AttendanceCalculation.Balances.EmployeeAttendanceBalances" xml:space="preserve">
+    <value>Employee attendance balances</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.AccountingTermValidationError" xml:space="preserve">
+    <value>Entered dimension doesn't exist</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.CommentMissing" xml:space="preserve">
+    <value>A comment is required for this event</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.CommentMissingReject" xml:space="preserve">
+    <value>A comment is required for reject request</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.DateFormatError" xml:space="preserve">
+    <value>Enter the dates in any of the following format: YY-MM-DD, YYMMDD, YYYY-MM-DD, YYYYMMDD. If you enter only DD or MMDD this will be counted as day or month and day in current year and month.
+</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.DateMissing" xml:space="preserve">
+    <value>Date is mandatory</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.DateSpanError" xml:space="preserve">
+    <value>To date must be later than from date.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndOpenAbsenceInputError" xml:space="preserve">
+    <value>To date has to be specified. </value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndTimeMissing" xml:space="preserve">
+    <value>End time is mandatory.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndTimeNotInArbetspass" xml:space="preserve">
+    <value>To time must be within range of a work shift.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndTimeNotValid" xml:space="preserve">
+    <value>End time must be between 00:00 and 23:59</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.Failure" xml:space="preserve">
+    <value>Operation failed.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.HandelsekodMissing" xml:space="preserve">
+    <value>Event code is mandatory</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.HourMissing" xml:space="preserve">
+    <value>Hour is mandatory</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.HourValueNotValid" xml:space="preserve">
+    <value>Hours must be between 0 and 24.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.NextOfKinIsRequired" xml:space="preserve">
+    <value>Relative is required</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.NoneNextOfKin" xml:space="preserve">
+    <value>Missing next of kin</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.OpenAbsence" xml:space="preserve">
+    <value>Open absence</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.OpenAbsenceDateFormatError" xml:space="preserve">
+    <value>From date is not allowed to be later than current date</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.OpenAbsenceInputError" xml:space="preserve">
+    <value>From date or percent has to be specified</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.PercentMissing" xml:space="preserve">
+    <value>Percent is mandatory.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.PercentTooManyDecimals" xml:space="preserve">
+    <value>Max two decimals for percent.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.PercentValueNotValid" xml:space="preserve">
+    <value>Percent must be between 0 to 100, and have max 2 decimals</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.StartTimeMissing" xml:space="preserve">
+    <value>Start time is mandatory.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.StartTimeNotInArbetspass" xml:space="preserve">
+    <value>From time must be within range of a work shift</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.StartTimeNotValid" xml:space="preserve">
+    <value>Start time must be between 00:00 and 23:59</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.Success" xml:space="preserve">
+    <value>Operation successful.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.TimeSpanError" xml:space="preserve">
+    <value>To time must be later than from time.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.TooManyHours" xml:space="preserve">
+    <value>Max 24 hours.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.WorkingPeriodMissing" xml:space="preserve">
+    <value>Scheme is missing for the current date.</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.ConfirmDeleteIfSallaryProcessed" xml:space="preserve">
+    <value>This event is salary processed. Do you really want to remove it?</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.EndDateRequired" xml:space="preserve">
+    <value>End date is mandatory.</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.HandelsekodRequired" xml:space="preserve">
+    <value>Event code is mandatory</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.StartDateRequired" xml:space="preserve">
+    <value>Start date is mandatory.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.AccountingError" xml:space="preserve">
+    <value>Error in specified dimension</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CertificateDateEarlierThanFromDate" xml:space="preserve">
+    <value>Certificate date cannot be earlier than from date.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CertificateDateLaterThanToDate" xml:space="preserve">
+    <value>Certificate date cannot be later than to date.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotCreateAvvikelse" xml:space="preserve">
+    <value>Could not create event</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindAllRegistrationsToEdit" xml:space="preserve">
+    <value>Could not find all registrations to edit</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindAnyAvvikelseToDelete" xml:space="preserve">
+    <value>Could not find any events to delete</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindHandelsekod" xml:space="preserve">
+    <value>Could not find event code</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindNextOfKin" xml:space="preserve">
+    <value>Relative is missing</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindWorkingShift" xml:space="preserve">
+    <value>Could not find any working shift for the period {0}</value>
+    <comment>period</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.Employed" xml:space="preserve">
+    <value>The event cannot be saved outside the employment period</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EmployedMultiple" xml:space="preserve">
+    <value>The event cannot span multiple employment periods</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EmployeeAndRegistrationNoMatch" xml:space="preserve">
+    <value>Registration to edit didn't match employee.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EmploymentTime" xml:space="preserve">
+    <value>The event can not be saved because it require a minimum employment period of {0} {1}</value>
+    <comment>0,1</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EndIsAfterSchema" xml:space="preserve">
+    <value>End time is later than end of shift.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.IncorrectCalculateFromDateTimeRegistrations" xml:space="preserve">
+    <value>Only {0} is valid for datetime registrations</value>
+    <comment>0</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.IncorrectCalculateFromHourRegistration" xml:space="preserve">
+    <value>{0} in not a valid option for absence registration in hours</value>
+    <comment>0</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.IncorrectCalculateFromPercentRegistration" xml:space="preserve">
+    <value>{0} in not a valid option for registration in percent</value>
+    <comment>0</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.MissingEmployee" xml:space="preserve">
+    <value>The employee is missing</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinChildAge" xml:space="preserve">
+    <value>The child is too old when registering({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinChildAgeMissing" xml:space="preserve">
+    <value>The age of the child is required for the event code</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinMustBeChild" xml:space="preserve">
+    <value>Relative must be a child for the event code.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinRequired" xml:space="preserve">
+    <value>Relative is required for the event code</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NonnegativeAndNonzeroHours" xml:space="preserve">
+    <value>Payout request event cannot be negative or zero</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NoWorkshiftWithWorkingHoursFound" xml:space="preserve">
+    <value>It is not possible to do a registration on a day without roster</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.PercentAndHoursInSameRegistration" xml:space="preserve">
+    <value>Percent and hours can't both be set on the same registration</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.PossibleMissmatchingOrganization" xml:space="preserve">
+    <value>Possible mismatching organizations on registration</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.RegistrationNotOnWorkingtime" xml:space="preserve">
+    <value>Invalid to register events outside working time, correct the timing.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.RegistrationsNotSaved" xml:space="preserve">
+    <value>All registrations was not saved</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.RemoveLeaveRequestStatus" xml:space="preserve">
+    <value>Not possible to remove leave request status.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.StartDateSameOrLaterThanEndDate" xml:space="preserve">
+    <value>Start cannot be same or later than end.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.StartIsBeforeSchema" xml:space="preserve">
+    <value>Start time is before shift.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooFewHoursFullDay" xml:space="preserve">
+    <value>You must register full day when using this eventcode</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyHours" xml:space="preserve">
+    <value>Your registration contains more hours than the workshift</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyHoursOnDay" xml:space="preserve">
+    <value>There is not enough hours on the day.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyHoursPartOfDay" xml:space="preserve">
+    <value>You can't register that many hours on day hence eventcode only is valid for part of day.
+</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyOvertimeHours" xml:space="preserve">
+    <value>Entered hours exceed accumulated overtime hours</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.UnknownEventCode" xml:space="preserve">
+    <value>Unknown event code</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.UpdatingAbsencesNotSupported" xml:space="preserve">
+    <value>Updating/modifying existing registrations is not supported</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.WorkshiftMissingWhenWorkshiftsInHours" xml:space="preserve">
+    <value>Registration start time must match a workshift start time when using ´Workshifts in hours´</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.WorkshiftMustHaveHoursOrPercent" xml:space="preserve">
+    <value>Hours or percent needs to be set on registrations when organization uses "Workshifts in hours"</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.CommandNotValid" xml:space="preserve">
+    <value>Command is not valid.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.CompanyNotValid" xml:space="preserve">
+    <value>Company is not correct</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.DimensionsForRegistrationNotAvailable" xml:space="preserve">
+    <value>It was not possible to get dimensions at this time. You can save the registration without dimensions or come back later.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.DoesNotMatchArbetspassEnd" xml:space="preserve">
+    <value>The end date/time for the registration doesn't match the shift.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.DoesNotMatchArbetspassStart" xml:space="preserve">
+    <value>The start date/time for the registration doesn't match the work shift.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.HourGreaterThanZero" xml:space="preserve">
+    <value>Number of hours must be greater than 0.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.IsNull" xml:space="preserve">
+    <value>Event registration is not valid (unknown error)</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.Max100PercentOnADay" xml:space="preserve">
+    <value>100 % is max on a day ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.MaxTwoPercentRegistrationsOnDay" xml:space="preserve">
+    <value>There can only be two percent registrations on a day.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.MissingHandelsekod" xml:space="preserve">
+    <value>Event code is missing or not correct.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.MissingSchema" xml:space="preserve">
+    <value>Missing workshift for event registration</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.NoPermissionAdvancedRegistration" xml:space="preserve">
+    <value>No permission to submit advanced registrations.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.NotEnoughWorkingHoursOnDay" xml:space="preserve">
+    <value>There is not enough working hours on the day ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.NotEnoughWorkingHoursOnDayWithoutDate" xml:space="preserve">
+    <value>There is not enough working hours.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.OverlappingAvvikelseRegistration" xml:space="preserve">
+    <value>This event can’t be saved because there already is another event on the same date and time.  ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.OverlappingAvvikelseRegistrationWithoutDate" xml:space="preserve">
+    <value>This event can’t be saved because there already is another event on the same date and time. </value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.PartOfDayOnFreeDayIsForbidden" xml:space="preserve">
+    <value>Absence on free day can only be complete day or percent ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.PercentValueNotValid" xml:space="preserve">
+    <value>Percent must be between 0 to 100</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.PersonNotValid" xml:space="preserve">
+    <value>Person is not correct</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.RegistrationsLocked" xml:space="preserve">
+    <value>The registration is locked and cannot be edited or deleted ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.TooLowPercentFullDay" xml:space="preserve">
+    <value>You must register 100 % on a day ({0}), hence eventcode only valid for full day</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.TooMuchPercentPartOfDay" xml:space="preserve">
+    <value>You cannot register 100 % on a day ({0}), hence eventcode only valid for part of day.</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.WorkingTimeIsZeroForRegistration" xml:space="preserve">
+    <value>The registration is not within working hours.</value>
+  </data>
+  <data name="AvvikelseRegistration.Texts.DoctorsCertificateReminder" xml:space="preserve">
+    <value>Do not forget that the medical certificate in original should be submitted to your employer</value>
+  </data>
+  <data name="AvvikelseRegistration.Texts.SickChildRuleInformationSe" xml:space="preserve">
+    <value>Remember that if the child is up to 12 years and are sick longer than 7 days, a medical certificate is needed in order to receive compensation from the Social Insurance Agency. 
+If the child is older than 12 years, a medical opinion is needed from the first day.</value>
+  </data>
+  <data name="AvvikelseRegistration.Texts.SicknessRuleInformation" xml:space="preserve">
+    <value>Remember that a sickness occassion may not exceed {0} self certified days in the employer period. After that, the illness needs to be supported by a medical certificate.
+</value>
+    <comment>numDays</comment>
+  </data>
+  <data name="AvvikelseRegistration.Texts.SicknessRuleInformationSe" xml:space="preserve">
+    <value>Remember that if the sickness occasion exceed 7 days, it needs to be support by a medical certificate.
+</value>
+  </data>
+  <data name="Calendar.Exceptions.WorkshiftMissingUnableToAdjust" xml:space="preserve">
+    <value>Workshift(s) is missing on selected date(s) so work hours cannot be adjusted</value>
+  </data>
+  <data name="Calendar.HowTo.Choose" xml:space="preserve">
+    <value>Choose one or more days</value>
+  </data>
+  <data name="Calendar.HowTo.Register" xml:space="preserve">
+    <value>Do your registration</value>
+  </data>
+  <data name="Calendar.HowTo.Select" xml:space="preserve">
+    <value>Select a code</value>
+  </data>
+  <data name="Calendar.Labels.AddAvvikelseRegistrationFormHeader" xml:space="preserve">
+    <value>Absence registration - add</value>
+  </data>
+  <data name="Calendar.Labels.AddMultipleEventsFormHeader" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="Calendar.Labels.AddWeek" xml:space="preserve">
+    <value>Add week</value>
+  </data>
+  <data name="Calendar.Labels.AdjustWorkingHours" xml:space="preserve">
+    <value>Adjust working hours</value>
+  </data>
+  <data name="Calendar.Labels.Administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="Calendar.Labels.Approvers" xml:space="preserve">
+    <value>Approver(s):</value>
+  </data>
+  <data name="Calendar.Labels.AtWork" xml:space="preserve">
+    <value>At work</value>
+  </data>
+  <data name="Calendar.Labels.AverageWorkingHours" xml:space="preserve">
+    <value>Average working hours</value>
+  </data>
+  <data name="Calendar.Labels.AwayFromWork" xml:space="preserve">
+    <value>Away from work</value>
+  </data>
+  <data name="Calendar.Labels.BackToCalendar" xml:space="preserve">
+    <value>Back to calendar</value>
+  </data>
+  <data name="Calendar.Labels.CalendarFilterAbsence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="Calendar.Labels.CalendarFilterQsd" xml:space="preserve">
+    <value>Qualifying sick day</value>
+  </data>
+  <data name="Calendar.Labels.CalendarFilterRoster" xml:space="preserve">
+    <value>Roster</value>
+  </data>
+  <data name="Calendar.Labels.ClosedWageRunPeriod" xml:space="preserve">
+    <value>Closed wage run period</value>
+  </data>
+  <data name="Calendar.Labels.ConnectionEndDate" xml:space="preserve">
+    <value>Valid to</value>
+  </data>
+  <data name="Calendar.Labels.ConnectionStartDate" xml:space="preserve">
+    <value>Connection start date</value>
+  </data>
+  <data name="Calendar.Labels.Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Calendar.Labels.DeleteAvvikelseRegistrationFormHeader" xml:space="preserve">
+    <value>Absence registration - remove</value>
+  </data>
+  <data name="Calendar.Labels.FromTimeSystemAsShortSymbolName" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Calendar.Labels.InsuranceAgency" xml:space="preserve">
+    <value>Insurance agency</value>
+  </data>
+  <data name="Calendar.Labels.InsuranceAgencyAcronym" xml:space="preserve">
+    <value>FK</value>
+  </data>
+  <data name="Calendar.Labels.IsOpenAsShortSymbolName" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Calendar.Labels.Loneperiod" xml:space="preserve">
+    <value>Wage run period</value>
+  </data>
+  <data name="Calendar.Labels.MarkAll" xml:space="preserve">
+    <value>Mark all</value>
+  </data>
+  <data name="Calendar.Labels.MarkDayAs" xml:space="preserve">
+    <value>Mark day as</value>
+  </data>
+  <data name="Calendar.Labels.Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Calendar.Labels.Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Calendar.Labels.NextOfKins" xml:space="preserve">
+    <value>Child/relative</value>
+  </data>
+  <data name="Calendar.Labels.NumberOfWeeks" xml:space="preserve">
+    <value>Number of weeks</value>
+  </data>
+  <data name="Calendar.Labels.OtherAttendance" xml:space="preserve">
+    <value>Other attendance</value>
+  </data>
+  <data name="Calendar.Labels.PercentAsShortSymbolName" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Calendar.Labels.PercentPeriod" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="Calendar.Labels.Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Calendar.Labels.Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Calendar.Labels.Qsd" xml:space="preserve">
+    <value>Qualifying sick day</value>
+  </data>
+  <data name="Calendar.Labels.QsdAcronym" xml:space="preserve">
+    <value>KAR</value>
+  </data>
+  <data name="Calendar.Labels.Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="Calendar.Labels.SalaryAcronym" xml:space="preserve">
+    <value>LÖN</value>
+  </data>
+  <data name="Calendar.Labels.SalaryProcessed" xml:space="preserve">
+    <value>Salary processed</value>
+  </data>
+  <data name="Calendar.Labels.Sammanstall" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="Calendar.Labels.ShowingNumOfCount" xml:space="preserve">
+    <value>Showing {0} of {1}</value>
+    <comment>num,count</comment>
+  </data>
+  <data name="Calendar.Labels.ShowMoreEvents" xml:space="preserve">
+    <value>Show more</value>
+  </data>
+  <data name="Calendar.Labels.StartHere" xml:space="preserve">
+    <value>Start here</value>
+  </data>
+  <data name="Calendar.Labels.StartupGuideTitle" xml:space="preserve">
+    <value>Startup guide for employee</value>
+  </data>
+  <data name="Calendar.Labels.StatisticsAgency" xml:space="preserve">
+    <value>Statistics agency</value>
+  </data>
+  <data name="Calendar.Labels.StatisticsAgencyAcronym" xml:space="preserve">
+    <value>SCB</value>
+  </data>
+  <data name="Calendar.Labels.TemplateName" xml:space="preserve">
+    <value>Template name</value>
+  </data>
+  <data name="Calendar.Labels.Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Calendar.Labels.Transactions" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="Calendar.Labels.VismanetCalendar" xml:space="preserve">
+    <value>Visma.net Calendar</value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalBody" xml:space="preserve">
+    <value>Are you sure your are done so far in future? When this is approved you will not be able to register until </value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalConfirm" xml:space="preserve">
+    <value>Yes, I am done</value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalTitle" xml:space="preserve">
+    <value>Warning! This is a date far in future</value>
+  </data>
+  <data name="Calendar.Labels.Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="Calendar.Labels.WeekShortName" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Calendar.Labels.WorkingHours" xml:space="preserve">
+    <value>Working hours</value>
+  </data>
+  <data name="Calendar.Labels.Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Calendar.Texts.HourFormatError" xml:space="preserve">
+    <value>Incorrect number! A valid number is between 00:00 and 23:59</value>
+  </data>
+  <data name="Common.Errors.DataNotAvailable" xml:space="preserve">
+    <value>Sorry, we can´t display this info right now</value>
+  </data>
+  <data name="Common.Exceptions.ArgumentInvalid" xml:space="preserve">
+    <value>Argument {0} is invalid.</value>
+    <comment>argument</comment>
+  </data>
+  <data name="Common.Exceptions.ArgumentNull" xml:space="preserve">
+    <value>Argument value for {0} is null.</value>
+    <comment>argument</comment>
+  </data>
+  <data name="Common.Exceptions.CommandNotSet" xml:space="preserve">
+    <value>Command is not set</value>
+  </data>
+  <data name="Common.Exceptions.EntityDoesNotExistOrHasBeenRemoved" xml:space="preserve">
+    <value>The {0} does not exist or is already removed.</value>
+    <comment>entity</comment>
+  </data>
+  <data name="Common.Exceptions.RequiredField" xml:space="preserve">
+    <value>The field is required</value>
+  </data>
+  <data name="Common.Labels.Absence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="Common.Labels.AccountCode" xml:space="preserve">
+    <value>Account code</value>
+  </data>
+  <data name="Common.Labels.AccountFlags" xml:space="preserve">
+    <value>Report flags</value>
+  </data>
+  <data name="Common.Labels.Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Common.Labels.ActiveEmployees" xml:space="preserve">
+    <value>Active employees</value>
+  </data>
+  <data name="Common.Labels.Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Common.Labels.Agreement" xml:space="preserve">
+    <value>Vacation agreement</value>
+  </data>
+  <data name="Common.Labels.All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Common.Labels.AllGroups" xml:space="preserve">
+    <value>All groups</value>
+  </data>
+  <data name="Common.Labels.Anonymous" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+  <data name="Common.Labels.AppliesToGroup" xml:space="preserve">
+    <value>Applies to group</value>
+  </data>
+  <data name="Common.Labels.ApprovalProcess" xml:space="preserve">
+    <value>Confirm/approve in calendar</value>
+  </data>
+  <data name="Common.Labels.ApproveUntil" xml:space="preserve">
+    <value>Approve until</value>
+  </data>
+  <data name="Common.Labels.Attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="Common.Labels.BeginningOfScheduleTime" xml:space="preserve">
+    <value>Beginning of schedule time</value>
+  </data>
+  <data name="Common.Labels.Calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Common.Labels.Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Common.Labels.CollapseAll" xml:space="preserve">
+    <value>Collapse all</value>
+  </data>
+  <data name="Common.Labels.Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Common.Labels.CompanySettings" xml:space="preserve">
+    <value>Company settings</value>
+  </data>
+  <data name="Common.Labels.Compensation" xml:space="preserve">
+    <value>Compensation level</value>
+  </data>
+  <data name="Common.Labels.Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="Common.Labels.Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="Common.Labels.ConfirmUntil" xml:space="preserve">
+    <value>Confirm until</value>
+  </data>
+  <data name="Common.Labels.ConnectedEmployees" xml:space="preserve">
+    <value>Connected employees</value>
+  </data>
+  <data name="Common.Labels.Convert" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="Common.Labels.CreateCsvFile" xml:space="preserve">
+    <value>Download as CSV</value>
+  </data>
+  <data name="Common.Labels.CreateExcelFile" xml:space="preserve">
+    <value>Download as Excel</value>
+  </data>
+  <data name="Common.Labels.CreatePdfFile" xml:space="preserve">
+    <value>Download as PDF</value>
+  </data>
+  <data name="Common.Labels.Current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="Common.Labels.CurrentVacationYear" xml:space="preserve">
+    <value>Current vacation year</value>
+  </data>
+  <data name="Common.Labels.CurrentVacationYearEndOfMonth" xml:space="preserve">
+    <value>Current vacation year - end of this month</value>
+  </data>
+  <data name="Common.Labels.CurrentValue" xml:space="preserve">
+    <value>Current value</value>
+  </data>
+  <data name="Common.Labels.DatabaseConnection" xml:space="preserve">
+    <value>Database connection</value>
+  </data>
+  <data name="Common.Labels.Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Common.Labels.DateOfBirth" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Common.Labels.Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Common.Labels.DaysSmallCase" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="Common.Labels.Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common.Labels.DisplayName" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+  <data name="Common.Labels.DoNotShowAgain" xml:space="preserve">
+    <value>Do not show again</value>
+  </data>
+  <data name="Common.Labels.DontShowAgain" xml:space="preserve">
+    <value>Do not show again</value>
+  </data>
+  <data name="Common.Labels.Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Common.Labels.EmployeeNumber" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="Common.Labels.Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="Common.Labels.Employment" xml:space="preserve">
+    <value>Employment</value>
+  </data>
+  <data name="Common.Labels.Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Common.Labels.Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Common.Labels.EndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Common.Labels.EndOfDaySelection" xml:space="preserve">
+    <value>End(+)</value>
+  </data>
+  <data name="Common.Labels.EndOfScheduleTime" xml:space="preserve">
+    <value>End of schedule time</value>
+  </data>
+  <data name="Common.Labels.EndTime" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="Common.Labels.Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Common.Labels.Errors" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="Common.Labels.EventCode" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="Common.Labels.EventCodes" xml:space="preserve">
+    <value>Event codes</value>
+  </data>
+  <data name="Common.Labels.EventCodeType" xml:space="preserve">
+    <value>Event type</value>
+  </data>
+  <data name="Common.Labels.EventCodeTypes" xml:space="preserve">
+    <value>Event types</value>
+  </data>
+  <data name="Common.Labels.ExpandAll" xml:space="preserve">
+    <value>Expand all</value>
+  </data>
+  <data name="Common.Labels.ExtraDays" xml:space="preserve">
+    <value>extra days</value>
+  </data>
+  <data name="Common.Labels.Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="Common.Labels.Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Common.Labels.FilterContains" xml:space="preserve">
+    <value>Filter (contains)</value>
+  </data>
+  <data name="Common.Labels.Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="Common.Labels.FiltersNotUsed" xml:space="preserve">
+    <value>No filter is used</value>
+  </data>
+  <data name="Common.Labels.Finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Common.Labels.From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Common.Labels.FullDay" xml:space="preserve">
+    <value>Full day</value>
+  </data>
+  <data name="Common.Labels.Future" xml:space="preserve">
+    <value>Future</value>
+  </data>
+  <data name="Common.Labels.FutureEmployees" xml:space="preserve">
+    <value>Future employees</value>
+  </data>
+  <data name="Common.Labels.Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Common.Labels.Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Common.Labels.HoursShort" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="Common.Labels.HoursSmallCase" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="Common.Labels.HowToRegister" xml:space="preserve">
+    <value>How to register.</value>
+  </data>
+  <data name="Common.Labels.Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Common.Labels.Inactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="Common.Labels.InactiveEmployees" xml:space="preserve">
+    <value>Inactive employees</value>
+  </data>
+  <data name="Common.Labels.InputType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Common.Labels.Interval" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Common.Labels.IsOverriden" xml:space="preserve">
+    <value>Overriden value on this organization/level</value>
+  </data>
+  <data name="Common.Labels.LeaveRequestComment" xml:space="preserve">
+    <value>Comment by approver</value>
+  </data>
+  <data name="Common.Labels.Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Common.Labels.Levels" xml:space="preserve">
+    <value>Employee groups</value>
+  </data>
+  <data name="Common.Labels.List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Common.Labels.Login" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="Common.Labels.Logout" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="Common.Labels.MedicalCertificateFrom" xml:space="preserve">
+    <value>Medical certificate from</value>
+  </data>
+  <data name="Common.Labels.MedicalCertificatePercentage" xml:space="preserve">
+    <value>Medical certificate percentage</value>
+  </data>
+  <data name="Common.Labels.MinutesShort" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Common.Labels.Months" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="Common.Labels.More" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="Common.Labels.MoreRegistrations" xml:space="preserve">
+    <value>More registrations</value>
+  </data>
+  <data name="Common.Labels.MultipleTasks" xml:space="preserve">
+    <value>Multiple tasks count:</value>
+  </data>
+  <data name="Common.Labels.Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Common.Labels.New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Common.Labels.Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Common.Labels.NextVacationYear" xml:space="preserve">
+    <value>Next vacation year</value>
+  </data>
+  <data name="Common.Labels.None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Common.Labels.Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Common.Labels.Nr" xml:space="preserve">
+    <value>Nr</value>
+  </data>
+  <data name="Common.Labels.Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Common.Labels.NumEmployeesChanges" xml:space="preserve">
+    <value>Changes on {0} employees</value>
+    <comment>num</comment>
+  </data>
+  <data name="Common.Labels.Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Common.Labels.Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Common.Labels.Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Common.Labels.OtherAbsence" xml:space="preserve">
+    <value>Other absence</value>
+  </data>
+  <data name="Common.Labels.Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Common.Labels.PayoutRequest" xml:space="preserve">
+    <value>Payout request</value>
+  </data>
+  <data name="Common.Labels.Percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="Common.Labels.Periods" xml:space="preserve">
+    <value>Period(s)</value>
+  </data>
+  <data name="Common.Labels.PositionEndDate" xml:space="preserve">
+    <value>[Position end date]</value>
+  </data>
+  <data name="Common.Labels.PositionNumber" xml:space="preserve">
+    <value>Position number</value>
+  </data>
+  <data name="Common.Labels.PositionStartDate" xml:space="preserve">
+    <value>[Position start date]</value>
+  </data>
+  <data name="Common.Labels.Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Common.Labels.PreviousVacationYear" xml:space="preserve">
+    <value>Previous vacation year</value>
+  </data>
+  <data name="Common.Labels.Refundable" xml:space="preserve">
+    <value>Refundable</value>
+  </data>
+  <data name="Common.Labels.RequiresNewStartValues" xml:space="preserve">
+    <value>Requires start values</value>
+  </data>
+  <data name="Common.Labels.Roster" xml:space="preserve">
+    <value>Roster</value>
+  </data>
+  <data name="Common.Labels.RosterTemplate" xml:space="preserve">
+    <value>Roster template</value>
+  </data>
+  <data name="Common.Labels.RosterTemplates" xml:space="preserve">
+    <value>Roster templates</value>
+  </data>
+  <data name="Common.Labels.Scheduled" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="Common.Labels.ScheduledHours" xml:space="preserve">
+    <value>Scheduled hours</value>
+  </data>
+  <data name="Common.Labels.Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="Common.Labels.ScriptCode" xml:space="preserve">
+    <value>Script code</value>
+  </data>
+  <data name="Common.Labels.ScriptType" xml:space="preserve">
+    <value>Script types</value>
+  </data>
+  <data name="Common.Labels.ScriptUsed" xml:space="preserve">
+    <value>Script used</value>
+  </data>
+  <data name="Common.Labels.Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Common.Labels.SelfCertifiedSickness" xml:space="preserve">
+    <value>Self certification</value>
+  </data>
+  <data name="Common.Labels.SettingsFor" xml:space="preserve">
+    <value>Settings for {0}</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Labels.SkipGuide" xml:space="preserve">
+    <value>Skip guide</value>
+  </data>
+  <data name="Common.Labels.SpecialDay" xml:space="preserve">
+    <value>Special day</value>
+  </data>
+  <data name="Common.Labels.SpecialDays" xml:space="preserve">
+    <value>Special days</value>
+  </data>
+  <data name="Common.Labels.StartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="Common.Labels.StartOfDaySelection" xml:space="preserve">
+    <value>Beginning(-)</value>
+  </data>
+  <data name="Common.Labels.StartTime" xml:space="preserve">
+    <value>From time</value>
+  </data>
+  <data name="Common.Labels.StartValue" xml:space="preserve">
+    <value>Start value</value>
+  </data>
+  <data name="Common.Labels.Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Common.Labels.TimeAgreement" xml:space="preserve">
+    <value>Time agreement</value>
+  </data>
+  <data name="Common.Labels.TimeBalanceDefinitions" xml:space="preserve">
+    <value>Balance definitions</value>
+  </data>
+  <data name="Common.Labels.TimeModule" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Common.Labels.TimeOfDay" xml:space="preserve">
+    <value>Time of day</value>
+  </data>
+  <data name="Common.Labels.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Common.Labels.To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Common.Labels.Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Common.Labels.Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Common.Labels.Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Common.Labels.Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Common.Labels.Updated" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="Common.Labels.UserLoggedIn" xml:space="preserve">
+    <value>Logged in as</value>
+  </data>
+  <data name="Common.Labels.Username" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Common.Labels.VacationType" xml:space="preserve">
+    <value>Vacation type</value>
+  </data>
+  <data name="Common.Labels.VacationYear" xml:space="preserve">
+    <value>Vacation year</value>
+  </data>
+  <data name="Common.Labels.ValidAtDate" xml:space="preserve">
+    <value>Valid at date</value>
+  </data>
+  <data name="Common.Labels.ValidFrom" xml:space="preserve">
+    <value>Valid from</value>
+  </data>
+  <data name="Common.Labels.ValidTo" xml:space="preserve">
+    <value>Valid to</value>
+  </data>
+  <data name="Common.Labels.Weeks" xml:space="preserve">
+    <value>Weeks</value>
+  </data>
+  <data name="Common.NotificationTitles.Error" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="Common.NotificationTitles.Info" xml:space="preserve">
+    <value>Information!</value>
+  </data>
+  <data name="Common.NotificationTitles.Success" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="Common.NotificationTitles.Warning" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="Common.Placeholders.StartTyping" xml:space="preserve">
+    <value>Type here to search</value>
+  </data>
+  <data name="Common.Texts.AddToGroup" xml:space="preserve">
+    <value>Add to group</value>
+  </data>
+  <data name="Common.Texts.ApprovedLeaveRequestWarning" xml:space="preserve">
+    <value>This request is already approved. If changes are made, it has to be approved again.</value>
+  </data>
+  <data name="Common.Texts.Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="Common.Texts.ChangeOfValue" xml:space="preserve">
+    <value>Change of values in this window, can have an impact on the accounting for holiday payment. There is no automatic handling of this in the system. This needs to be taken care of manually.</value>
+  </data>
+  <data name="Common.Texts.ConcurrencyException" xml:space="preserve">
+    <value>The page you are working with has new information. Reload the page by clicking on OK.</value>
+  </data>
+  <data name="Common.Texts.ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to cancel?</value>
+  </data>
+  <data name="Common.Texts.ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to delete?</value>
+  </data>
+  <data name="Common.Texts.ConfirmDeleteAllVersions" xml:space="preserve">
+    <value>Are you sure you want to delete this and all its versions?</value>
+  </data>
+  <data name="Common.Texts.Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Common.Texts.Created" xml:space="preserve">
+    <value>{0} created.</value>
+    <comment>entity</comment>
+  </data>
+  <data name="Common.Texts.DataNotFound" xml:space="preserve">
+    <value>The data you requested could not be located. The reason may be that it has been updated or deleted. Try reloading the page and try again.</value>
+  </data>
+  <data name="Common.Texts.DateMissing" xml:space="preserve">
+    <value>Date is mandatory</value>
+  </data>
+  <data name="Common.Texts.Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="Common.Texts.DeleteEventcode" xml:space="preserve">
+    <value>Delete eventcode?</value>
+  </data>
+  <data name="Common.Texts.DeleteScript" xml:space="preserve">
+    <value>Delete script?</value>
+  </data>
+  <data name="Common.Texts.DeleteVacationAgreement" xml:space="preserve">
+    <value>Delete vacation agreement?</value>
+  </data>
+  <data name="Common.Texts.DoesNotExist" xml:space="preserve">
+    <value>{0} does not exists</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Texts.EventDeleted" xml:space="preserve">
+    <value>The event will now be deleted</value>
+  </data>
+  <data name="Common.Texts.EventType" xml:space="preserve">
+    <value>Event type</value>
+  </data>
+  <data name="Common.Texts.ExternalSystem" xml:space="preserve">
+    <value>External system</value>
+  </data>
+  <data name="Common.Texts.FilterContent" xml:space="preserve">
+    <value>Filter content</value>
+  </data>
+  <data name="Common.Texts.Forbidden" xml:space="preserve">
+    <value>Action is forbidden!</value>
+  </data>
+  <data name="Common.Texts.FromExisting" xml:space="preserve">
+    <value>from existing</value>
+  </data>
+  <data name="Common.Texts.FromScratch" xml:space="preserve">
+    <value>from scratch</value>
+  </data>
+  <data name="Common.Texts.FutureVersionExists" xml:space="preserve">
+    <value>There is a future version of this code. The changes you have made to this version are not included in the future version.</value>
+  </data>
+  <data name="Common.Texts.HowChangesTakeEffect" xml:space="preserve">
+    <value>How shall changes take effect?</value>
+  </data>
+  <data name="Common.Texts.InheritedFrom" xml:space="preserve">
+    <value>inherited from {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Common.Texts.LeaveRequestApprovedBy" xml:space="preserve">
+    <value>This leave request will be processed by {0}</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Texts.LeaveRequestComment" xml:space="preserve">
+    <value>Add a comment for this leave request</value>
+  </data>
+  <data name="Common.Texts.LeaveRequestDeleted" xml:space="preserve">
+    <value>You have removed an approved leave request from your calendar</value>
+  </data>
+  <data name="Common.Texts.LeaveRequestDeniedBy" xml:space="preserve">
+    <value>This leave request was rejected by {0}</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Texts.LeaveRequestsCommentRequired" xml:space="preserve">
+    <value>A comment is required for this event</value>
+  </data>
+  <data name="Common.Texts.LeaveRequestSent" xml:space="preserve">
+    <value>Your leave request will now be processed by your manager!</value>
+  </data>
+  <data name="Common.Texts.Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Common.Texts.LoadingData" xml:space="preserve">
+    <value>Loading data...</value>
+  </data>
+  <data name="Common.Texts.LocalizedStringRequired" xml:space="preserve">
+    <value>You must enter at least one translation</value>
+  </data>
+  <data name="Common.Texts.Locked" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="Common.Texts.Logout" xml:space="preserve">
+    <value>You have been logged out!</value>
+  </data>
+  <data name="Common.Texts.Maintenence" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="Common.Texts.MaxResult" xml:space="preserve">
+    <value>Refine the search</value>
+  </data>
+  <data name="Common.Texts.Miscellaneous" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="Common.Texts.Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Common.Texts.MustBeLargerThan" xml:space="preserve">
+    <value>{0} must be larger than {1}</value>
+    <comment>this,that</comment>
+  </data>
+  <data name="Common.Texts.MustBeZeroOrLarger" xml:space="preserve">
+    <value>{0} must be zero or larger.</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Texts.NbrOfHits" xml:space="preserve">
+    <value>{0} hits</value>
+    <comment>count</comment>
+  </data>
+  <data name="Common.Texts.NewInGroup" xml:space="preserve">
+    <value>New {0} in group:</value>
+    <comment>0</comment>
+  </data>
+  <data name="Common.Texts.NoGroups" xml:space="preserve">
+    <value>No groups to select</value>
+  </data>
+  <data name="Common.Texts.NoResult" xml:space="preserve">
+    <value>No hits</value>
+  </data>
+  <data name="Common.Texts.NotEmployed" xml:space="preserve">
+    <value>There is no employment on selected date(s)</value>
+  </data>
+  <data name="Common.Texts.NotEmployedText" xml:space="preserve">
+    <value>Not employed</value>
+  </data>
+  <data name="Common.Texts.NumberSelected" xml:space="preserve">
+    <value>{0} selected</value>
+    <comment>count</comment>
+  </data>
+  <data name="Common.Texts.OperationTimeout" xml:space="preserve">
+    <value>WHOOPS! This operation is taking longer than expected. Please wait some more, or try to refresh the page.</value>
+  </data>
+  <data name="Common.Texts.OverwriteCurrentValues" xml:space="preserve">
+    <value>Do you want to overwrite current values?</value>
+  </data>
+  <data name="Common.Texts.ProcessingData" xml:space="preserve">
+    <value>Processing data...</value>
+  </data>
+  <data name="Common.Texts.RangeFromTo" xml:space="preserve">
+    <value>{0} to {1}</value>
+    <comment>from,to</comment>
+  </data>
+  <data name="Common.Texts.Recalculate" xml:space="preserve">
+    <value>Recalculate...</value>
+  </data>
+  <data name="Common.Texts.RegisteredBy" xml:space="preserve">
+    <value>Registered by {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Common.Texts.RegisteredIn" xml:space="preserve">
+    <value>Registered in</value>
+  </data>
+  <data name="Common.Texts.Remember" xml:space="preserve">
+    <value>Information!</value>
+  </data>
+  <data name="Common.Texts.RemoveAll" xml:space="preserve">
+    <value>Remove all</value>
+  </data>
+  <data name="Common.Texts.SavedButContainsErrors" xml:space="preserve">
+    <value>Saved, but contains error. Please correct these and try again.</value>
+  </data>
+  <data name="Common.Texts.Saving" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="Common.Texts.SavingData" xml:space="preserve">
+    <value>Saving data...</value>
+  </data>
+  <data name="Common.Texts.SearchHere" xml:space="preserve">
+    <value>Search here</value>
+  </data>
+  <data name="Common.Texts.SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="Common.Texts.SelectEmployeeFromMenu" xml:space="preserve">
+    <value>Select an employee in the menu</value>
+  </data>
+  <data name="Common.Texts.SelectGroup" xml:space="preserve">
+    <value>Select group</value>
+  </data>
+  <data name="Common.Texts.SelectReportFromMenu" xml:space="preserve">
+    <value>Select a report in the left menu</value>
+  </data>
+  <data name="Common.Texts.SettingsBlankMenu" xml:space="preserve">
+    <value>Welcome to the administration pages for your company. As a system administrator, you can update rules for your company, for example event codes and vacation agreement.. Select one of the options in the left menu.</value>
+  </data>
+  <data name="Common.Texts.SettingsCalendar" xml:space="preserve">
+    <value>Calendar settings</value>
+  </data>
+  <data name="Common.Texts.SettingsRoster" xml:space="preserve">
+    <value>Roster settings</value>
+  </data>
+  <data name="Common.Texts.SettingsRules" xml:space="preserve">
+    <value>Advanced rules settings</value>
+  </data>
+  <data name="Common.Texts.SettingsTime" xml:space="preserve">
+    <value>Time settings</value>
+  </data>
+  <data name="Common.Texts.SettingsVacationAgreement" xml:space="preserve">
+    <value>Vacation agreement settings</value>
+  </data>
+  <data name="Common.Texts.TypeHereToSearch" xml:space="preserve">
+    <value>Type here to search</value>
+  </data>
+  <data name="Common.Texts.Updated" xml:space="preserve">
+    <value>{0} updated.</value>
+    <comment>entity</comment>
+  </data>
+  <data name="Common.Texts.VacationHolidayPercantageChange" xml:space="preserve">
+    <value>Changes done in the holiday percentage will have effect as of the valid from date. Changes in number of holidays will not have an impact on the employees entitled days for current or future years, you must change this manually on each employee`s entitled days.
+</value>
+  </data>
+  <data name="Common.Texts.ValidationSummaryTitle" xml:space="preserve">
+    <value>Error message!</value>
+  </data>
+  <data name="Common.Texts.ValidFrom" xml:space="preserve">
+    <value>Valid from</value>
+  </data>
+  <data name="Common.Texts.ValidFromEdit" xml:space="preserve">
+    <value>Make changes valid from</value>
+  </data>
+  <data name="Common.Texts.ValuesForVacation" xml:space="preserve">
+    <value>Values for vacation entitlement is higher than specified on the vacation agreement. Are you sure?</value>
+  </data>
+  <data name="Common.Texts.Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="Common.Texts.WorkshiftMissingUnableToRegister" xml:space="preserve">
+    <value>Workshift(s) is missing on selected date(s) so an event registration cannot be saved</value>
+  </data>
+  <data name="Common.Texts.YearsOld" xml:space="preserve">
+    <value>{0} years old</value>
+    <comment>age</comment>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.CalculateSalary" xml:space="preserve">
+    <value>Calculate in wage run</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.FinnishedWithPeriod" xml:space="preserve">
+    <value>Finnished with period (employee)</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.LockPeriod" xml:space="preserve">
+    <value>Lock period (admin/manager)</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.Note" xml:space="preserve">
+    <value>*Leave requests always needs to be approved before they are a part of this process</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.Title" xml:space="preserve">
+    <value>Transfer registrations to the wagerun</value>
+  </data>
+  <data name="ComponentModel.DataAnnotations.DataTypeAttribute" xml:space="preserve">
+    <value>Invalid value {0} must be of type {1}.</value>
+    <comment>value,datatype</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.DateAttribute" xml:space="preserve">
+    <value>The field {0} must be a date</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.NumberAttribute" xml:space="preserve">
+    <value>The field {0} must be number</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.NumericAttribute" xml:space="preserve">
+    <value>The field {0} must be numeric</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RangeAttribute" xml:space="preserve">
+    <value>The field {0} must be between {1} and {2}.</value>
+    <comment>name,min,max</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RegularExpressionAttribute" xml:space="preserve">
+    <value>The field {0} must match the regular expression {1}.
+</value>
+    <comment>name,pattern</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RequiredAttribute" xml:space="preserve">
+    <value>The field {0} is required</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RequiredAttributes" xml:space="preserve">
+    <value>The fields {0} and {1} are required.</value>
+    <comment>name1,name2</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.StringLengthAttribute" xml:space="preserve">
+    <value>The field {0} must be a string with a maximum length of {1}.
+</value>
+    <comment>name,maximumLength</comment>
+  </data>
+  <data name="Control.DataTables.ButtonClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Control.DataTables.ButtonOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Control.DataTables.ButtonReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Control.DataTables.Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Control.DataTables.Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="Control.DataTables.GridEmptyPagingInfo" xml:space="preserve">
+    <value>Showing 0 to 0 of 0 entries</value>
+  </data>
+  <data name="Control.DataTables.GridEmptyTable" xml:space="preserve">
+    <value>No data available in table</value>
+  </data>
+  <data name="Control.DataTables.GridFilterEnterAValue" xml:space="preserve">
+    <value>Enter a value</value>
+  </data>
+  <data name="Control.DataTables.GridFilterNoFilter" xml:space="preserve">
+    <value>No filter</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTitle" xml:space="preserve">
+    <value>Select filter</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeBetweenLabel" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeContainsLabel" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeEqualsToLabel" xml:space="preserve">
+    <value>Equals to</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeGreaterThanLabel" xml:space="preserve">
+    <value>Greater than</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeLessThanLabel" xml:space="preserve">
+    <value>Less than</value>
+  </data>
+  <data name="Control.DataTables.GridLoadingData" xml:space="preserve">
+    <value>Loading data...</value>
+  </data>
+  <data name="Control.DataTables.GridPagingInfo" xml:space="preserve">
+    <value>Showing {0} to {1} of {2} entries</value>
+    <comment>0,1,2</comment>
+  </data>
+  <data name="Control.DataTables.GridPagingInfoFiltered" xml:space="preserve">
+    <value>(filtered from {0} total entries)</value>
+    <comment>0</comment>
+  </data>
+  <data name="Control.DataTables.GridSettingsHeaderSelectColumns" xml:space="preserve">
+    <value>Select columns</value>
+  </data>
+  <data name="Control.DataTables.GridSettingsShowFilterRow" xml:space="preserve">
+    <value>Show filter row</value>
+  </data>
+  <data name="Control.DataTables.GridZeroRecords" xml:space="preserve">
+    <value>No matching records found</value>
+  </data>
+  <data name="Control.DataTables.RangeFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Control.DataTables.RangeTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Control.DataTables.ValueFalse" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Control.DataTables.ValueTrue" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Controls.Buttons.Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Controls.Buttons.AddAgreement" xml:space="preserve">
+    <value>Add vacation agreement</value>
+  </data>
+  <data name="Controls.Buttons.AddEventCode" xml:space="preserve">
+    <value>Add event code</value>
+  </data>
+  <data name="Controls.Buttons.AddParallelPayCode" xml:space="preserve">
+    <value>Add parallel paycode</value>
+  </data>
+  <data name="Controls.Buttons.AddScript" xml:space="preserve">
+    <value>Add script</value>
+  </data>
+  <data name="Controls.Buttons.Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Controls.Buttons.ApproveAll" xml:space="preserve">
+    <value>Approve all </value>
+  </data>
+  <data name="Controls.Buttons.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Controls.Buttons.Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Controls.Buttons.Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Controls.Buttons.Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Controls.Buttons.Deny" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Controls.Buttons.Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Controls.Buttons.Keep" xml:space="preserve">
+    <value>Keep</value>
+  </data>
+  <data name="Controls.Buttons.Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Controls.Buttons.Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Controls.Buttons.New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Controls.Buttons.Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Controls.Buttons.Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Controls.Buttons.Overwrite" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="Controls.Buttons.Pending" xml:space="preserve">
+    <value>Awaiting approval</value>
+  </data>
+  <data name="Controls.Buttons.Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Controls.Buttons.Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Controls.Buttons.RemoveParallelPayCode" xml:space="preserve">
+    <value>Remove parallel paycode</value>
+  </data>
+  <data name="Controls.Buttons.Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Controls.Buttons.Uppdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Database.ErrorMessages.DatabaseUndefined" xml:space="preserve">
+    <value>No database connection selected.</value>
+  </data>
+  <data name="Employee.Texts.Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Employee.Texts.EmployeeHasNoEmploymentInPeriod" xml:space="preserve">
+    <value>The employee is not employed during the period for changes</value>
+  </data>
+  <data name="Employee.Texts.EmployeeIsMissingVacationAgreement" xml:space="preserve">
+    <value>Employee is missing vacation agreement</value>
+  </data>
+  <data name="Employee.Texts.EmployeePositionEndDateIsLessThanAgreementStartDate" xml:space="preserve">
+    <value>Employee position end date is less than agreement start date</value>
+  </data>
+  <data name="Employee.Texts.EmployeePositionIsNotFound" xml:space="preserve">
+    <value>Position on employee is not found</value>
+  </data>
+  <data name="Employee.Texts.ManualChangesCurrentYearError" xml:space="preserve">
+    <value>You are now doing changes to the vacation agreement. Since you already have done manual changes in Vacation calculation, balances for current year will NOT be updated. Please go through the vacation calculation balances after this save</value>
+  </data>
+  <data name="Employee.Texts.TimeAgreeementIsNotValidForChoosenPeriod" xml:space="preserve">
+    <value>Time agreement is not valid for the chosen period</value>
+  </data>
+  <data name="Employee.Texts.TimeAgreementSettings" xml:space="preserve">
+    <value>Time agreement settings</value>
+  </data>
+  <data name="Employee.Texts.VacationAgreeementIsNotValidForChoosenPeriod" xml:space="preserve">
+    <value>Vacation agreement is not valid for the chosen period</value>
+  </data>
+  <data name="Employee.Texts.VacationSettings" xml:space="preserve">
+    <value>Vacation settings</value>
+  </data>
+  <data name="Employee.Texts.ValidToGreaterOrEqualToValidFrom" xml:space="preserve">
+    <value>Valid to must be greater than valid from</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.AdditionalVacationEntitlement" xml:space="preserve">
+    <value>Additional vacation entitlement by CLA</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.AdditionalVacationEntitlementFromAge" xml:space="preserve">
+    <value>Additional vacation entitlement from age</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.Agreement" xml:space="preserve">
+    <value>Vacation agreement</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.Quota" xml:space="preserve">
+    <value>Quota</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.VacationEntitlement" xml:space="preserve">
+    <value>Vacation entitlement</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.VactionAgreementEndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.VactionAgreementStartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="EmployeeVacation.Texts.EmployeeVacation" xml:space="preserve">
+    <value>Employee vacation</value>
+  </data>
+  <data name="EmployeeWorkshift.Texts.EmployeeWorkshift" xml:space="preserve">
+    <value>Employee workshift</value>
+  </data>
+  <data name="Employment.Lables.ControlLengthBeforeValidRegistration" xml:space="preserve">
+    <value>Control of employment length before valid registrations</value>
+  </data>
+  <data name="Employment.Lables.LengthBeforeValidAbsence" xml:space="preserve">
+    <value>Minimum employment before valid absence</value>
+  </data>
+  <data name="Employment.Lables.NewControlAfter" xml:space="preserve">
+    <value>If interruption is less or equal to {0} {1}</value>
+    <comment>amount,unit</comment>
+  </data>
+  <data name="Employment.Lables.NewControlWhenInterruptions" xml:space="preserve">
+    <value>Consider positions as connected</value>
+  </data>
+  <data name="Employment.Lables.PossibleToRegisterAfter" xml:space="preserve">
+    <value>Possible to register after {0} {1} of employment</value>
+    <comment>amount,unit</comment>
+  </data>
+  <data name="Enums.LeaveRequests.Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Enums.LeaveRequests.Denied" xml:space="preserve">
+    <value>Rejected	</value>
+  </data>
+  <data name="Enums.LeaveRequests.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Enums.LeaveRequests.NotApproved" xml:space="preserve">
+    <value>Not approved</value>
+  </data>
+  <data name="Enums.LeaveRequests.Pending" xml:space="preserve">
+    <value>Awaiting approval</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Kilometers" xml:space="preserve">
+    <value>Km</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Mil" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Enums.PaycodeUnit.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Enums.PaycodeUnit.Piece" xml:space="preserve">
+    <value>Pieces</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.Approved" xml:space="preserve">
+    <value>Approved registrations</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.Confirmed" xml:space="preserve">
+    <value>Done with period</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.NotApproved" xml:space="preserve">
+    <value>Not approved registrations</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.NotConfirmed" xml:space="preserve">
+    <value>Not done with period</value>
+  </data>
+  <data name="Enums.TransactionStatus.Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Enums.TransactionStatus.ApprovedAndLocked" xml:space="preserve">
+    <value>Approved and locked</value>
+  </data>
+  <data name="Enums.TransactionStatus.None" xml:space="preserve">
+    <value>Awaiting approval</value>
+  </data>
+  <data name="Enums.TransactionStatus.Processed" xml:space="preserve">
+    <value>Processed</value>
+  </data>
+  <data name="Enums.TransactionStatus.ProcessedAndLocked" xml:space="preserve">
+    <value>Processed and locked</value>
+  </data>
+  <data name="Enums.TransactionStatus.Received" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="Enums.TransactionStatus.ReceivedAndLocked" xml:space="preserve">
+    <value>Received and locked</value>
+  </data>
+  <data name="Enums.TransactionStatus.Sent" xml:space="preserve">
+    <value>Sent to wage run</value>
+  </data>
+  <data name="Enums.TransactionStatus.SentAndLocked" xml:space="preserve">
+    <value>Sent and locked</value>
+  </data>
+  <data name="Enums.TransactionUnit.CalendarDays" xml:space="preserve">
+    <value>Calendar days</value>
+  </data>
+  <data name="Enums.TransactionUnit.Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Enums.TransactionUnit.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Enums.TransactionUnit.WorkingDays" xml:space="preserve">
+    <value>Working days</value>
+  </data>
+  <data name="Enums.TransactionUnit.WorkShifts" xml:space="preserve">
+    <value>Work shifts</value>
+  </data>
+  <data name="EventCode.Texts.EventCode" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="EventCodeEnums.Exceptions.InvalidEnumKey" xml:space="preserve">
+    <value>Invalid enum key {0}</value>
+    <comment>key</comment>
+  </data>
+  <data name="Exceptions.Avvikelse.IsMissing" xml:space="preserve">
+    <value>The registration is missing.</value>
+  </data>
+  <data name="Exceptions.Avvikelsetype.IsNotValid" xml:space="preserve">
+    <value>The event code is not correct</value>
+  </data>
+  <data name="Exceptions.DatePeriod.Exception" xml:space="preserve">
+    <value>Start date can't be later than end date</value>
+  </data>
+  <data name="Exceptions.DatePeriod.StartAndEndAreSame" xml:space="preserve">
+    <value>Start cannot be same as end.</value>
+  </data>
+  <data name="Exceptions.DateWithTimePeriod.Exception" xml:space="preserve">
+    <value>Start date can't be later than end date</value>
+  </data>
+  <data name="Exceptions.HoursInvalidFormat.LessOrEqualToZero" xml:space="preserve">
+    <value>Number of hours is mandatory (larger than 0).</value>
+  </data>
+  <data name="Exceptions.HoursInvalidFormat.ParseError" xml:space="preserve">
+    <value>Invalid format for number of hours</value>
+  </data>
+  <data name="Exceptions.Overlapping.OverlappingPeriod" xml:space="preserve">
+    <value>The period overlaps between {0} and {1}</value>
+    <comment>from_year,to_year</comment>
+  </data>
+  <data name="Exceptions.PercentInvalidFormat.Exception" xml:space="preserve">
+    <value>Invalid format for percent</value>
+  </data>
+  <data name="Exceptions.PercentLargerThan100.Exception" xml:space="preserve">
+    <value>Percent can max be 100 %.</value>
+  </data>
+  <data name="Exceptions.PercentZeroOrLess.Exception" xml:space="preserve">
+    <value>Percent is a required field (larger than 0).</value>
+  </data>
+  <data name="Exceptions.Person.IsMissing" xml:space="preserve">
+    <value>The person is missing</value>
+  </data>
+  <data name="Exceptions.Script.DoesNotExist" xml:space="preserve">
+    <value>The script does not exists</value>
+  </data>
+  <data name="Facades.Exceptions.NoActiveWageRunPeriod" xml:space="preserve">
+    <value>No active wage run period</value>
+  </data>
+  <data name="Globalization.Culture.English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Globalization.Culture.Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Globalization.Culture.Languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="Globalization.Culture.LanguagesArray" xml:space="preserve">
+    <value>1053.Svenska, 1033.English</value>
+  </data>
+  <data name="Globalization.Culture.Swedish" xml:space="preserve">
+    <value>Swedish</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ArtDecimalAlreadyExists" xml:space="preserve">
+    <value>There is already a {0} shortname with artdecimal {1}.</value>
+    <comment>shortname,artdecimal</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ArtDecimalMustBeZero" xml:space="preserve">
+    <value>There has to be at least one artdecimal 0 (zero) for shortcode {0}.
+</value>
+    <comment>shortcode</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.EventCodeInUse" xml:space="preserve">
+    <value>The event code is used by employee(s): {0}</value>
+    <comment>emp</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.GeneralSetting_No_FullDay_or_PartDay_ForThisRegistrationType" xml:space="preserve">
+    <value>None of the settings "Only full day valid" or "Only part day valid" can not be checked for "Outside" and "Anytime" registrations.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.GeneralSetting_OnlyOneChoice_FullDay_or_PartDay" xml:space="preserve">
+    <value>Both options "Only full day valid" and "Only part day valid" can not be selected at the same time.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.HandelsekodAlreadyExists" xml:space="preserve">
+    <value>The entered shortname is already used in the system and therefore can't be used.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.HandelsekodDoesNotExistOrHasBeenRemoved" xml:space="preserve">
+    <value>The event code does not exist or is already removed</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.HandelsekodIsUsed" xml:space="preserve">
+    <value>This event code is used on employee(s) and therefore it can not be removed !</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.InvalidArtDecimal" xml:space="preserve">
+    <value>Invalid artdecimal for shortname.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.MultipleArtDecimalWithZero" xml:space="preserve">
+    <value>There are {0} {1} shortname with artdecimal 0. Only one is allowed.</value>
+    <comment>number,shortname</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.NameAlreadyExists" xml:space="preserve">
+    <value>The field value in Name or it's translation already exists in this company. Name needs to be unique.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ShortCodeTooLong" xml:space="preserve">
+    <value>The field Short name can not be longer then {0} characters</value>
+    <comment>number</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ShortCodeTooShort" xml:space="preserve">
+    <value>The field Short name must be at least {0} characters long</value>
+    <comment>number</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ThresholdEndMustBeGreaterThanOrEqualToPrevious" xml:space="preserve">
+    <value>Threshold end must be greater than or equal to the above row</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ThresholdEndMustBeGreaterThanZero" xml:space="preserve">
+    <value>Threshold end must be greater than zero</value>
+  </data>
+  <data name="Handelsekod.Exceptions.HandelsekodMissing" xml:space="preserve">
+    <value>The event code is missing</value>
+  </data>
+  <data name="Handelsekod.Exceptions.HandelsekodMissingOrDeleted" xml:space="preserve">
+    <value>The event code doesn't exists</value>
+  </data>
+  <data name="Handelsekod.Labels.ArtDecimal" xml:space="preserve">
+    <value>Art decimal</value>
+  </data>
+  <data name="Handelsekod.Labels.CommonRule" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="Handelsekod.Labels.Handelsekod" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="Handelsekod.Labels.HandelseType" xml:space="preserve">
+    <value>Event type</value>
+  </data>
+  <data name="Handelsekod.Labels.LimitsRule" xml:space="preserve">
+    <value>Limits</value>
+  </data>
+  <data name="Handelsekod.Labels.QsdRule" xml:space="preserve">
+    <value>Qualifying sick day</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInAMessage" xml:space="preserve">
+    <value>Reported in A-message</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInAMessageReportType" xml:space="preserve">
+    <value>Report code A-Message</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInFnoPensionReport" xml:space="preserve">
+    <value>Reported in FNO Pension report</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInFnoPensionReportType" xml:space="preserve">
+    <value>Report code FNO</value>
+  </data>
+  <data name="Handelsekod.Labels.Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Handelsekod.Labels.ResultRule" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Handelsekod.Labels.SelfCertificationRule" xml:space="preserve">
+    <value>Self certification</value>
+  </data>
+  <data name="Handelsekod.Labels.ShortName" xml:space="preserve">
+    <value>Short name</value>
+  </data>
+  <data name="Handelsekod.Labels.ThresholdRule" xml:space="preserve">
+    <value>Thresholds</value>
+  </data>
+  <data name="Handelsekod.Labels.Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Handelsekod.Labels.VacationRule" xml:space="preserve">
+    <value>Vacation affect</value>
+  </data>
+  <data name="Handelsekod.Texts.SelectEventType" xml:space="preserve">
+    <value>Select event type</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.CompassionateLeave" xml:space="preserve">
+    <value>Compassionate leave</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.EducationalLeave" xml:space="preserve">
+    <value>Educational leave</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.MilitaryLeave" xml:space="preserve">
+    <value>Leave for military duty</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.ParentalLeave" xml:space="preserve">
+    <value>Leave with parental benefit</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransDagTyp.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Barn" xml:space="preserve">
+    <value>Child</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.KalenderAr" xml:space="preserve">
+    <value>Calendar year</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Narstaende" xml:space="preserve">
+    <value>Relative</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Semester" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Tillfalle" xml:space="preserve">
+    <value>Occasion</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.TolvManader" xml:space="preserve">
+    <value>12 months</value>
+  </data>
+  <data name="HandelsekodEnums.ConsiderAsType.Absence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="HandelsekodEnums.ConsiderAsType.WorkTime" xml:space="preserve">
+    <value>Work time</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Absence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.ParentalLeave" xml:space="preserve">
+    <value>Parental leave</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.PayoutRequest" xml:space="preserve">
+    <value>Payout request</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.SickChild" xml:space="preserve">
+    <value>Sick child</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Sickness" xml:space="preserve">
+    <value>Sickness</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Vacation" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="HandelsekodEnums.Exceptions.InvalidEnumKey" xml:space="preserve">
+    <value>Invalid enum key {0}</value>
+    <comment>key</comment>
+  </data>
+  <data name="HandelsekodEnums.FnoPensionReportType.AgreedLeave" xml:space="preserve">
+    <value>(AP) Agreed Leave</value>
+  </data>
+  <data name="HandelsekodEnums.FnoPensionReportType.RegulatoryLeave" xml:space="preserve">
+    <value>(LP) RegulatoryLeave</value>
+  </data>
+  <data name="HandelsekodEnums.FnoPensionReportType.Sick" xml:space="preserve">
+    <value>(S) Sick</value>
+  </data>
+  <data name="HandelsekodEnums.PeriodType.Days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="HandelsekodEnums.PeriodType.Months" xml:space="preserve">
+    <value>months</value>
+  </data>
+  <data name="HandelsekodEnums.PeriodType.Weeks" xml:space="preserve">
+    <value>weeks</value>
+  </data>
+  <data name="HandelsekodEnums.QsdBoundaryType.KalenderAr" xml:space="preserve">
+    <value>Calendar year</value>
+  </data>
+  <data name="HandelsekodEnums.QsdBoundaryType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.QsdBoundaryType.TolvManader" xml:space="preserve">
+    <value>12 months</value>
+  </data>
+  <data name="HandelsekodEnums.RosterRegistrationType.Anytime" xml:space="preserve">
+    <value>Anytime</value>
+  </data>
+  <data name="HandelsekodEnums.RosterRegistrationType.Inside" xml:space="preserve">
+    <value>Inside</value>
+  </data>
+  <data name="HandelsekodEnums.RosterRegistrationType.Outside" xml:space="preserve">
+    <value>Outside</value>
+  </data>
+  <data name="HandelsekodEnums.SelfCertificationPeriod.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.SelfCertificationPeriod.TwelveMonths" xml:space="preserve">
+    <value>12 months</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Arbetsdagar" xml:space="preserve">
+    <value>Working days</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Arbetspass" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Kalenderdagar" xml:space="preserve">
+    <value>Calendar days</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Semesterdagar" xml:space="preserve">
+    <value>Vacation days</value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.Barn" xml:space="preserve">
+    <value>Child</value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.KalenderAr" xml:space="preserve">
+    <value>Calendar year</value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.SemesterAr" xml:space="preserve">
+    <value>Vacation year</value>
+  </data>
+  <data name="HandelsekodEnums.SjuklonBrytgransPer.KalenderAr" xml:space="preserve">
+    <value>Calendar year</value>
+  </data>
+  <data name="HandelsekodEnums.SjuklonBrytgransPer.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.SjuklonBrytgransPer.TolvManader" xml:space="preserve">
+    <value>12 months</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.CalendarDayOneToOne" xml:space="preserve">
+    <value>Calendar days 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.CalendarDayPercent" xml:space="preserve">
+    <value>Calendar days %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.EightHourLimit" xml:space="preserve">
+    <value>Qsd max 8 hours</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.NotApplicable" xml:space="preserve">
+    <value>Not applicable</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.OtherAbsenceNav" xml:space="preserve">
+    <value>NAV	</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.OtherAbsencePrepaid" xml:space="preserve">
+    <value>Prepaid</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.QsdFifthOfWeeklyWorkingTime" xml:space="preserve">
+    <value>QSD 1/5 of the working week</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.QsdHours" xml:space="preserve">
+    <value>QSD hours</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.QsdWorkingDayOneToOne" xml:space="preserve">
+    <value>QSD workdays 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessChronical" xml:space="preserve">
+    <value>Chronical sick</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessNav" xml:space="preserve">
+    <value>NAV	</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessPrepaid" xml:space="preserve">
+    <value>Prepaid</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessSelfCertified" xml:space="preserve">
+    <value>Self certified sickness</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAdvanceDaysNO" xml:space="preserve">
+    <value>Advanced days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAdvanceDaysSE" xml:space="preserve">
+    <value>Advanced days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAgreement1SE" xml:space="preserve">
+    <value>Contract vacation 1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAgreement2SE" xml:space="preserve">
+    <value>Contract vacation 2</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationDaysOver60YearsNO" xml:space="preserve">
+    <value>Additional days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationExcessPaidDaysSE" xml:space="preserve">
+    <value>Excess paid days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationExcessPaidDaysYearFiveSE" xml:space="preserve">
+    <value>Excess year 5</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationNoDaysLeftSE" xml:space="preserve">
+    <value>Days &gt; vacation days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationNormalDaysNO" xml:space="preserve">
+    <value>Normal days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationPaidDaysSE" xml:space="preserve">
+    <value>Paid vacation days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE1" xml:space="preserve">
+    <value>Saved vacation days year 1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE2" xml:space="preserve">
+    <value>Saved vacation days year 2</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE3" xml:space="preserve">
+    <value>Saved vacation days year 3</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE4" xml:space="preserve">
+    <value>Saved vacation days year 4</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE5" xml:space="preserve">
+    <value>Saved vacation days year 5</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationTransferredAdditionalDaysNO" xml:space="preserve">
+    <value>Transferred additional days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationTransferredDaysNO" xml:space="preserve">
+    <value>Transferred days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationUnpaidDaysNO" xml:space="preserve">
+    <value>Unpaid days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationUnpaidDaysSE" xml:space="preserve">
+    <value>Unpaid vacation days</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingDayOneToOne" xml:space="preserve">
+    <value>Workdays 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingDayPercent" xml:space="preserve">
+    <value>Workingdays %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingShiftOneToOne" xml:space="preserve">
+    <value>Shift 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingShiftPercent" xml:space="preserve">
+    <value>Shift %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterSickpayBeenProcessed" xml:space="preserve">
+    <value>All sick pay paid</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold1" xml:space="preserve">
+    <value>After threshold 1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold2" xml:space="preserve">
+    <value>After threshold 2</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold3" xml:space="preserve">
+    <value>After threshold 3</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold4" xml:space="preserve">
+    <value>After threshold 4</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold5" xml:space="preserve">
+    <value>After threshold 5</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold6" xml:space="preserve">
+    <value>After threshold 6</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold7" xml:space="preserve">
+    <value>After threshold 7</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold8" xml:space="preserve">
+    <value>After threshold 8</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold9" xml:space="preserve">
+    <value>After threshold 9</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.Always" xml:space="preserve">
+    <value>Always</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdDividing.LargestThreshold" xml:space="preserve">
+    <value>Highest threshold</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdDividing.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdDividing.PerThreshold" xml:space="preserve">
+    <value>By threshold</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdParallelBreakType.Always" xml:space="preserve">
+    <value>Always generate</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdParallelBreakType.DuringVacation" xml:space="preserve">
+    <value>During vacation base</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdParallelBreakType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdPartOfDayType.Divide" xml:space="preserve">
+    <value>Divide</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdPartOfDayType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdPartOfDayType.SicknessNo" xml:space="preserve">
+    <value>Sickness</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.CalendarDayOneToOne" xml:space="preserve">
+    <value>Calendar days 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.CalendarDayPercent" xml:space="preserve">
+    <value>Calendar days %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingdayOneToOne" xml:space="preserve">
+    <value>Workingday 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingdayPercent" xml:space="preserve">
+    <value>Workingday %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingShiftOneToOne" xml:space="preserve">
+    <value>Shift 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingShiftPercent" xml:space="preserve">
+    <value>Shift %</value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.CalendarDays" xml:space="preserve">
+    <value>Calendar days</value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.SicknessBenefitDays" xml:space="preserve">
+    <value>Sickness benefit days</value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.Weeks" xml:space="preserve">
+    <value>Weeks</value>
+  </data>
+  <data name="HandelsekodRegel.Buttons.AddRule" xml:space="preserve">
+    <value>New threshold</value>
+  </data>
+  <data name="HandelsekodRegel.Buttons.RemoveRule" xml:space="preserve">
+    <value>Remove rule</value>
+  </data>
+  <data name="HandelsekodRegel.Errors.EventCodeExistsInAssociatedEventCodeIs" xml:space="preserve">
+    <value>The event code cant associate its self. Remove the association and save again.</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.AlternativtAntalSemestergrundadeDagar" xml:space="preserve">
+    <value>Alternative amount of vacation based absence</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.AmountOccasions" xml:space="preserve">
+    <value>Amount of occasions</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.AntalSemestergrundadeDagar" xml:space="preserve">
+    <value>Amount of vacation based absence</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CanRegisterHours" xml:space="preserve">
+    <value>Possible to register in hours</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CanRegisterPercent" xml:space="preserve">
+    <value>Possible to register in percent</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ConnectedToAI" xml:space="preserve">
+    <value>Connected to IA</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ConsiderAs" xml:space="preserve">
+    <value>Consider as</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ConsiderAsVacationBasedHours" xml:space="preserve">
+    <value>Consider as vacation based hours</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnArbetadTid" xml:space="preserve">
+    <value>Count as working hours on Arbetad tid</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnArbetsgivarintyg" xml:space="preserve">
+    <value>Count as working hours on Arbetsgivarintyg</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnArbetstidsforkortning" xml:space="preserve">
+    <value>Count as working hours on Arbetstidsförkortning</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnProcentuellFranvaro" xml:space="preserve">
+    <value>Count as working hours on Procentuell frånvaro</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CronicalSickChild" xml:space="preserve">
+    <value>Cronically sick child - 18 years</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DaysPerOccasion" xml:space="preserve">
+    <value>Maximum days per occasion</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DaysPerOccasionIA" xml:space="preserve">
+    <value>Maximum days per occasion</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DaysPerPeriodIA" xml:space="preserve">
+    <value>Total days per period</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DelAvDag" xml:space="preserve">
+    <value>Part of day</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.EmployerPeriod" xml:space="preserve">
+    <value>Employer period</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.EnableVacationAbsence" xml:space="preserve">
+    <value>This shall be vacation based absence</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastgiltigtomsaldovillkoruppfyllts" xml:space="preserve">
+    <value>Only valid if the balance condition is fulfilled</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastheldag" xml:space="preserve">
+    <value>Only full day</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastinnevarandedag" xml:space="preserve">
+    <value>Only the current day</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastprocent" xml:space="preserve">
+    <value>Only percent</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.EnligtForetagsInstallningar" xml:space="preserve">
+    <value>According to company settings</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Ett" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ExcessDays" xml:space="preserve">
+    <value>Excess days</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Flera" xml:space="preserve">
+    <value>Several</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Fom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Frandag" xml:space="preserve">
+    <value>From day</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.From3children" xml:space="preserve">
+    <value>From 3 children and up - 12 years</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.GeneratePaycode" xml:space="preserve">
+    <value>Generate paycode</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.GiltigLedigDag" xml:space="preserve">
+    <value>Valid on day off</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Helmanad" xml:space="preserve">
+    <value>Whole month</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.IsCommentMandatory" xml:space="preserve">
+    <value>Comment is mandatory!</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.IsEventValidUntilEmployment" xml:space="preserve">
+    <value>Employment before valid absence</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.IsLeaveRequest" xml:space="preserve">
+    <value>Consider as leave request</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Kontrollavbrytgranser" xml:space="preserve">
+    <value>Control of threshold</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.KoppladeHandelsekoder" xml:space="preserve">
+    <value>Connected event codes</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.LimitsPerParent" xml:space="preserve">
+    <value>Limits per parent</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Max2children" xml:space="preserve">
+    <value>Max 2 children - 12 years</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.MaxNumberOcurrences" xml:space="preserve">
+    <value>Max number of occurrences</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.MustBeEmployed" xml:space="preserve">
+    <value>Must be employed</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.MutualCustody" xml:space="preserve">
+    <value>Mutual custody</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OBGrundande" xml:space="preserve">
+    <value>OB founding</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OneOccasion" xml:space="preserve">
+    <value>One occasion</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OnlyFullDayValid" xml:space="preserve">
+    <value>Only valid for full day</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OnlyPartDayValid" xml:space="preserve">
+    <value>Only valid for part of day</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OverskjutandeDagar" xml:space="preserve">
+    <value>Excess days</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ParallelPaycode" xml:space="preserve">
+    <value>Parallel paycode</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Period" xml:space="preserve">
+    <value>Within period</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.PossibleToRegister" xml:space="preserve">
+    <value>Possible to register</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.QualifyingPeriodCoverage" xml:space="preserve">
+    <value>Qualifying period coverage</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.RecurringSicknessInterval" xml:space="preserve">
+    <value>Recurring sickness interval</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ReducePaycodeForWorkingHour" xml:space="preserve">
+    <value>Reduce paycode for working hours</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Reduceraarbetspasstillagg" xml:space="preserve">
+    <value>Reduce additional worktime</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.RuleEmployment" xml:space="preserve">
+    <value>Rule of employment</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.RulesIA" xml:space="preserve">
+    <value>Rules according to IA</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SelfCertificationPeriod" xml:space="preserve">
+    <value>Self certification period</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SelfCertificationRules" xml:space="preserve">
+    <value>Self certification rules</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Semestergrundadeperiod" xml:space="preserve">
+    <value>Vacation based period</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SeveralOccasions" xml:space="preserve">
+    <value>Several occasions</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SingleCustody" xml:space="preserve">
+    <value>Single custody</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Sjukavisering" xml:space="preserve">
+    <value>Sick notification</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Sjuklonenligtavtal" xml:space="preserve">
+    <value>Sick pay by contract</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Sjuktillfallen" xml:space="preserve">
+    <value>Sickness occassions</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SocialSecurityLimit" xml:space="preserve">
+    <value>Limit for reporting to FK</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.StatisticsCodeBOA" xml:space="preserve">
+    <value>Statistics code BOA/SPV</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.StatisticsCodeSPV" xml:space="preserve">
+    <value>Statistics code SPV/PA03</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.StatisticsCodeSVN" xml:space="preserve">
+    <value>Statistics code to Sv.N</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Thresholds" xml:space="preserve">
+    <value>Thresholds</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tilldag" xml:space="preserve">
+    <value>To day</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tillfalle" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tillfallesbevakning" xml:space="preserve">
+    <value>Check occassions against</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tom" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Typavbevakning" xml:space="preserve">
+    <value>Type of coverage</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.TypeOfPaycode" xml:space="preserve">
+    <value>Unity on paycode</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Uppdelningavbrytgranser" xml:space="preserve">
+    <value>Division of thresholds</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.UseParallelPaycode" xml:space="preserve">
+    <value>Use parallel paycode</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Utforkontrollper" xml:space="preserve">
+    <value>Perform inspection per</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.VacationBasedAbsence" xml:space="preserve">
+    <value>Vacation based absence</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.VacationCalculation" xml:space="preserve">
+    <value>Vacation calculation</value>
+  </data>
+  <data name="HandelsekodRegel.Names.CommonRule" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="HandelsekodRegel.Names.MonitorRule" xml:space="preserve">
+    <value>Monitor rule</value>
+  </data>
+  <data name="HandelsekodRegel.Names.QsdRule" xml:space="preserve">
+    <value>Qualifying sick day</value>
+  </data>
+  <data name="HandelsekodRegel.Names.ThresholdRule" xml:space="preserve">
+    <value>Thresholds</value>
+  </data>
+  <data name="HandelsekodRegel.Names.VacationRule" xml:space="preserve">
+    <value>Vacation affect	</value>
+  </data>
+  <data name="Hub.Labels.Absence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="Hub.Labels.MultipleAbsences" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="Hub.Labels.Schema" xml:space="preserve">
+    <value>Scheme</value>
+  </data>
+  <data name="Hub.Labels.TravelClaim" xml:space="preserve">
+    <value>Travel account</value>
+  </data>
+  <data name="LeaveRequest.Pdf.Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="LeaveRequest.Pdf.DueDate" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="LeaveRequest.Pdf.LeaveRequest" xml:space="preserve">
+    <value>Leave request</value>
+  </data>
+  <data name="LeaveRequest.Pdf.Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="LeaveRequest.Pdf.PartOfWorkShift" xml:space="preserve">
+    <value>Part of work shift</value>
+  </data>
+  <data name="LeaveRequest.Pdf.Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="LeaveRequest.Pdf.RegisteredBy" xml:space="preserve">
+    <value>Registered by</value>
+  </data>
+  <data name="LeaveRequest.Pdf.TypeOfAbsence" xml:space="preserve">
+    <value>Type of absence</value>
+  </data>
+  <data name="LeaveRequest.Texts.NoLeaveRequestsToHandle" xml:space="preserve">
+    <value>You have no leave requests to handle!</value>
+  </data>
+  <data name="LeaveRequest.Texts.NoLeaveRequestsToHandleAction" xml:space="preserve">
+    <value>Use filter to see already approved leave requests</value>
+  </data>
+  <data name="Loneperiod.ErrorMessages.WageRunPeriodNotFound" xml:space="preserve">
+    <value>Could not find the wage run period.</value>
+  </data>
+  <data name="Loneperiod.Labels.Absence" xml:space="preserve">
+    <value>Absence</value>
+  </data>
+  <data name="Loneperiod.Labels.Attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="Loneperiod.Labels.Attest" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Loneperiod.Labels.DeductionPeriod" xml:space="preserve">
+    <value>Deduction period</value>
+  </data>
+  <data name="Loneperiod.Labels.Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Loneperiod.Labels.PayCode" xml:space="preserve">
+    <value>Paycode</value>
+  </data>
+  <data name="Loneperiod.Labels.PayDate" xml:space="preserve">
+    <value>Payment date</value>
+  </data>
+  <data name="Loneperiod.Labels.Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="Loneperiod.Labels.PeriodStatus" xml:space="preserve">
+    <value>Period status</value>
+  </data>
+  <data name="Loneperiod.Labels.SalaryGroup" xml:space="preserve">
+    <value>Salary group</value>
+  </data>
+  <data name="Loneperiod.Labels.Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Loneperiod.Labels.Unit" xml:space="preserve">
+    <value>Unity	</value>
+  </data>
+  <data name="Loneperiod.Labels.Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriod" xml:space="preserve">
+    <value>Wage run period</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodClosed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodOpen" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodRunning" xml:space="preserve">
+    <value>Ongoing</value>
+  </data>
+  <data name="MonthView.DefaultValues.ChoosePerson" xml:space="preserve">
+    <value>Select employee	</value>
+  </data>
+  <data name="MonthView.Labels.Schema" xml:space="preserve">
+    <value>Scheme</value>
+  </data>
+  <data name="Navigation.Rules.Advanced" xml:space="preserve">
+    <value>Rules - advanced</value>
+  </data>
+  <data name="Navigation.Rules.Scripts" xml:space="preserve">
+    <value>Scripts</value>
+  </data>
+  <data name="Navigation.Settings.EmployeeSettings" xml:space="preserve">
+    <value>Employee settings</value>
+  </data>
+  <data name="Paycode.Texts.Paycode" xml:space="preserve">
+    <value>Paycode</value>
+  </data>
+  <data name="Payroll.ErrorMessages.AbsenceRegistrationDoesNotMatchWorkshift" xml:space="preserve">
+    <value>Absence {0} for employee number{1} at {2} doesn't match the current working shift</value>
+    <comment>eventShort,employeeNu,pastigning</comment>
+  </data>
+  <data name="Payroll.ErrorMessages.AbsenceRegistrationUnknownError" xml:space="preserve">
+    <value>Absence {0} for employee number{1} at {2} couldn't be handled</value>
+    <comment>eventShort,employeeNu,pastigning</comment>
+  </data>
+  <data name="Payroll.ErrorMessages.PaymentGroupNotFound" xml:space="preserve">
+    <value>Error in specified payment group</value>
+  </data>
+  <data name="Payroll.ErrorMessages.PeriodNotFound" xml:space="preserve">
+    <value>Error in specified period</value>
+  </data>
+  <data name="Registration.ErrorMessages.NoWorkingTimeInPeriod" xml:space="preserve">
+    <value>You need to have at least one day with working hours in the selected period.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.ApprovalOutsideConfirmationPeriod" xml:space="preserve">
+    <value>Approval date is outside confirm period.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.ConfirmPeriod" xml:space="preserve">
+    <value>Please confirm the period before approving it.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.ConfirmPeriodInsideApprovePeriod" xml:space="preserve">
+    <value>Confirm date must be outside approved period</value>
+  </data>
+  <data name="RegistrationApproval.Errors.PeriodIsApproved" xml:space="preserve">
+    <value>The period is already approved. You can not add, edit or update within this period.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.UnauthorizedForApprovalRewind" xml:space="preserve">
+    <value>Sorry, but you are not authorized to move approval date back in time. Please contact your systemadministrator.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.UnhandledLeaveRequestExistInApprovalPeriod" xml:space="preserve">
+    <value>It's not possible to set approve on selected date, since the employee has leave request that's not through it's process ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="RegistrationApproval.Errors.UnhandledLeaveRequestExistInConfirmationPeriod" xml:space="preserve">
+    <value>It's not possible to set confirm on selected date, since a leave request isn't through it's process ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="Reports.Absence.NAVOverview" xml:space="preserve">
+    <value>NAV absence overview</value>
+  </data>
+  <data name="Reports.AttTransaction.DimensionOrder" xml:space="preserve">
+    <value>Dimension order</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit1" xml:space="preserve">
+    <value>CostUnit1</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit2" xml:space="preserve">
+    <value>CostUnit2</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit3" xml:space="preserve">
+    <value>CostUnit3</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit4" xml:space="preserve">
+    <value>CostUnit4</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit5" xml:space="preserve">
+    <value>CostUnit5</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit6" xml:space="preserve">
+    <value>CostUnit6</value>
+  </data>
+  <data name="Reports.AttTransactions.EarningDateFrom" xml:space="preserve">
+    <value>Earning date from</value>
+  </data>
+  <data name="Reports.AttTransactions.EarningDateTo" xml:space="preserve">
+    <value>Earning date to</value>
+  </data>
+  <data name="Reports.AttTransactions.EmployeeId" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="Reports.AttTransactions.Paycode" xml:space="preserve">
+    <value>Paycode</value>
+  </data>
+  <data name="Reports.AttTransactions.Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Reports.AttTransactions.Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Reports.AttTransactions.Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Reports.Common.DateFrom" xml:space="preserve">
+    <value>Date from</value>
+  </data>
+  <data name="Reports.Common.DateInterval" xml:space="preserve">
+    <value>Date interval</value>
+  </data>
+  <data name="Reports.Common.DateTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Reports.Common.DisplaySelection" xml:space="preserve">
+    <value>Display selection</value>
+  </data>
+  <data name="Reports.Common.EmployeeNumber" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="Reports.Common.EmployeeNumberFrom" xml:space="preserve">
+    <value>Employee ID from</value>
+  </data>
+  <data name="Reports.Common.EmployeeNumberTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Reports.Common.Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="Reports.Common.Eventcode" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="Reports.Common.FilterEventCodes" xml:space="preserve">
+    <value>Filter eventcodes</value>
+  </data>
+  <data name="Reports.Common.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Reports.Common.OrganizationNumber" xml:space="preserve">
+    <value>Org no</value>
+  </data>
+  <data name="Reports.Common.Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="Reports.Common.Selections" xml:space="preserve">
+    <value>Selections</value>
+  </data>
+  <data name="Reports.Common.SelectSorting" xml:space="preserve">
+    <value>Select sorting</value>
+  </data>
+  <data name="Reports.Common.Sorting" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="Reports.Common.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Reports.RefundableAbsence.AbsencePercentage" xml:space="preserve">
+    <value>Absence%</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Changed" xml:space="preserve">
+    <value>Changed</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Chronical" xml:space="preserve">
+    <value>Chronical</value>
+  </data>
+  <data name="Reports.RefundableAbsence.DateFrom" xml:space="preserve">
+    <value>Date from</value>
+  </data>
+  <data name="Reports.RefundableAbsence.DateTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeNumber" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeNumberFrom" xml:space="preserve">
+    <value>Employee ID from</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeNumberTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployersLiability" xml:space="preserve">
+    <value>Employer period</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmploymentEnds" xml:space="preserve">
+    <value>Employment ends</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Eventcode" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="Reports.RefundableAbsence.FromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="Reports.RefundableAbsence.MaxDate" xml:space="preserve">
+    <value>Max date</value>
+  </data>
+  <data name="Reports.RefundableAbsence.NationalId" xml:space="preserve">
+    <value>National Id</value>
+  </data>
+  <data name="Reports.RefundableAbsence.NavOffice" xml:space="preserve">
+    <value>NAV office</value>
+  </data>
+  <data name="Reports.RefundableAbsence.OnlyPrepaidEmployees" xml:space="preserve">
+    <value>Only prepaid employees</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Selections" xml:space="preserve">
+    <value>Selections</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SelectSorting" xml:space="preserve">
+    <value>Select sorting</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Sorting" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SortingEmployeeName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SortingEmployeeNumber" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SortingNationalId" xml:space="preserve">
+    <value>National Id</value>
+  </data>
+  <data name="Reports.RefundableAbsence.ToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Reports.Time.AttendanceTransactions" xml:space="preserve">
+    <value>Attendance transactions</value>
+  </data>
+  <data name="RestApi.ErrorMessages.AllEmployeesMustBelongToTheSameUser" xml:space="preserve">
+    <value>All employees must belong to the same user</value>
+  </data>
+  <data name="RestApi.ErrorMessages.AtLeastOneEmployeeMustBeConnectedToUser" xml:space="preserve">
+    <value>At least one employee must be connected to user</value>
+  </data>
+  <data name="RestApi.ErrorMessages.CertificateNeededFromDate" xml:space="preserve">
+    <value>Certificate will be needed from {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="RestApi.ErrorMessages.EventcodeChangeNotAllowed" xml:space="preserve">
+    <value>Event code is not allowed to be changed</value>
+  </data>
+  <data name="RestApi.ErrorMessages.InvalidValue" xml:space="preserve">
+    <value>{0} contains invalid value of {1}</value>
+    <comment>name,value</comment>
+  </data>
+  <data name="RestApi.ErrorMessages.MissingWorkshiftForRange" xml:space="preserve">
+    <value>Scheme is missing for period {0} - {1}</value>
+    <comment>from,to</comment>
+  </data>
+  <data name="RestApi.ErrorMessages.NotFound" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="RestApi.ErrorMessages.RegistrationChangeNotAllowed" xml:space="preserve">
+    <value>Registration is not allowed to be changed</value>
+  </data>
+  <data name="RestApi.ErrorMessages.RegistrationIsNotALeaverequest" xml:space="preserve">
+    <value>The registration is not a leaverequest</value>
+  </data>
+  <data name="RestApi.ErrorMessages.UnhandledError" xml:space="preserve">
+    <value>An error occured</value>
+  </data>
+  <data name="RestApi.Labels.Registrations" xml:space="preserve">
+    <value>Registrations</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalanceAmount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalanceChangeBy" xml:space="preserve">
+    <value>Changed By</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalances" xml:space="preserve">
+    <value>Time-balances</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalanceType" xml:space="preserve">
+    <value>Balance Type</value>
+  </data>
+  <data name="Roster.ErrorMessages.AbsenceExistsForAdjustHours" xml:space="preserve">
+    <value>You cannot do changes since there are registrations</value>
+  </data>
+  <data name="Roster.ErrorMessages.AbsenceExistsForRosterTemplate" xml:space="preserve">
+    <value>You cannot change roster since there are future registrations</value>
+  </data>
+  <data name="Roster.ErrorMessages.ApprovalExistsForAdjustHours" xml:space="preserve">
+    <value>You cannot do changes since the period has been approved.</value>
+  </data>
+  <data name="Roster.ErrorMessages.ApprovalExistsForRosterTemplate" xml:space="preserve">
+    <value>You cannot change roster when the period has been approved</value>
+  </data>
+  <data name="Roster.ErrorMessages.ApprovalExistsForSelectedPeriod" xml:space="preserve">
+    <value>You cannot change roster when the period has been approved</value>
+  </data>
+  <data name="Roster.ErrorMessages.EmployeeIsNotEmployed" xml:space="preserve">
+    <value>You cannot select roster since the employee is not employed</value>
+  </data>
+  <data name="Roster.ErrorMessages.HourFormatIncorrect" xml:space="preserve">
+    <value>Time can be written as 1:30 or 1,5</value>
+  </data>
+  <data name="Roster.ErrorMessages.RosterTemplateStartDateOutsideRange" xml:space="preserve">
+    <value>Roster template can not be connected more than two years ahead.</value>
+  </data>
+  <data name="Roster.ErrorMessages.RosterUpdateFailedBecauseOfAbsence" xml:space="preserve">
+    <value>Could not update roster for the following employees because of registrations on the specific date. Note! Roster has been updated for all employees that are not displayed in this list</value>
+  </data>
+  <data name="Roster.ErrorMessages.SameWorkcycleRosterExists" xml:space="preserve">
+    <value>Roster with same work cycle already exists!</value>
+  </data>
+  <data name="Roster.ErrorMessages.StartDateOutsideEmploymentDates" xml:space="preserve">
+    <value>You cannot create roster since start date is outside the employment period</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateNameNotUnique" xml:space="preserve">
+    <value>A template with the entered name already exists. Name must be unique!</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateNameUndefined" xml:space="preserve">
+    <value>Template name is not specified</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateNotFoundForSelectedDate" xml:space="preserve">
+    <value>No template found for selected date</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateStartDateUndefined" xml:space="preserve">
+    <value>Template start date is not specified</value>
+  </data>
+  <data name="Roster.ErrorMessages.WorkcycleNotMatchingContractedHours" xml:space="preserve">
+    <value>Roster valid from {0} does not match working hours a week in Visma.net Employee.</value>
+    <comment>0</comment>
+  </data>
+  <data name="Roster.ErrorMessages.WorkHoursNotUpdatedAbsence" xml:space="preserve">
+    <value>Work hours could not be updated because of a registered absence</value>
+  </data>
+  <data name="Roster.ErrorMessages.WorkHoursNotUpdatedApproval" xml:space="preserve">
+    <value>Work hours could not be updated because the period is already approved</value>
+  </data>
+  <data name="Roster.Labels.AllYears" xml:space="preserve">
+    <value>All years</value>
+  </data>
+  <data name="Roster.Labels.AverageWeeklyWorkingHours" xml:space="preserve">
+    <value>Average weekly working hours</value>
+  </data>
+  <data name="Roster.Labels.Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Roster.Labels.ConfirmHoursNotMatchingContractHours" xml:space="preserve">
+    <value>You have created a roster that do not match the contract. Do you want to use it anyway?</value>
+  </data>
+  <data name="Roster.Labels.ConnectedFrom" xml:space="preserve">
+    <value>Valid from</value>
+  </data>
+  <data name="Roster.Labels.ContractedPartTimeFactor" xml:space="preserve">
+    <value>Contracted part time factor</value>
+  </data>
+  <data name="Roster.Labels.ContractedWorkTime" xml:space="preserve">
+    <value>Contracted work time</value>
+  </data>
+  <data name="Roster.Labels.DayOfWeek" xml:space="preserve">
+    <value>Day of week</value>
+  </data>
+  <data name="Roster.Labels.DayType" xml:space="preserve">
+    <value>Day type</value>
+  </data>
+  <data name="Roster.Labels.DublicateWorkcycle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Roster.Labels.ExistingRoster" xml:space="preserve">
+    <value>Use an existing roster</value>
+  </data>
+  <data name="Roster.Labels.FreeDay" xml:space="preserve">
+    <value>Free day</value>
+  </data>
+  <data name="Roster.Labels.NewRoster" xml:space="preserve">
+    <value>Add a new roster</value>
+  </data>
+  <data name="Roster.Labels.NormalDay" xml:space="preserve">
+    <value>Normal day</value>
+  </data>
+  <data name="Roster.Labels.PlannedHoursLessThanContract" xml:space="preserve">
+    <value>The number of planned hours are less than the contracted hours</value>
+  </data>
+  <data name="Roster.Labels.PlannedHoursMoreThanContract" xml:space="preserve">
+    <value>The number of planned hours are more than the contracted hours</value>
+  </data>
+  <data name="Roster.Labels.RosterUpdateFailed" xml:space="preserve">
+    <value>Roster update failed</value>
+  </data>
+  <data name="Roster.Labels.ScheduleHoursConflictAgainstContract" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Roster.Labels.TreatAs" xml:space="preserve">
+    <value>Treat as</value>
+  </data>
+  <data name="Roster.Labels.UseExisting" xml:space="preserve">
+    <value>Use existing</value>
+  </data>
+  <data name="Roster.Labels.UseThisRoster" xml:space="preserve">
+    <value>Use this roster</value>
+  </data>
+  <data name="Roster.Labels.Workcycle" xml:space="preserve">
+    <value>Work cycle</value>
+  </data>
+  <data name="Script.EditScript.NameIsRequired" xml:space="preserve">
+    <value>Name is mandatory.</value>
+  </data>
+  <data name="Script.EditScript.ScriptContent" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="Script.EditScript.ScriptIsRequired" xml:space="preserve">
+    <value>Script is mandatory</value>
+  </data>
+  <data name="Script.EditScript.VacationAgreement" xml:space="preserve">
+    <value>Vacation agreement</value>
+  </data>
+  <data name="Script.Exceptions.ScriptDisplayNameMustBeUnique" xml:space="preserve">
+    <value>Script must have unique display name</value>
+  </data>
+  <data name="Script.Exceptions.ScriptIdentifierNotValid" xml:space="preserve">
+    <value>The script is missing a valid identifier</value>
+  </data>
+  <data name="Script.Exceptions.ScriptNameMustBeUnique" xml:space="preserve">
+    <value>Script must have unique name</value>
+  </data>
+  <data name="Script.Exceptions.ScriptNameSyntax" xml:space="preserve">
+    <value>The script name must follow the syntax ´scope.name´</value>
+  </data>
+  <data name="Script.Exceptions.SelectedReturnTypeIsNotSupported" xml:space="preserve">
+    <value>Selected return type is not supported at the moment</value>
+  </data>
+  <data name="Script.Exceptions.VacationScriptInUse" xml:space="preserve">
+    <value>The script is assigned to vacation agreement(s): {0}.</value>
+    <comment>agreements</comment>
+  </data>
+  <data name="Script.Labels.ReturnType" xml:space="preserve">
+    <value>Return type</value>
+  </data>
+  <data name="Script.Labels.ScriptType" xml:space="preserve">
+    <value>Script type</value>
+  </data>
+  <data name="Script.Texts.Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.EventCode" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.Utility" xml:space="preserve">
+    <value>Utility</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.VacationCalculation" xml:space="preserve">
+    <value>Vacation calculation</value>
+  </data>
+  <data name="Security.User.InvalidIdentity" xml:space="preserve">
+    <value>Invalid or not set AgdaIdentity.</value>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.MissingCertificate" xml:space="preserve">
+    <value>Missing doctor's certificate ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyDaysInOccurance" xml:space="preserve">
+    <value>Too many self certified sickness days in occurence ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyDaysInPeriod" xml:space="preserve">
+    <value>Too many self certified sickness days in 12 month period ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyOccationsInEmployerPeriod" xml:space="preserve">
+    <value>It's not possible to register self certification outside the employer's period ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyOccurrences" xml:space="preserve">
+    <value>Too many self certified sickness occurences ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="SickChild.Exceptions.TooManyDaysInPeriod" xml:space="preserve">
+    <value>Limit of sick children-days during the year has been reached ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="Strings.Labels.ChooseHere" xml:space="preserve">
+    <value>Select here</value>
+  </data>
+  <data name="Support.Resend.ButtonResend" xml:space="preserve">
+    <value>Resend</value>
+  </data>
+  <data name="Support.Resend.ButtonStatus" xml:space="preserve">
+    <value>Get status</value>
+  </data>
+  <data name="Support.Resend.Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Support.Resend.DateFrom" xml:space="preserve">
+    <value>Date from</value>
+  </data>
+  <data name="Support.Resend.DateTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Support.Resend.Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="Support.Resend.PayrollTransaction" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="Support.Resend.Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Support.Resend.StatusTitle" xml:space="preserve">
+    <value>Status for messages in selected date period</value>
+  </data>
+  <data name="Support.Resend.Title" xml:space="preserve">
+    <value>Select date period to resend messages for</value>
+  </data>
+  <data name="System.ErrorMessages.AccessDenied" xml:space="preserve">
+    <value>Access denied</value>
+  </data>
+  <data name="System.ErrorMessages.AccessDeniedText" xml:space="preserve">
+    <value>Sorry, but you have no access to this page. Please contact your systemadministrator.</value>
+  </data>
+  <data name="System.ErrorMessages.BackToPreviousPage" xml:space="preserve">
+    <value>Back to the previous page</value>
+  </data>
+  <data name="System.ErrorMessages.CompanyAccessDenied" xml:space="preserve">
+    <value>Looks like you don't have access to the company</value>
+  </data>
+  <data name="System.ErrorMessages.ConcurrencyError" xml:space="preserve">
+    <value>Data has been changed by another user. Please retry your operation. If that does not help, you need to start over to get the latest changes.</value>
+  </data>
+  <data name="System.ErrorMessages.DefaultVacationAgreementCannotBeRemoved" xml:space="preserve">
+    <value>Default vacation agreement cannot be removed</value>
+  </data>
+  <data name="System.ErrorMessages.ErrorHeadline" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="System.ErrorMessages.LogInformation" xml:space="preserve">
+    <value>Log information! Please copy this and send by e-mail to support</value>
+  </data>
+  <data name="System.ErrorMessages.PageNotFound" xml:space="preserve">
+    <value>The page could not be found.</value>
+  </data>
+  <data name="System.ErrorMessages.PageNotFoundText" xml:space="preserve">
+    <value>We´re sorry, the page you were looking for could not be found. It may have been moved or the address can be mistyped.</value>
+  </data>
+  <data name="System.ErrorMessages.UnexpectedError" xml:space="preserve">
+    <value>An unexpected error has occurred.</value>
+  </data>
+  <data name="System.ErrorMessages.UnexpectedErrorSupport" xml:space="preserve">
+    <value>An unexpected error has occurred!</value>
+  </data>
+  <data name="System.ErrorMessages.UnexpectedErrorText" xml:space="preserve">
+    <value>We are sorry but an unexpected error has occurred. To recover from this, try navigate back and try again.</value>
+  </data>
+  <data name="Threading.Exceptions.MonitorTryEnterFailed" xml:space="preserve">
+    <value>A lock attempts failed due to time ({0})</value>
+    <comment>lockTimeout</comment>
+  </data>
+  <data name="Time.Controls.AddBalanceDefinition" xml:space="preserve">
+    <value>Add balance definition</value>
+  </data>
+  <data name="Time.Labels.BalanceDefinition" xml:space="preserve">
+    <value>Balance definition</value>
+  </data>
+  <data name="Time.Labels.BalanceDefinitions" xml:space="preserve">
+    <value>Balance definitions</value>
+  </data>
+  <data name="Time.Labels.Balances" xml:space="preserve">
+    <value>Balances</value>
+  </data>
+  <data name="Time.Labels.ChangeBy" xml:space="preserve">
+    <value>Change by</value>
+  </data>
+  <data name="Time.Labels.ChangeTimeBalances" xml:space="preserve">
+    <value>Change time balances</value>
+  </data>
+  <data name="Time.Labels.DateToChangeBalances" xml:space="preserve">
+    <value>Date to change balances</value>
+  </data>
+  <data name="Time.Labels.DimensionDefinitions" xml:space="preserve">
+    <value>Dimension definitions</value>
+  </data>
+  <data name="Time.Labels.DimensionsLoading" xml:space="preserve">
+    <value>Loading dimensions</value>
+  </data>
+  <data name="Time.Labels.Identifier" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="Time.Labels.OriginalBalance" xml:space="preserve">
+    <value>Original balance</value>
+  </data>
+  <data name="Time.Labels.RegisterTimeOn" xml:space="preserve">
+    <value>Register time on</value>
+  </data>
+  <data name="Time.Labels.SelectDimensionValue" xml:space="preserve">
+    <value>Select dimension value</value>
+  </data>
+  <data name="Time.Labels.TimeConfig" xml:space="preserve">
+    <value>Time config.</value>
+  </data>
+  <data name="Time.TimeAgreement.EmployeeCannotRegister" xml:space="preserve">
+    <value>[Not possible for employee to register]</value>
+  </data>
+  <data name="Time.TimeAgreement.EmployeeCanRegister" xml:space="preserve">
+    <value>[Employee shall be able to register]</value>
+  </data>
+  <data name="Time.TimeAgreement.SelfServiceRegistration" xml:space="preserve">
+    <value>[Self service registration]</value>
+  </data>
+  <data name="TimeBalances.Labels.AmountHoursToConvert" xml:space="preserve">
+    <value>Amount of hours to convert to money</value>
+  </data>
+  <data name="TimeBalances.Labels.AvailableHoursSaved" xml:space="preserve">
+    <value>Available hours saved</value>
+  </data>
+  <data name="TimeBalances.Labels.ChangeTimeBalances" xml:space="preserve">
+    <value>Change Time balances</value>
+  </data>
+  <data name="TimeBalances.Labels.ConvertHoursToMoney" xml:space="preserve">
+    <value>Convert hours to money</value>
+  </data>
+  <data name="TimeBalances.Labels.PayoutSavedOvertime" xml:space="preserve">
+    <value>Payout saved overtime</value>
+  </data>
+  <data name="TimeSheet.Labels.ChangeDateRangeOrFilter" xml:space="preserve">
+    <value>Try to change date range or filter</value>
+  </data>
+  <data name="TimeSheet.Labels.ErrorStatus" xml:space="preserve">
+    <value>Error - contact support</value>
+  </data>
+  <data name="TimeSheet.Labels.NothingToShow" xml:space="preserve">
+    <value>Nothing to show</value>
+  </data>
+  <data name="TimeSheet.Labels.ReasonForReject" xml:space="preserve">
+    <value>Reason for rejecting</value>
+  </data>
+  <data name="TimeSheet.Labels.ReasonForRejectLong" xml:space="preserve">
+    <value>There must be a reason why to reject</value>
+  </data>
+  <data name="TimeSheet.Labels.RejectRegistrations" xml:space="preserve">
+    <value>Reject registrations</value>
+  </data>
+  <data name="Title.Labels.Calendar" xml:space="preserve">
+    <value>Calendar | Visma Calendar</value>
+  </data>
+  <data name="Title.Labels.EventCodes" xml:space="preserve">
+    <value>Event codes | Visma Calendar</value>
+  </data>
+  <data name="TransactionReceipt.Texts.TransactionReceipt" xml:space="preserve">
+    <value>Transaction receipt</value>
+  </data>
+  <data name="Vacation.Navigation.Agreements" xml:space="preserve">
+    <value>Vacation agreements</value>
+  </data>
+  <data name="Vacation.Navigation.AgreementsPageTitle" xml:space="preserve">
+    <value>Vacation agreements for {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.ApplicationName" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Vacation.Navigation.ApprovalProcessEnable" xml:space="preserve">
+    <value>Use process</value>
+  </data>
+  <data name="Vacation.Navigation.Calendar" xml:space="preserve">
+    <value>Event registration</value>
+  </data>
+  <data name="Vacation.Navigation.CompanySettings" xml:space="preserve">
+    <value>Company settings</value>
+  </data>
+  <data name="Vacation.Navigation.EmployeesPageTitle" xml:space="preserve">
+    <value>Employees for {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.EventCodes" xml:space="preserve">
+    <value>Event codes</value>
+  </data>
+  <data name="Vacation.Navigation.EventCodesPageTitle" xml:space="preserve">
+    <value>Event codes for {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.LeaveRequests" xml:space="preserve">
+    <value>Leave requests</value>
+  </data>
+  <data name="Vacation.Navigation.Me" xml:space="preserve">
+    <value>My calendar</value>
+  </data>
+  <data name="Vacation.Navigation.Recalculate" xml:space="preserve">
+    <value>Recalculate</value>
+  </data>
+  <data name="Vacation.Navigation.RefundableAbsence" xml:space="preserve">
+    <value>Refundable absence</value>
+  </data>
+  <data name="Vacation.Navigation.Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Vacation.Navigation.Resend" xml:space="preserve">
+    <value>Resend messages</value>
+  </data>
+  <data name="Vacation.Navigation.ScriptsPageTitle" xml:space="preserve">
+    <value>Scripts for {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Vacation.Navigation.Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Vacation.Navigation.Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Vacation.Navigation.TimeAgreements" xml:space="preserve">
+    <value>Time agreements</value>
+  </data>
+  <data name="Vacation.Navigation.Vacation" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="Vacation.Navigation.VacationAgreements" xml:space="preserve">
+    <value>Vacation agreements</value>
+  </data>
+  <data name="Vacation.Navigation.VacationCalculation" xml:space="preserve">
+    <value>Vacation calculation</value>
+  </data>
+  <data name="Vacation.Navigation.VacationCalculationPageTitle" xml:space="preserve">
+    <value>Vacation calculation for {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="VacationAgreement.Exceptions.InvalidVacationAgreementPeriod" xml:space="preserve">
+    <value>Invalid vacation agreement period ({0})</value>
+    <comment>period</comment>
+  </data>
+  <data name="VacationAgreement.Exceptions.MissingVacationAgreement" xml:space="preserve">
+    <value>Vacation agreement is missing</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.MonthsEmploymentMinLimitGreaterThanMaxLimit" xml:space="preserve">
+    <value>Minimum employment period may not be greater than largest #####</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.NotFound" xml:space="preserve">
+    <value>Unable to find the vacation agreement</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.PaycodeExcessPaidDaysMandatory" xml:space="preserve">
+    <value>Paycode for Excess paid days to wage run is mandatory</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.PaycodeExcessSavedDaysYearFiveMandatory" xml:space="preserve">
+    <value>Paycode for Excess saved days year 5 to wage run is mandatory</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.VacationAgreementInUse" xml:space="preserve">
+    <value>The vacation agreement is assigned to employee: {0}.</value>
+    <comment>emp</comment>
+  </data>
+  <data name="VacationAgreement.Exceptions.VacationAgreementNameMustBeUnique" xml:space="preserve">
+    <value>Vacation agreement must have unique name.</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDays" xml:space="preserve">
+    <value>Additional days</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDaysFromAge" xml:space="preserve">
+    <value>Additional days from age</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDaysFromAgeVacationEntitlement" xml:space="preserve">
+    <value>Vacation entitlement for additional days</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDaysFromAgeVacationPayInPercent" xml:space="preserve">
+    <value>Additional vacation pay in %</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalVacationEntitlement" xml:space="preserve">
+    <value>Additional vacation entitlement</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalVacationPayInPercent" xml:space="preserve">
+    <value>Additional vacation pay in %</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionVacationBasedAbsenceScript" xml:space="preserve">
+    <value>Addition vacation based absence</value>
+  </data>
+  <data name="VacationAgreement.Labels.AddVacationAgreement" xml:space="preserve">
+    <value>Add vacation agreement</value>
+  </data>
+  <data name="VacationAgreement.Labels.Agreement" xml:space="preserve">
+    <value>Vacation agreement</value>
+  </data>
+  <data name="VacationAgreement.Labels.AverageEarning" xml:space="preserve">
+    <value>Average earning</value>
+  </data>
+  <data name="VacationAgreement.Labels.AverageEarningScript" xml:space="preserve">
+    <value>Average earning</value>
+  </data>
+  <data name="VacationAgreement.Labels.Balances" xml:space="preserve">
+    <value>Balances</value>
+  </data>
+  <data name="VacationAgreement.Labels.CalculationOfVacationPay" xml:space="preserve">
+    <value>Calculation of vacation pay</value>
+  </data>
+  <data name="VacationAgreement.Labels.DaysPerWeek" xml:space="preserve">
+    <value>Days per week</value>
+  </data>
+  <data name="VacationAgreement.Labels.DefaultVacationAgreement" xml:space="preserve">
+    <value>Default vacation agreement</value>
+  </data>
+  <data name="VacationAgreement.Labels.DeviantVacationPayFounding" xml:space="preserve">
+    <value>Deviant vacation pay founding</value>
+  </data>
+  <data name="VacationAgreement.Labels.EarnedDaysCalculatedInAverageUtilization" xml:space="preserve">
+    <value>Earned days calculated in average utilization</value>
+  </data>
+  <data name="VacationAgreement.Labels.EarnedPaidDaysScript" xml:space="preserve">
+    <value>Earned paid days</value>
+  </data>
+  <data name="VacationAgreement.Labels.Entitlement" xml:space="preserve">
+    <value>Entitlement</value>
+  </data>
+  <data name="VacationAgreement.Labels.ExcessPaidDays" xml:space="preserve">
+    <value>Excess paid days</value>
+  </data>
+  <data name="VacationAgreement.Labels.ExcessPaidDaysToPayroll" xml:space="preserve">
+    <value>Excess paid days to wage run</value>
+  </data>
+  <data name="VacationAgreement.Labels.ExcessSavedDaysYearFiveToPayroll" xml:space="preserve">
+    <value>Excess saved days year 5 to wage run</value>
+  </data>
+  <data name="VacationAgreement.Labels.Factor1" xml:space="preserve">
+    <value>Factor 1</value>
+  </data>
+  <data name="VacationAgreement.Labels.Factor2" xml:space="preserve">
+    <value>Factor 2</value>
+  </data>
+  <data name="VacationAgreement.Labels.InitialBalances" xml:space="preserve">
+    <value>Initial balances</value>
+  </data>
+  <data name="VacationAgreement.Labels.IntermittentMethodType" xml:space="preserve">
+    <value>Calculation method intermittent employed</value>
+  </data>
+  <data name="VacationAgreement.Labels.MaxAdvancedDays" xml:space="preserve">
+    <value>Max advanced days</value>
+  </data>
+  <data name="VacationAgreement.Labels.Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="VacationAgreement.Labels.NonVacationBasedAbsence" xml:space="preserve">
+    <value>Non vacation based absence</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeAdvancedDays" xml:space="preserve">
+    <value>Advanced days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeEarnedDays" xml:space="preserve">
+    <value>Earned days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeExcessPaidDays" xml:space="preserve">
+    <value>Excess paid days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeExcessSavedDaysYearFive" xml:space="preserve">
+    <value>Excess saved days year 5</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeFullCalendarDays" xml:space="preserve">
+    <value>Full calendar days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodePaidDays" xml:space="preserve">
+    <value>Paid days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodePartOfCalendarDays" xml:space="preserve">
+    <value>Part of calendar days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodePostponedDays" xml:space="preserve">
+    <value>Postponed days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayCodes" xml:space="preserve">
+    <value>Paycode</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear1" xml:space="preserve">
+    <value>Saved days year 1</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear2" xml:space="preserve">
+    <value>Saved days year 2</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear3" xml:space="preserve">
+    <value>Saved days year 3</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear4" xml:space="preserve">
+    <value>Saved days year 4</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear5" xml:space="preserve">
+    <value>Saved days year 5</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeUsedVacationDays" xml:space="preserve">
+    <value>Used vacation days</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeVacationBasedAbsenceInHours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaymentPeriod" xml:space="preserve">
+    <value>Payment period</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayoutPeriodFixedSalary" xml:space="preserve">
+    <value>Payout period fixed salary</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayoutPeriodHourlyPaid" xml:space="preserve">
+    <value>Payout period hourly paid</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayoutVacationPay" xml:space="preserve">
+    <value>Payout vacation pay</value>
+  </data>
+  <data name="VacationAgreement.Labels.PercentageRule" xml:space="preserve">
+    <value>Percentage rule</value>
+  </data>
+  <data name="VacationAgreement.Labels.Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="VacationAgreement.Labels.Quota" xml:space="preserve">
+    <value>Quota</value>
+  </data>
+  <data name="VacationAgreement.Labels.ReduceDeficientDays" xml:space="preserve">
+    <value>Reduce deficient days</value>
+  </data>
+  <data name="VacationAgreement.Labels.RemoveAdvancedDays" xml:space="preserve">
+    <value>Remove advance days</value>
+  </data>
+  <data name="VacationAgreement.Labels.SameWageRule" xml:space="preserve">
+    <value>Same wage rule</value>
+  </data>
+  <data name="VacationAgreement.Labels.SavedDaysYearFive" xml:space="preserve">
+    <value>Excess saved days year five</value>
+  </data>
+  <data name="VacationAgreement.Labels.SavedPaidDays" xml:space="preserve">
+    <value>Save paid days</value>
+  </data>
+  <data name="VacationAgreement.Labels.SaveOptionalPaidDays" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="VacationAgreement.Labels.SeniorWeek" xml:space="preserve">
+    <value>Additional days</value>
+  </data>
+  <data name="VacationAgreement.Labels.TotalVacationBasedSalaryScript" xml:space="preserve">
+    <value>Total vacation based salary</value>
+  </data>
+  <data name="VacationAgreement.Labels.TotalVacationPayScript" xml:space="preserve">
+    <value>Total vacation pay</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDays" xml:space="preserve">
+    <value>Unpaid days</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDaysAfterThreshold" xml:space="preserve">
+    <value>Unpaid days after date limit</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDaysBeforeThreshold" xml:space="preserve">
+    <value>Unpaid days before date limit</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDaysThreshold" xml:space="preserve">
+    <value>Date limit for unpaid days</value>
+  </data>
+  <data name="VacationAgreement.Labels.UseLimitValueForVacationPayment" xml:space="preserve">
+    <value>Use limit value for vacation pay</value>
+  </data>
+  <data name="VacationAgreement.Labels.UseVacationFactorInHours" xml:space="preserve">
+    <value>Use vacation factor in hours</value>
+  </data>
+  <data name="VacationAgreement.Labels.UseVacationInAdvance" xml:space="preserve">
+    <value>Use vacation in advance</value>
+  </data>
+  <data name="VacationAgreement.Labels.UtilizationRate" xml:space="preserve">
+    <value>Utilization rate</value>
+  </data>
+  <data name="VacationAgreement.Labels.UtilizationType" xml:space="preserve">
+    <value>Utilization</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationBalance" xml:space="preserve">
+    <value>Vacation balance</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationBasedAbsence" xml:space="preserve">
+    <value>Vacation based absence</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationBasedHours" xml:space="preserve">
+    <value>Vacation based hours</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationDays" xml:space="preserve">
+    <value>Vacation days</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationDaysInNetOnPayslip" xml:space="preserve">
+    <value>Vacation days in net on payslip</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationEntitlement" xml:space="preserve">
+    <value>Vacation entitlement</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationFactorInHours" xml:space="preserve">
+    <value>Vacation factor in hours</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPay" xml:space="preserve">
+    <value>Vacation pay</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayAdditionPerDay" xml:space="preserve">
+    <value>Vacation pay addition per day</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayAdditionPerDayInPercent" xml:space="preserve">
+    <value>Vacation pay addition per day in %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayInPercent" xml:space="preserve">
+    <value>Vacation pay in %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPaymentSavedDays" xml:space="preserve">
+    <value>Vacation pay on saved days</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayPerDay" xml:space="preserve">
+    <value>Vacation pay per day</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayPerDayInPercent" xml:space="preserve">
+    <value>Vacation pay per day in %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayPerDayScript" xml:space="preserve">
+    <value>Vacation pay per day</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayRefillPerDayScript" xml:space="preserve">
+    <value>Vacation pay refill per day</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationType" xml:space="preserve">
+    <value>Vacation type</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationYear" xml:space="preserve">
+    <value>Vacation year starts at</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationYearTo" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayPerDay" xml:space="preserve">
+    <value>Variable vacation pay per day</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayPerDayInPercent" xml:space="preserve">
+    <value>Variable vacation pay per day in %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayPerDayScript" xml:space="preserve">
+    <value>Variable vacation pay per day</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayTotal" xml:space="preserve">
+    <value>Variable vacation pay total</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayTotalInPercent" xml:space="preserve">
+    <value>Variable vacation pay total in %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayTotalScript" xml:space="preserve">
+    <value>Variable vacation pay total</value>
+  </data>
+  <data name="VacationAgreement.Labels.WithholdMoneyForFixedPaid" xml:space="preserve">
+    <value>Withhold money for fixed salary</value>
+  </data>
+  <data name="VacationAgreement.Tabs.FinalWages" xml:space="preserve">
+    <value>Final wages</value>
+  </data>
+  <data name="VacationAgreement.Tabs.Generic" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="VacationAgreement.Tabs.HandlingVacationDay" xml:space="preserve">
+    <value>Handling of vacation days</value>
+  </data>
+  <data name="VacationAgreement.Tabs.LimitValues" xml:space="preserve">
+    <value>Limit values for vacation pay</value>
+  </data>
+  <data name="VacationAgreement.Tabs.Scripts" xml:space="preserve">
+    <value>Scripts</value>
+  </data>
+  <data name="VacationAgreement.Tabs.VacationEarning" xml:space="preserve">
+    <value>Vacation earning</value>
+  </data>
+  <data name="VacationAgreement.Tabs.VacationPayLiability" xml:space="preserve">
+    <value>Vacation pay liability</value>
+  </data>
+  <data name="VacationAgreement.Texts.VacationAgreement" xml:space="preserve">
+    <value>Vacation agreement</value>
+  </data>
+  <data name="VacationAgreementEnums.AverageEarningType.AverageHourlyWage" xml:space="preserve">
+    <value>Average hourly wage</value>
+  </data>
+  <data name="VacationAgreementEnums.AverageEarningType.FixedHourlyWage" xml:space="preserve">
+    <value>Fixed hourly wage</value>
+  </data>
+  <data name="VacationAgreementEnums.CalculationOfVacationPayType.FullAccrual" xml:space="preserve">
+    <value>Full accrual</value>
+  </data>
+  <data name="VacationAgreementEnums.CalculationOfVacationPayType.Limited" xml:space="preserve">
+    <value>Limited, up to 6G</value>
+  </data>
+  <data name="VacationAgreementEnums.DaysPerWeekType.Five" xml:space="preserve">
+    <value>Five</value>
+  </data>
+  <data name="VacationAgreementEnums.DaysPerWeekType.FiveRounded" xml:space="preserve">
+    <value>Five, rounded</value>
+  </data>
+  <data name="VacationAgreementEnums.DaysPerWeekType.Six" xml:space="preserve">
+    <value>Six</value>
+  </data>
+  <data name="VacationAgreementEnums.IntermittentMethodType.GrossDays" xml:space="preserve">
+    <value>Gross days</value>
+  </data>
+  <data name="VacationAgreementEnums.IntermittentMethodType.NetDays" xml:space="preserve">
+    <value>Net days</value>
+  </data>
+  <data name="VacationAgreementEnums.PaymentPeriod.Continuously" xml:space="preserve">
+    <value>Continuously</value>
+  </data>
+  <data name="VacationAgreementEnums.PaymentPeriod.OnceAYear" xml:space="preserve">
+    <value>Once a year</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveAllPaidDays" xml:space="preserve">
+    <value>Save all paid days</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveMax5PaidDays" xml:space="preserve">
+    <value>Save max 5 paid days</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveMoreThan20PaidDays" xml:space="preserve">
+    <value>Save more than 20 paid days</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveMoreThan20PaidDaysOrEntitlement" xml:space="preserve">
+    <value>Save more than 20 paid days or entitlement</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveOptionalPaidDays" xml:space="preserve">
+    <value>Save optional paid days</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SavePaidDaysMaxEntitlement" xml:space="preserve">
+    <value>Save paid days max entitlement</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.AverageRate" xml:space="preserve">
+    <value>Average rate</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.AverageRateReducedByPartTimeAbsence" xml:space="preserve">
+    <value>Average rate, reduced by part time absence</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.FactorHours" xml:space="preserve">
+    <value>Factor hours</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.TopicalRate" xml:space="preserve">
+    <value>Topical rate</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.BasedOnFixedSalary" xml:space="preserve">
+    <value>Based on fixed salary</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.Commensurate" xml:space="preserve">
+    <value>Commensurate</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.PercentageWithReclaim" xml:space="preserve">
+    <value>Percentage with reclaim</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.SeasonalAndExtraEmployee" xml:space="preserve">
+    <value>Seasonal and extra employee</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.TechnicPercentage" xml:space="preserve">
+    <value>Technic percentage</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.TechnicWithFixedSalary" xml:space="preserve">
+    <value>Technic fixed salary</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.VacationLaw" xml:space="preserve">
+    <value>Vacation law</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationDaysHandlingType.Remain" xml:space="preserve">
+    <value>Remain</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationDaysHandlingType.ToPayment" xml:space="preserve">
+    <value>To payment</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationPaymentSavedDaysType.Remain" xml:space="preserve">
+    <value>Remain</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationPaymentSavedDaysType.SameAsPaidDays" xml:space="preserve">
+    <value>Same as paid days</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationPaymentSavedDaysType.SameAsPaidDaysRecountWithUtilizationRate" xml:space="preserve">
+    <value>Same as paid days, recount with utilization rate</value>
+  </data>
+  <data name="VacationAgreementEnums.WithholdMoneyForFixedPaidType.NotWithhold" xml:space="preserve">
+    <value>Do not withhold</value>
+  </data>
+  <data name="VacationAgreementEnums.WithholdMoneyForFixedPaidType.Withhold" xml:space="preserve">
+    <value>Do withhold</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimitValueOver" xml:space="preserve">
+    <value>Limit value valid younger that {0} year</value>
+    <comment>age</comment>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimitValueUnder" xml:space="preserve">
+    <value>Limit value valid from {0} years of age</value>
+    <comment>age</comment>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimit_Part1" xml:space="preserve">
+    <value>Consideration of age</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimit_Part2" xml:space="preserve">
+    <value> years</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.Caption" xml:space="preserve">
+    <value>Limit values</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.LimitValue" xml:space="preserve">
+    <value>Limit value (amount)</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsBusinessExperienceLimit" xml:space="preserve">
+    <value>Consideration of business experience</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsEmploymentLimit_Part1" xml:space="preserve">
+    <value>Limit value valid at least employment time of</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsEmploymentLimit_Part2" xml:space="preserve">
+    <value> months in last </value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsEmploymentLimit_Part3" xml:space="preserve">
+    <value> months</value>
+  </data>
+  <data name="VacationBalances.Exceptions.AdvancedDaysExceedsVacationAgreement" xml:space="preserve">
+    <value>Value of advanced days cannot be more than specified on the vacation agreement</value>
+  </data>
+  <data name="VacationBalances.Exceptions.DaysOver60ExceedsVacationEntitlement" xml:space="preserve">
+    <value>Value of days over 60 cannot be more than specified as additional vacation entitlement for the employee</value>
+  </data>
+  <data name="VacationBalances.Exceptions.NormalDaysExceedsVacationEntitlement" xml:space="preserve">
+    <value>Value of normal days cannot be more than specified as vacation entitlement for the employee</value>
+  </data>
+  <data name="VacationBalances.Exceptions.VacationBalancesExceedsEntitlement" xml:space="preserve">
+    <value>New balances exceeds the employees entitlement</value>
+  </data>
+  <data name="VacationBalances.Exceptions.VacationBalancesVacationDaysExceedsBalance" xml:space="preserve">
+    <value>Value of entered days cannot be lower than used vacation days</value>
+  </data>
+  <data name="VacationCalculation.Balances.AdditionalDays" xml:space="preserve">
+    <value>Additional days</value>
+  </data>
+  <data name="VacationCalculation.Balances.AdvanceDays" xml:space="preserve">
+    <value>Advanced days</value>
+  </data>
+  <data name="VacationCalculation.Balances.Changed" xml:space="preserve">
+    <value>Balances have been manually changed</value>
+  </data>
+  <data name="VacationCalculation.Balances.EarnedPaidDays" xml:space="preserve">
+    <value>Earned paid days</value>
+  </data>
+  <data name="VacationCalculation.Balances.EarnedUnpaidVacationDays" xml:space="preserve">
+    <value>Unpaid days</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeFirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeId" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeLastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeVacationBalance" xml:space="preserve">
+    <value>Employee vacation balance</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmploymentEndDate" xml:space="preserve">
+    <value>Position end date</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmploymentStartDate" xml:space="preserve">
+    <value>Position start date</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessPaidDays" xml:space="preserve">
+    <value>Paid days</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessPaidDaysUtilizationRate" xml:space="preserve">
+    <value>Paid days - Utilization rate</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessSavedDaysYear5" xml:space="preserve">
+    <value>Saved days year 5</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessSavedDaysYear5UtilizationRate" xml:space="preserve">
+    <value>Saved days year 5 - Utilization rate</value>
+  </data>
+  <data name="VacationCalculation.Balances.InitialBalanceDaysOver60Years" xml:space="preserve">
+    <value>Initial balance for Days &gt; 60 years</value>
+  </data>
+  <data name="VacationCalculation.Balances.InitialBalanceNormalDays" xml:space="preserve">
+    <value>Initial balance for Normal days</value>
+  </data>
+  <data name="VacationCalculation.Balances.NonVacationBasedFullCalendardays" xml:space="preserve">
+    <value>Non vacation based absence full cal. days</value>
+  </data>
+  <data name="VacationCalculation.Balances.NormalDays" xml:space="preserve">
+    <value>Normal days</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDays" xml:space="preserve">
+    <value>Paid days</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDaysVacationPayPerDay" xml:space="preserve">
+    <value>Paid days - Vacation pay per day</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDaysVacationPayRefillPerDay" xml:space="preserve">
+    <value>Paid days - Vacation pay refill per day</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDaysVariabelVacationPayPerDay" xml:space="preserve">
+    <value>Paid days - Variabel vacation pay per day</value>
+  </data>
+  <data name="VacationCalculation.Balances.ParttimeFactor" xml:space="preserve">
+    <value>Parttime factor</value>
+  </data>
+  <data name="VacationCalculation.Balances.Remainder" xml:space="preserve">
+    <value>Editing a vacation balance is only valid for the current year, and will not impact the granted days for next year. Change of values in this window, can also have an impact on the accounting for holiday payment. There is no automatic handling of this in the system. This needs to be taken care of manually.</value>
+  </data>
+  <data name="VacationCalculation.Balances.RemainingDays" xml:space="preserve">
+    <value>Remaining days</value>
+  </data>
+  <data name="VacationCalculation.Balances.RemainingDaysVacationYear" xml:space="preserve">
+    <value>Days remaining in vacation year</value>
+  </data>
+  <data name="VacationCalculation.Balances.SavedDaysYear5VacationPayPerDay" xml:space="preserve">
+    <value>Saved days year 5 - Vacation pay per day</value>
+  </data>
+  <data name="VacationCalculation.Balances.SavedDaysYear5VacationPayRefillPerDay" xml:space="preserve">
+    <value>Saved days year 5 - Vacation pay refill per day</value>
+  </data>
+  <data name="VacationCalculation.Balances.SavedDaysYear5VariabelVacationPayPerDay" xml:space="preserve">
+    <value>Saved days year 5 - Variable vacation pay per day</value>
+  </data>
+  <data name="VacationCalculation.Balances.TotalDays" xml:space="preserve">
+    <value>Total days</value>
+  </data>
+  <data name="VacationCalculation.Balances.TransferredAdditionalDays" xml:space="preserve">
+    <value>Transferred additional days</value>
+  </data>
+  <data name="VacationCalculation.Balances.TransferredDays" xml:space="preserve">
+    <value>Transferred days</value>
+  </data>
+  <data name="VacationCalculation.Balances.UnpaidDays" xml:space="preserve">
+    <value>Unpaid days</value>
+  </data>
+  <data name="VacationCalculation.Balances.UsedAdvanceDays" xml:space="preserve">
+    <value>Used advance days</value>
+  </data>
+  <data name="VacationCalculation.Balances.UtilizationRate" xml:space="preserve">
+    <value>Utilization rate</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedAbsenceFullWorkdays" xml:space="preserve">
+    <value>Vacation based absence workdays</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedAbsenceHours" xml:space="preserve">
+    <value>Vacation based absence in hours</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedDays" xml:space="preserve">
+    <value>Vacation based days</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedFullCalendardays" xml:space="preserve">
+    <value>Vacation based absence full cal. days</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedPartCalendardays" xml:space="preserve">
+    <value>Vacation based absence part cal. days</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationDays" xml:space="preserve">
+    <value>Vacation days</value>
+  </data>
+  <data name="VacationCalculation.Balances.WorkdaysFromRoster" xml:space="preserve">
+    <value>Workdays from roster</value>
+  </data>
+  <data name="VacationCalculation.Exceptions.PayCodeNotFound" xml:space="preserve">
+    <value>Paycode not found {0}</value>
+    <comment>payCodeId</comment>
+  </data>
+  <data name="VacationCalculation.Exceptions.TooManyDays" xml:space="preserve">
+    <value>Too many vacation days has been used ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="VacationCalculation.Filters.DeaviatingparttimePercentage" xml:space="preserve">
+    <value>Utilization rate</value>
+  </data>
+  <data name="VacationCalculation.Filters.DeaviatingVacationEntitlement" xml:space="preserve">
+    <value>Vacation entitlement</value>
+  </data>
+  <data name="VacationCalculation.Filters.ExcessDays" xml:space="preserve">
+    <value>Has excess days</value>
+  </data>
+  <data name="VacationCalculation.Filters.Group" xml:space="preserve">
+    <value>Deviations</value>
+  </data>
+  <data name="VacationCalculation.Filters.UnpaidDays" xml:space="preserve">
+    <value>Has unpaid days</value>
+  </data>
+  <data name="VacationCalculation.Labels.Accrued" xml:space="preserve">
+    <value>Accrued</value>
+  </data>
+  <data name="VacationCalculation.Labels.Balances" xml:space="preserve">
+    <value>Balances</value>
+  </data>
+  <data name="VacationCalculation.Labels.Calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="VacationCalculation.Labels.CurrentValue" xml:space="preserve">
+    <value>Current value</value>
+  </data>
+  <data name="VacationCalculation.Labels.EndOfThisMonth" xml:space="preserve">
+    <value>End of this month</value>
+  </data>
+  <data name="VacationCalculation.Labels.For" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="VacationCalculation.Labels.Information" xml:space="preserve">
+    <value>Information!</value>
+  </data>
+  <data name="VacationCalculation.Labels.MethodInformation" xml:space="preserve">
+    <value>Same wage rule is the default calculation method for an employee with fixed monthly salary \n 
+\n
+Percentage rule shall be used when an employee don’t have any fixed salary, for example is hourly paid. \n
+An employee with fixed monthly salary shall use percentage rule when; \n
+- variable salary components is more than 10% of the total salary \n
+- part time factor has varied during vacation year \n
+- employee’s part time factor during vacation earning year and currently vacation has varied \n</value>
+  </data>
+  <data name="VacationCalculation.Labels.OpeningValue" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="VacationCalculation.Labels.Owed" xml:space="preserve">
+    <value>Owed</value>
+  </data>
+  <data name="VacationCalculation.Labels.PaidVacationPayAddition" xml:space="preserve">
+    <value>Paid vacation pay addition</value>
+  </data>
+  <data name="VacationCalculation.Labels.PaidVacationPayPerDay" xml:space="preserve">
+    <value>Paid vacation pay/day</value>
+  </data>
+  <data name="VacationCalculation.Labels.PaidVariableVacationPay" xml:space="preserve">
+    <value>Paid variable vacation pay</value>
+  </data>
+  <data name="VacationCalculation.Labels.Remaining" xml:space="preserve">
+    <value>Remaining</value>
+  </data>
+  <data name="VacationCalculation.Labels.Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="VacationCalculation.Labels.ShowCurrentYear" xml:space="preserve">
+    <value>Show current year </value>
+  </data>
+  <data name="VacationCalculation.Labels.Used" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="VacationCalculation.Labels.UtilizationRate" xml:space="preserve">
+    <value>Utilization rate</value>
+  </data>
+  <data name="VacationCalculation.Labels.UtilizationRatePercent" xml:space="preserve">
+    <value>Utilization rate %</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBalance" xml:space="preserve">
+    <value>Vacation balance</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBalanceLabel" xml:space="preserve">
+    <value>Vacation balances is possible to edit only when current vacation year is selected</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBasedHours" xml:space="preserve">
+    <value>Vacation based hours</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBasedReductionForAbsence" xml:space="preserve">
+    <value>Vacation based reduction for absence</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBasedSalary" xml:space="preserve">
+    <value>Vacation based salary</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationEarning" xml:space="preserve">
+    <value>Vacation earning</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationInput" xml:space="preserve">
+    <value>Vacation input</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationLawCalculationMethod" xml:space="preserve">
+    <value>Calculation method</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationLawCalculationMethodDescription" xml:space="preserve">
+    <value>Use same wage rule if ...</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationPayFillUp" xml:space="preserve">
+    <value>Vacation pay fill-up</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationPayPerDay" xml:space="preserve">
+    <value>Vacation pay/day</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationYear" xml:space="preserve">
+    <value>Vacation year</value>
+  </data>
+  <data name="VacationCalculation.Labels.VariableVacationBasedSalary" xml:space="preserve">
+    <value>Variable vacation based salary</value>
+  </data>
+  <data name="VacationCalculation.Labels.VariableVacationPayPerDay" xml:space="preserve">
+    <value>Variable vacation pay/day</value>
+  </data>
+  <data name="VacationCalculation.Receipt.Confirm" xml:space="preserve">
+    <value>Current vacation year is about to be finalized. Are you sure?</value>
+  </data>
+  <data name="VacationCalculation.Receipt.DeviantVacationPayFounding" xml:space="preserve">
+    <value>Deviant vacation pay founding</value>
+  </data>
+  <data name="VacationCalculation.Receipt.ExcessDays" xml:space="preserve">
+    <value>Excess days will be paid out in the next upcoming wagerun period</value>
+  </data>
+  <data name="VacationCalculation.Receipt.NextVacationYear" xml:space="preserve">
+    <value>Next vacation year</value>
+  </data>
+  <data name="VacationCalculation.Receipt.StartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="VacationCalculation.VacationLawCalculationMethodEnum.NoRule" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="VacationCalculation.VacationLawCalculationMethodEnum.PercentageRule" xml:space="preserve">
+    <value>Percentage rule</value>
+  </data>
+  <data name="VacationCalculation.VacationLawCalculationMethodEnum.SameWageRule" xml:space="preserve">
+    <value>Same wage rule</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.AdvancedDays" xml:space="preserve">
+    <value>Advanced days</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.Agreement" xml:space="preserve">
+    <value>Vacation agreement {0}</value>
+    <comment>num</comment>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.ExcessPaidDays" xml:space="preserve">
+    <value>Excess paid days</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.ExcessSavedDaysYear5" xml:space="preserve">
+    <value>Excess saved days year 5</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.PaidDays" xml:space="preserve">
+    <value>Paid days</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.PaidPrelDays" xml:space="preserve">
+    <value>Prel. paid days</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.PostponedDays" xml:space="preserve">
+    <value>Postponed days</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.RemovedAdvancedDays" xml:space="preserve">
+    <value>Removed advance days</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear1" xml:space="preserve">
+    <value>Saved days year 1</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear2" xml:space="preserve">
+    <value>Saved days year 2</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear3" xml:space="preserve">
+    <value>Saved days year 3</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear4" xml:space="preserve">
+    <value>Saved days year 4</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear5" xml:space="preserve">
+    <value>Saved days year 5</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.UnpaidDays" xml:space="preserve">
+    <value>Unpaid days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.Dept" xml:space="preserve">
+    <value>Debt</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.DueDate" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EarnedPaidDays" xml:space="preserve">
+    <value>Earned paid days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EarnedUnpaidVacationDays" xml:space="preserve">
+    <value>Unpaid days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeFirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeId" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeLastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmploymentStartDate" xml:space="preserve">
+    <value>Position start date</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessPaidDays" xml:space="preserve">
+    <value>Paid days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessPaidDaysUtilizationRate" xml:space="preserve">
+    <value>Paid days - Utilization rate</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessSavedDaysYear5" xml:space="preserve">
+    <value>Saved days year 5</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessSavedDaysYear5UtilizationRate" xml:space="preserve">
+    <value>Saved days year 5 - Utilization rate</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.NonVacationBasedFullCalendardays" xml:space="preserve">
+    <value>Non vacation based absence full cal. days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.PaidDaysVacationPayPerDay" xml:space="preserve">
+    <value>Paid days - Vacation pay per day</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.PaidDaysVacationPayRefillPerDay" xml:space="preserve">
+    <value>Paid days - Vacation pay refill per day</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.PaidDaysVariabelVacationPayPerDay" xml:space="preserve">
+    <value>Paid days - Variabel vacation pay per day</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.SavedDaysYear5VacationPayPerDay" xml:space="preserve">
+    <value>Saved days year 5 - Vacation pay per day</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.SavedDaysYear5VacationPayRefillPerDay" xml:space="preserve">
+    <value>Saved days year 5 - Vacation pay refill per day</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.SavedDaysYear5VariabelVacationPayPerDay" xml:space="preserve">
+    <value>Saved days year 5 - Variable vacation pay per day</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.TotalAmountOfVacationDays" xml:space="preserve">
+    <value>Total amount vacation days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.UsedDays" xml:space="preserve">
+    <value>Used days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.UsedVacationDays" xml:space="preserve">
+    <value>Used vacation days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.UtilizationRate" xml:space="preserve">
+    <value>Utilization rate</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationAgreementName" xml:space="preserve">
+    <value>Vacation agreement</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedAbsenceFullWorkdays" xml:space="preserve">
+    <value>Vacation based absence workdays</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedAbsenceHours" xml:space="preserve">
+    <value>Vacation based absence in hours</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedAbsencePartCalendarDays" xml:space="preserve">
+    <value>Vacation based absence part cal. days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedDays" xml:space="preserve">
+    <value>Vacation based days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedFullCalendardays" xml:space="preserve">
+    <value>Vacation based absence full cal. days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedPartCalendardays" xml:space="preserve">
+    <value>Vacation based absence part cal. days</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.WorkdaysFromRoster" xml:space="preserve">
+    <value>Workdays from roster</value>
+  </data>
+  <data name="VismaODP.Environment.HomePage" xml:space="preserve">
+    <value>Informationpage</value>
+  </data>
+  <data name="VismaODP.Environment.UserSettings" xml:space="preserve">
+    <value>My information</value>
+  </data>
+  <data name="VismaODP.Labels.SelectContext" xml:space="preserve">
+    <value>Select context</value>
+  </data>
+  <data name="Workshift.Texts.Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Workshift.Texts.Workshift" xml:space="preserve">
+    <value>Workshift</value>
+  </data>
+  <data name="YearAndMonth.ErrorMessages.MonthIsNotValid" xml:space="preserve">
+    <value>month is not valid: {0}</value>
+    <comment>month</comment>
+  </data>
+  <data name="YearAndMonth.ErrorMessages.YearIsNotValid" xml:space="preserve">
+    <value>year is not valid: {0}</value>
+    <comment>year</comment>
+  </data>
+</root>

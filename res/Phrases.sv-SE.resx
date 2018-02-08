@@ -1,0 +1,4433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Absence.Labels.DefiniteTime" xml:space="preserve">
+    <value>Anges med start- och sluttid</value>
+  </data>
+  <data name="Absence.Labels.DefiniteTimeTooltip" xml:space="preserve">
+    <value>Möjligt att registrera händelser som starttid och sluttid</value>
+  </data>
+  <data name="Absence.Labels.FullDay" xml:space="preserve">
+    <value>Heldag</value>
+  </data>
+  <data name="Absence.Labels.InAmountOfHours" xml:space="preserve">
+    <value>I antal timmar</value>
+  </data>
+  <data name="Absence.Labels.InHours" xml:space="preserve">
+    <value>Anges i timmar</value>
+  </data>
+  <data name="Absence.Labels.InHoursTooltip" xml:space="preserve">
+    <value>Alla händelseregistreringar kommer att vara i antal timmar</value>
+  </data>
+  <data name="Absence.Labels.MoreOptions" xml:space="preserve">
+    <value>Fler alternativ</value>
+  </data>
+  <data name="Absence.Labels.PercentTableHeader" xml:space="preserve">
+    <value>Proc %</value>
+  </data>
+  <data name="Absence.Labels.RegisterTimeIn" xml:space="preserve">
+    <value>Registera tid i</value>
+  </data>
+  <data name="Absence.Labels.RegistrationInCalendar" xml:space="preserve">
+    <value>Registrering i kalendern</value>
+  </data>
+  <data name="Absence.Labels.ShallNotBeSalaryProcessed" xml:space="preserve">
+    <value>Historisk registrering</value>
+  </data>
+  <data name="Absence.Labels.ShallNotBeSalaryProcessedMessage" xml:space="preserve">
+    <value>Om markerad, kommer denna registrering inte hanteras i lön.</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsCsvFile" xml:space="preserve">
+    <value>via CSV</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsCsvFileTooltip" xml:space="preserve">
+    <value>Tidtransaktioner via CSV</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsMessage" xml:space="preserve">
+    <value>via meddelande</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionAsMessageTooltip" xml:space="preserve">
+    <value>Tidtransaktioner via meddelande</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactions" xml:space="preserve">
+    <value>Tidtransaktioner</value>
+  </data>
+  <data name="Absence.Labels.TimeTransactionSendMethod" xml:space="preserve">
+    <value>Skicka tidtransaktioner</value>
+  </data>
+  <data name="ActiveTime.Texts.FutureVersionExists" xml:space="preserve">
+    <value>Denna regel har en nyare / framtida version. Ändringar i denna version, ingår inte i framtida versioner.</value>
+  </data>
+  <data name="ActiveTime.Texts.InCurrentVersion" xml:space="preserve">
+    <value>I nuvarande version</value>
+  </data>
+  <data name="ActiveTime.Texts.InNewVersion" xml:space="preserve">
+    <value>I en ny version</value>
+  </data>
+  <data name="ActiveTime.Texts.InUse" xml:space="preserve">
+    <value>Denna version används. Förändringar kommer att påverka beräkningar från startdatum för denna version</value>
+  </data>
+  <data name="ActiveTime.Texts.IsHistoricalVersion" xml:space="preserve">
+    <value>Detta är en historisk version. Om du gör ändringar i denna, kommer en omberäkning av historiska beräkningar att ske.</value>
+  </data>
+  <data name="Approval.ErrorMessages.NotValidNumber" xml:space="preserve">
+    <value>Inmatat värde är inte giltigt nummer
+</value>
+  </data>
+  <data name="Approval.ErrorMessages.ServiceUnavailable" xml:space="preserve">
+    <value>Visma.net Approval är inte tillgänglig, försök igen senare.</value>
+  </data>
+  <data name="Approval.ErrorMessages.StatusNotSupported" xml:space="preserve">
+    <value>Ogiltig status ({0})</value>
+    <comment>0</comment>
+  </data>
+  <data name="Approval.ErrorMessages.Success" xml:space="preserve">
+    <value>Operationen lyckades.</value>
+  </data>
+  <data name="Approval.ErrorMessages.TaskNotFound" xml:space="preserve">
+    <value>Uppgift att godkänna hittades inte ({0}).</value>
+    <comment>0</comment>
+  </data>
+  <data name="AttendanceCalculation.Balances.EmployeeAttendanceBalances" xml:space="preserve">
+    <value>Anställds tidssaldon</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.AccountingTermValidationError" xml:space="preserve">
+    <value>Vald dimension finns inte</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.CommentMissing" xml:space="preserve">
+    <value>En kommentar måste anges för denna händelse</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.CommentMissingReject" xml:space="preserve">
+    <value>En kommentar krävs för avslå begäran</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.DateFormatError" xml:space="preserve">
+    <value>Ange datum enligt något av följande format:  åå-mm-dd, ååmmdd, åååå-mm-dd, ååååmmdd. Anges dd eller mmdd räknas detta som dag respektive månad och dag i aktuellt år och månad.
+</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.DateMissing" xml:space="preserve">
+    <value>Datum är ett obligatoriskt fält</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.DateSpanError" xml:space="preserve">
+    <value>Till datum måste vara ett senare datum än från datum.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndOpenAbsenceInputError" xml:space="preserve">
+    <value>Till tid måste anges.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndTimeMissing" xml:space="preserve">
+    <value>Sluttid är ett obligatoriskt fält.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndTimeNotInArbetspass" xml:space="preserve">
+    <value>Till tid måste vara inom dagens arbetspass.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.EndTimeNotValid" xml:space="preserve">
+    <value>Sluttid måste vara mellan 00:00 och 23:59</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.Failure" xml:space="preserve">
+    <value>Operationen misslyckades.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.HandelsekodMissing" xml:space="preserve">
+    <value>Händelsekod är ett obligatoriskt fält</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.HourMissing" xml:space="preserve">
+    <value>Timmar är ett obligatoriskt fält</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.HourValueNotValid" xml:space="preserve">
+    <value>Timmar måste vara mellan 0 och 24.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.NextOfKinIsRequired" xml:space="preserve">
+    <value>Barn/närstående måste anges</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.NoneNextOfKin" xml:space="preserve">
+    <value>Inga barn/närstående</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.OpenAbsence" xml:space="preserve">
+    <value>Öppen frånvaro</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.OpenAbsenceDateFormatError" xml:space="preserve">
+    <value>Fråndatum får inte vara senare än dagens datum</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.OpenAbsenceInputError" xml:space="preserve">
+    <value>Fråndatum eller procent måste anges</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.PercentMissing" xml:space="preserve">
+    <value>Procent är ett obligatoriskt fält.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.PercentTooManyDecimals" xml:space="preserve">
+    <value>Max två decimaler för procent.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.PercentValueNotValid" xml:space="preserve">
+    <value>Procent måste vara mellan 0 till 100, och med max 2 decimaler</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.StartTimeMissing" xml:space="preserve">
+    <value>Starttid är ett obligatoriskt fält.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.StartTimeNotInArbetspass" xml:space="preserve">
+    <value>Från tid måste vara inom dagens arbetspass</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.StartTimeNotValid" xml:space="preserve">
+    <value>Starttid måste vara mellan 00:00 och 23:59</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.Success" xml:space="preserve">
+    <value>Operationen lyckades.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.TimeSpanError" xml:space="preserve">
+    <value>Till tid måste vara en senare tid än från tid.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.TooManyHours" xml:space="preserve">
+    <value>Max 24 timmar.</value>
+  </data>
+  <data name="AvvikelseRegistration.Addevent.WorkingPeriodMissing" xml:space="preserve">
+    <value>Schema saknas för aktuell datum.</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.ConfirmDeleteIfSallaryProcessed" xml:space="preserve">
+    <value>Händelsen är överförd till lön. Vill du verkligen ta bort den?</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.EndDateRequired" xml:space="preserve">
+    <value>Slutdatum är ett obligatoriskt fält.</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.HandelsekodRequired" xml:space="preserve">
+    <value>Händelsekod är ett obligatoriskt fält</value>
+  </data>
+  <data name="AvvikelseRegistration.DeleteEvent.StartDateRequired" xml:space="preserve">
+    <value>Startdatum är ett obligatoriskt fält.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.AccountingError" xml:space="preserve">
+    <value>Felaktig dimension</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CertificateDateEarlierThanFromDate" xml:space="preserve">
+    <value>Datum för läkarintyg kan inte vara tidigare än från-datum.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CertificateDateLaterThanToDate" xml:space="preserve">
+    <value>Datum för läkarintyg kan inte vara senare än till-datum.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotCreateAvvikelse" xml:space="preserve">
+    <value>Kunde inte skapa händelsen</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindAllRegistrationsToEdit" xml:space="preserve">
+    <value>Hittade inte alla händelser som skulle ändras</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindAnyAvvikelseToDelete" xml:space="preserve">
+    <value>Hittade inga händelser att ta bort</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindHandelsekod" xml:space="preserve">
+    <value>Kunde inte hitta händelsekoden</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindNextOfKin" xml:space="preserve">
+    <value>Barn/närstående saknas.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.CouldNotFindWorkingShift" xml:space="preserve">
+    <value>Hittade inget arbetspass för perioden {0}</value>
+    <comment>period</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.Employed" xml:space="preserve">
+    <value>Händelsen kan inte sparas utanför anställningstid</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EmployedMultiple" xml:space="preserve">
+    <value>Händelsen kan inte tillhöra flera anställningsperioder</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EmployeeAndRegistrationNoMatch" xml:space="preserve">
+    <value>Händelsen som skulle ändras stämmer inte överens med den anställde.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EmploymentTime" xml:space="preserve">
+    <value>Händelsen kan inte sparas då det krävs en minsta anställningstid om {0} {1}</value>
+    <comment>0,1</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.EndIsAfterSchema" xml:space="preserve">
+    <value>Sluttid är efter arbetspasset.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.IncorrectCalculateFromDateTimeRegistrations" xml:space="preserve">
+    <value>Endast{0} är giltigt för datumregistreringar</value>
+    <comment>0</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.IncorrectCalculateFromHourRegistration" xml:space="preserve">
+    <value>{0} är inte giltigt för registrering i timmar</value>
+    <comment>0</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.IncorrectCalculateFromPercentRegistration" xml:space="preserve">
+    <value>{0} är inte giltigt för registrering i procent</value>
+    <comment>0</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.MissingEmployee" xml:space="preserve">
+    <value>Personen saknas</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinChildAge" xml:space="preserve">
+    <value>Barnet är för gammalt vid registrering ({0}).</value>
+    <comment>p1</comment>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinChildAgeMissing" xml:space="preserve">
+    <value>Åldern på barnet krävs för händelsekoden</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinMustBeChild" xml:space="preserve">
+    <value>Barn måste anges för händelsekoden.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NextOfKinRequired" xml:space="preserve">
+    <value>Barn/närstående är obligatorisk för händelsekoden</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NonnegativeAndNonzeroHours" xml:space="preserve">
+    <value>Saldouttag kan inte vara 0 eller ett negativt värde</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.NoWorkshiftWithWorkingHoursFound" xml:space="preserve">
+    <value>Registrering är inte möjlig då dagen saknar arbetspass</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.PercentAndHoursInSameRegistration" xml:space="preserve">
+    <value>Procent och timmar kan inte båda vara satta på samma registrering </value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.PossibleMissmatchingOrganization" xml:space="preserve">
+    <value>Felaktig data på en registrering.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.RegistrationNotOnWorkingtime" xml:space="preserve">
+    <value>Ogiltigt att registrera händelser utanför arbetstid, korrigera klockslagen.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.RegistrationsNotSaved" xml:space="preserve">
+    <value>Alla registreringar blev inte sparade</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.RemoveLeaveRequestStatus" xml:space="preserve">
+    <value>Det är inte möjligt att ta bort statusen på ledighetsansökan.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.StartDateSameOrLaterThanEndDate" xml:space="preserve">
+    <value>Start kan inte vara samtidigt eller senare än slut. </value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.StartIsBeforeSchema" xml:space="preserve">
+    <value>Starttid ligger före arbetspasset.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooFewHoursFullDay" xml:space="preserve">
+    <value>Du måste registrera hela dagar för den valda händelsekoden</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyHours" xml:space="preserve">
+    <value>Du har registrerat fler timmar än vad schemat tillåter.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyHoursOnDay" xml:space="preserve">
+    <value>Det finns inte tillräckligt med timmar på dagen.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyHoursPartOfDay" xml:space="preserve">
+    <value>Det går inte registrera så många timmar på en dag då händelsekoden endast är giltigt för del av dag.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.TooManyOvertimeHours" xml:space="preserve">
+    <value>Du kan inte ange fler timmar än vad som finns tillgängligt</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.UnknownEventCode" xml:space="preserve">
+    <value>Okänd händelsekod</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.UpdatingAbsencesNotSupported" xml:space="preserve">
+    <value>Ändring av befintliga registreringar stöds inte.</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.WorkshiftMissingWhenWorkshiftsInHours" xml:space="preserve">
+    <value>Registreringens starttid måste matcha arbetspassets starttid när inställningen är ´Arbetspass i timmar´</value>
+  </data>
+  <data name="AvvikelseRegistration.ErrorMessages.WorkshiftMustHaveHoursOrPercent" xml:space="preserve">
+    <value>Timmar eller procent måste ställas in på händelsekoder när företaget använder "Arbetspass i timmar"</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.CommandNotValid" xml:space="preserve">
+    <value>Kommandot är ogiltligt.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.CompanyNotValid" xml:space="preserve">
+    <value>Felaktigt företag</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.DimensionsForRegistrationNotAvailable" xml:space="preserve">
+    <value>Dimensioner kunde inte hämtas för tillfället. Du kan spara registreringen utan dimension eller fortsätta senare.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.DoesNotMatchArbetspassEnd" xml:space="preserve">
+    <value>Registreringens slutdatum/tid matchar inte arbetspasset.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.DoesNotMatchArbetspassStart" xml:space="preserve">
+    <value>Registreringens startdatum/tid matchar inte arbetspasset.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.HourGreaterThanZero" xml:space="preserve">
+    <value>Antal timmar måste vara större än 0.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.IsNull" xml:space="preserve">
+    <value>Händelseregistreringen är inte giltlig (okänt fel)</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.Max100PercentOnADay" xml:space="preserve">
+    <value>Det går inte att ha mer än 100% frånvaro på en dag ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.MaxTwoPercentRegistrationsOnDay" xml:space="preserve">
+    <value>Det får bara finnas två procentregistreringar på en dag.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.MissingHandelsekod" xml:space="preserve">
+    <value>Händelsekod saknas eller är felaktig</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.MissingSchema" xml:space="preserve">
+    <value>Det saknas arbetspass för händelseregistreringen</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.NoPermissionAdvancedRegistration" xml:space="preserve">
+    <value>Behörighet saknas för avancerade registreringar.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.NotEnoughWorkingHoursOnDay" xml:space="preserve">
+    <value>Det finns inte tillräckligt med arbetstimmar på dagen ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.NotEnoughWorkingHoursOnDayWithoutDate" xml:space="preserve">
+    <value>Det finns inte tillräckligt med arbetstimmar.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.OverlappingAvvikelseRegistration" xml:space="preserve">
+    <value>Händelsen kan inte sparas eftersom det redan finns en annan händelse på samma datum och tid. ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.OverlappingAvvikelseRegistrationWithoutDate" xml:space="preserve">
+    <value>Händelsen kan inte sparas eftersom det redan finns en annan händelse på samma datum och tid.</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.PartOfDayOnFreeDayIsForbidden" xml:space="preserve">
+    <value>Frånvaro på ledig dag kan enbart vara hela dagen eller procentuell ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.PercentValueNotValid" xml:space="preserve">
+    <value>Procent måste vara mellan 0 till 100</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.PersonNotValid" xml:space="preserve">
+    <value>Felaktig person</value>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.RegistrationsLocked" xml:space="preserve">
+    <value>Registreringen är låst och kan inte ändras eller tas bort ({0}). </value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.TooLowPercentFullDay" xml:space="preserve">
+    <value>Du måste registrera 100% på en dag ({0}), pga händelsekoden endast är giltig för heldag</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.TooMuchPercentPartOfDay" xml:space="preserve">
+    <value>Det går inte att registrera 100% på en dag ({0}) då händelsekoden endast är giltig för del av dag.</value>
+    <comment>date</comment>
+  </data>
+  <data name="AvvikelseRegistration.Exceptions.WorkingTimeIsZeroForRegistration" xml:space="preserve">
+    <value>Registreringen är inte på arbetstid.</value>
+  </data>
+  <data name="AvvikelseRegistration.Texts.DoctorsCertificateReminder" xml:space="preserve">
+    <value>Glöm inte att läkarintyget i original ska lämnas till din arbetsgivare</value>
+  </data>
+  <data name="AvvikelseRegistration.Texts.SickChildRuleInformationSe" xml:space="preserve">
+    <value>Tänk på att om barnet är max 12 år och är sjukt längre än 7 dagar, behövs det ett läkarintyg för att få ersättning från Försäkringskassan. 
+Är barnet äldre än 12 år, behövs ett läkarutlåtande från första dagen.
+</value>
+  </data>
+  <data name="AvvikelseRegistration.Texts.SicknessRuleInformation" xml:space="preserve">
+    <value>Tänk på att ett sjuktillfälle får vara max {0} dagar i en arbetsgivarperiod.
+Efter det måste sjukdomen styrkas med ett läkarintyg.
+</value>
+    <comment>numDays</comment>
+  </data>
+  <data name="AvvikelseRegistration.Texts.SicknessRuleInformationSe" xml:space="preserve">
+    <value>Tänk på att om sjuktillfället är längre än 7 dagar, ska ett läkarintyg lämnas till arbetsgivaren.
+</value>
+  </data>
+  <data name="Calendar.Exceptions.WorkshiftMissingUnableToAdjust" xml:space="preserve">
+    <value>Du kan inte ändra arbetstiden då valt datum saknar arbetspass</value>
+  </data>
+  <data name="Calendar.HowTo.Choose" xml:space="preserve">
+    <value>Välj en eller flera dagar</value>
+  </data>
+  <data name="Calendar.HowTo.Register" xml:space="preserve">
+    <value>Gör din registrering</value>
+  </data>
+  <data name="Calendar.HowTo.Select" xml:space="preserve">
+    <value>Välj en kod</value>
+  </data>
+  <data name="Calendar.Labels.AddAvvikelseRegistrationFormHeader" xml:space="preserve">
+    <value>Avvikelseregistrering - lägg till</value>
+  </data>
+  <data name="Calendar.Labels.AddMultipleEventsFormHeader" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="Calendar.Labels.AddWeek" xml:space="preserve">
+    <value>Lägg till vecka</value>
+  </data>
+  <data name="Calendar.Labels.AdjustWorkingHours" xml:space="preserve">
+    <value>Ändra arbetspass</value>
+  </data>
+  <data name="Calendar.Labels.Administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="Calendar.Labels.Approvers" xml:space="preserve">
+    <value>Godkännare:</value>
+  </data>
+  <data name="Calendar.Labels.AtWork" xml:space="preserve">
+    <value>Närvaro</value>
+  </data>
+  <data name="Calendar.Labels.AverageWorkingHours" xml:space="preserve">
+    <value>Genomsnittlig arbetstid</value>
+  </data>
+  <data name="Calendar.Labels.AwayFromWork" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="Calendar.Labels.BackToCalendar" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="Calendar.Labels.CalendarFilterAbsence" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="Calendar.Labels.CalendarFilterQsd" xml:space="preserve">
+    <value>Karensdag</value>
+  </data>
+  <data name="Calendar.Labels.CalendarFilterRoster" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="Calendar.Labels.ClosedWageRunPeriod" xml:space="preserve">
+    <value>Avslutad löneperiod</value>
+  </data>
+  <data name="Calendar.Labels.ConnectionEndDate" xml:space="preserve">
+    <value>Giltig till</value>
+  </data>
+  <data name="Calendar.Labels.ConnectionStartDate" xml:space="preserve">
+    <value>Giltig från</value>
+  </data>
+  <data name="Calendar.Labels.Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="Calendar.Labels.DeleteAvvikelseRegistrationFormHeader" xml:space="preserve">
+    <value>Händelseregistrering - ta bort</value>
+  </data>
+  <data name="Calendar.Labels.FromTimeSystemAsShortSymbolName" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Calendar.Labels.InsuranceAgency" xml:space="preserve">
+    <value>Försäkringskassan</value>
+  </data>
+  <data name="Calendar.Labels.InsuranceAgencyAcronym" xml:space="preserve">
+    <value>FK</value>
+  </data>
+  <data name="Calendar.Labels.IsOpenAsShortSymbolName" xml:space="preserve">
+    <value>Ö</value>
+  </data>
+  <data name="Calendar.Labels.Loneperiod" xml:space="preserve">
+    <value>Löneperiod</value>
+  </data>
+  <data name="Calendar.Labels.MarkAll" xml:space="preserve">
+    <value>Markera alla</value>
+  </data>
+  <data name="Calendar.Labels.MarkDayAs" xml:space="preserve">
+    <value>Markera dag som</value>
+  </data>
+  <data name="Calendar.Labels.Month" xml:space="preserve">
+    <value>Månad</value>
+  </data>
+  <data name="Calendar.Labels.Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="Calendar.Labels.NextOfKins" xml:space="preserve">
+    <value>Barn/närstående</value>
+  </data>
+  <data name="Calendar.Labels.NumberOfWeeks" xml:space="preserve">
+    <value>Antal veckor</value>
+  </data>
+  <data name="Calendar.Labels.OtherAttendance" xml:space="preserve">
+    <value>Annan närvaro</value>
+  </data>
+  <data name="Calendar.Labels.PercentAsShortSymbolName" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Calendar.Labels.PercentPeriod" xml:space="preserve">
+    <value>Frånvarande</value>
+  </data>
+  <data name="Calendar.Labels.Preview" xml:space="preserve">
+    <value>Förhandsgranska</value>
+  </data>
+  <data name="Calendar.Labels.Previous" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="Calendar.Labels.Qsd" xml:space="preserve">
+    <value>Karensdag</value>
+  </data>
+  <data name="Calendar.Labels.QsdAcronym" xml:space="preserve">
+    <value>KAR</value>
+  </data>
+  <data name="Calendar.Labels.Registration" xml:space="preserve">
+    <value>Registrering</value>
+  </data>
+  <data name="Calendar.Labels.SalaryAcronym" xml:space="preserve">
+    <value>LÖN</value>
+  </data>
+  <data name="Calendar.Labels.SalaryProcessed" xml:space="preserve">
+    <value>Körd i lön</value>
+  </data>
+  <data name="Calendar.Labels.Sammanstall" xml:space="preserve">
+    <value>Mer</value>
+  </data>
+  <data name="Calendar.Labels.ShowingNumOfCount" xml:space="preserve">
+    <value>Visar {0} av {1}</value>
+    <comment>num,count</comment>
+  </data>
+  <data name="Calendar.Labels.ShowMoreEvents" xml:space="preserve">
+    <value>Visa mer</value>
+  </data>
+  <data name="Calendar.Labels.StartHere" xml:space="preserve">
+    <value>Starta här!</value>
+  </data>
+  <data name="Calendar.Labels.StartupGuideTitle" xml:space="preserve">
+    <value>Start guide</value>
+  </data>
+  <data name="Calendar.Labels.StatisticsAgency" xml:space="preserve">
+    <value>Statistiska centralbyrån</value>
+  </data>
+  <data name="Calendar.Labels.StatisticsAgencyAcronym" xml:space="preserve">
+    <value>SCB</value>
+  </data>
+  <data name="Calendar.Labels.TemplateName" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="Calendar.Labels.Today" xml:space="preserve">
+    <value>Idag</value>
+  </data>
+  <data name="Calendar.Labels.Transactions" xml:space="preserve">
+    <value>Transaktioner</value>
+  </data>
+  <data name="Calendar.Labels.VismanetCalendar" xml:space="preserve">
+    <value>Visma.net kalender</value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalBody" xml:space="preserve">
+    <value>Är du säker att du vill bekräfta på framtida datum? När händelserna väl är godkända, är det inte möjligt att göra nya fram till</value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalCancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalConfirm" xml:space="preserve">
+    <value>Ja, jag är klar</value>
+  </data>
+  <data name="Calendar.Labels.WarningApprovalTitle" xml:space="preserve">
+    <value>Varning! Detta är ett datum framåt i tiden</value>
+  </data>
+  <data name="Calendar.Labels.Week" xml:space="preserve">
+    <value>Vecka</value>
+  </data>
+  <data name="Calendar.Labels.WeekShortName" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="Calendar.Labels.WorkingHours" xml:space="preserve">
+    <value>Hantera arbetstid</value>
+  </data>
+  <data name="Calendar.Labels.Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="Calendar.Texts.HourFormatError" xml:space="preserve">
+    <value>Felaktigt värde. Ett giltigt värde är mellan 00:00 och 23:59</value>
+  </data>
+  <data name="Common.Errors.DataNotAvailable" xml:space="preserve">
+    <value>Beklagar, informationen kan inte visas just nu</value>
+  </data>
+  <data name="Common.Exceptions.ArgumentInvalid" xml:space="preserve">
+    <value>Argument {0} är ogiltigt</value>
+    <comment>p1</comment>
+  </data>
+  <data name="Common.Exceptions.ArgumentNull" xml:space="preserve">
+    <value>Argumentets värde for {0} is Null.</value>
+    <comment>p1</comment>
+  </data>
+  <data name="Common.Exceptions.CommandNotSet" xml:space="preserve">
+    <value>Kommandot är ogiltligt.</value>
+  </data>
+  <data name="Common.Exceptions.EntityDoesNotExistOrHasBeenRemoved" xml:space="preserve">
+    <value>Information finns inte eller är redan borttaget för {0}</value>
+    <comment>entity</comment>
+  </data>
+  <data name="Common.Exceptions.RequiredField" xml:space="preserve">
+    <value>Fältet är obligatoriskt</value>
+  </data>
+  <data name="Common.Labels.Absence" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="Common.Labels.AccountCode" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="Common.Labels.AccountFlags" xml:space="preserve">
+    <value>Redovisningsflaggor</value>
+  </data>
+  <data name="Common.Labels.Active" xml:space="preserve">
+    <value>Aktiva</value>
+  </data>
+  <data name="Common.Labels.ActiveEmployees" xml:space="preserve">
+    <value>Aktiva anställda</value>
+  </data>
+  <data name="Common.Labels.Age" xml:space="preserve">
+    <value>Ålder</value>
+  </data>
+  <data name="Common.Labels.Agreement" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="Common.Labels.All" xml:space="preserve">
+    <value>Alla</value>
+  </data>
+  <data name="Common.Labels.AllGroups" xml:space="preserve">
+    <value>Alla grupper</value>
+  </data>
+  <data name="Common.Labels.Anonymous" xml:space="preserve">
+    <value>Anonym</value>
+  </data>
+  <data name="Common.Labels.AppliesToGroup" xml:space="preserve">
+    <value>Gäller för grupp</value>
+  </data>
+  <data name="Common.Labels.ApprovalProcess" xml:space="preserve">
+    <value>Bekräfta/godkänna i kalender</value>
+  </data>
+  <data name="Common.Labels.ApproveUntil" xml:space="preserve">
+    <value>Godkänn till</value>
+  </data>
+  <data name="Common.Labels.Attendance" xml:space="preserve">
+    <value>Närvaro</value>
+  </data>
+  <data name="Common.Labels.BeginningOfScheduleTime" xml:space="preserve">
+    <value>Början av arbetspasset</value>
+  </data>
+  <data name="Common.Labels.Calendar" xml:space="preserve">
+    <value>Kalendarie</value>
+  </data>
+  <data name="Common.Labels.Code" xml:space="preserve">
+    <value>Kod</value>
+  </data>
+  <data name="Common.Labels.CollapseAll" xml:space="preserve">
+    <value>Kollapsa alla</value>
+  </data>
+  <data name="Common.Labels.Comment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="Common.Labels.CompanySettings" xml:space="preserve">
+    <value>Företagsinställningar</value>
+  </data>
+  <data name="Common.Labels.Compensation" xml:space="preserve">
+    <value>Ersättningsnivå</value>
+  </data>
+  <data name="Common.Labels.Condition" xml:space="preserve">
+    <value>Villkor</value>
+  </data>
+  <data name="Common.Labels.Confirmation" xml:space="preserve">
+    <value>Bekräfta</value>
+  </data>
+  <data name="Common.Labels.ConfirmUntil" xml:space="preserve">
+    <value>Rapportera klar till</value>
+  </data>
+  <data name="Common.Labels.ConnectedEmployees" xml:space="preserve">
+    <value>Anställda</value>
+  </data>
+  <data name="Common.Labels.Convert" xml:space="preserve">
+    <value>Omvandla</value>
+  </data>
+  <data name="Common.Labels.CreateCsvFile" xml:space="preserve">
+    <value>Ladda ner som CSV</value>
+  </data>
+  <data name="Common.Labels.CreateExcelFile" xml:space="preserve">
+    <value>Ladda ner som Excel</value>
+  </data>
+  <data name="Common.Labels.CreatePdfFile" xml:space="preserve">
+    <value>Ladda ner som PDF</value>
+  </data>
+  <data name="Common.Labels.Current" xml:space="preserve">
+    <value>Innevarande </value>
+  </data>
+  <data name="Common.Labels.CurrentVacationYear" xml:space="preserve">
+    <value>Aktuellt semesterår</value>
+  </data>
+  <data name="Common.Labels.CurrentVacationYearEndOfMonth" xml:space="preserve">
+    <value>Aktuellt semesterår - t.o.m. denna månad</value>
+  </data>
+  <data name="Common.Labels.CurrentValue" xml:space="preserve">
+    <value>Nuvarande saldo</value>
+  </data>
+  <data name="Common.Labels.DatabaseConnection" xml:space="preserve">
+    <value>Databasanslutning</value>
+  </data>
+  <data name="Common.Labels.Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Common.Labels.DateOfBirth" xml:space="preserve">
+    <value>Födelsedatum</value>
+  </data>
+  <data name="Common.Labels.Days" xml:space="preserve">
+    <value>Dagar</value>
+  </data>
+  <data name="Common.Labels.DaysSmallCase" xml:space="preserve">
+    <value>dagar</value>
+  </data>
+  <data name="Common.Labels.Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Common.Labels.DisplayName" xml:space="preserve">
+    <value>Visningsnamn</value>
+  </data>
+  <data name="Common.Labels.DoNotShowAgain" xml:space="preserve">
+    <value>Visa inte igen</value>
+  </data>
+  <data name="Common.Labels.DontShowAgain" xml:space="preserve">
+    <value>Visa inte igen</value>
+  </data>
+  <data name="Common.Labels.Employee" xml:space="preserve">
+    <value>Anställd</value>
+  </data>
+  <data name="Common.Labels.EmployeeNumber" xml:space="preserve">
+    <value>Anställningsnummer</value>
+  </data>
+  <data name="Common.Labels.Employees" xml:space="preserve">
+    <value>Anställda</value>
+  </data>
+  <data name="Common.Labels.Employment" xml:space="preserve">
+    <value>Anställning</value>
+  </data>
+  <data name="Common.Labels.Enable" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="Common.Labels.Enabled" xml:space="preserve">
+    <value>Aktiverad</value>
+  </data>
+  <data name="Common.Labels.EndDate" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+  <data name="Common.Labels.EndOfDaySelection" xml:space="preserve">
+    <value>Slutet(+)</value>
+  </data>
+  <data name="Common.Labels.EndOfScheduleTime" xml:space="preserve">
+    <value>Slutet av arbetspasset</value>
+  </data>
+  <data name="Common.Labels.EndTime" xml:space="preserve">
+    <value>Till tid</value>
+  </data>
+  <data name="Common.Labels.Error" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="Common.Labels.Errors" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="Common.Labels.EventCode" xml:space="preserve">
+    <value>Händelsekod</value>
+  </data>
+  <data name="Common.Labels.EventCodes" xml:space="preserve">
+    <value>Händelsekoder</value>
+  </data>
+  <data name="Common.Labels.EventCodeType" xml:space="preserve">
+    <value>Händelsetyp</value>
+  </data>
+  <data name="Common.Labels.EventCodeTypes" xml:space="preserve">
+    <value>Händelsetyper</value>
+  </data>
+  <data name="Common.Labels.ExpandAll" xml:space="preserve">
+    <value>Expandera alla</value>
+  </data>
+  <data name="Common.Labels.ExtraDays" xml:space="preserve">
+    <value>extra dagar</value>
+  </data>
+  <data name="Common.Labels.Failed" xml:space="preserve">
+    <value>Misslyckades</value>
+  </data>
+  <data name="Common.Labels.Filter" xml:space="preserve">
+    <value>Urval</value>
+  </data>
+  <data name="Common.Labels.FilterContains" xml:space="preserve">
+    <value>Filter (innehåller)</value>
+  </data>
+  <data name="Common.Labels.Filters" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Common.Labels.FiltersNotUsed" xml:space="preserve">
+    <value>Ingen filtrering</value>
+  </data>
+  <data name="Common.Labels.Finish" xml:space="preserve">
+    <value>Slutför</value>
+  </data>
+  <data name="Common.Labels.From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Common.Labels.FullDay" xml:space="preserve">
+    <value>Heldag</value>
+  </data>
+  <data name="Common.Labels.Future" xml:space="preserve">
+    <value>Framtida</value>
+  </data>
+  <data name="Common.Labels.FutureEmployees" xml:space="preserve">
+    <value>Framtida anställda</value>
+  </data>
+  <data name="Common.Labels.Help" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="Common.Labels.Hours" xml:space="preserve">
+    <value>Timmar</value>
+  </data>
+  <data name="Common.Labels.HoursShort" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="Common.Labels.HoursSmallCase" xml:space="preserve">
+    <value>timmar</value>
+  </data>
+  <data name="Common.Labels.HowToRegister" xml:space="preserve">
+    <value>Så här registrerar du.</value>
+  </data>
+  <data name="Common.Labels.Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Common.Labels.Inactive" xml:space="preserve">
+    <value>Inaktiva</value>
+  </data>
+  <data name="Common.Labels.InactiveEmployees" xml:space="preserve">
+    <value>Inaktiva anställda</value>
+  </data>
+  <data name="Common.Labels.InputType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Common.Labels.Interval" xml:space="preserve">
+    <value>Intervall</value>
+  </data>
+  <data name="Common.Labels.IsOverriden" xml:space="preserve">
+    <value>Trumfande värde på denna organisation/nivå</value>
+  </data>
+  <data name="Common.Labels.LeaveRequestComment" xml:space="preserve">
+    <value>Kommentar från godkännare</value>
+  </data>
+  <data name="Common.Labels.Level" xml:space="preserve">
+    <value>Nivå</value>
+  </data>
+  <data name="Common.Labels.Levels" xml:space="preserve">
+    <value>Anställningsgrupper</value>
+  </data>
+  <data name="Common.Labels.List" xml:space="preserve">
+    <value>Översikt</value>
+  </data>
+  <data name="Common.Labels.Login" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="Common.Labels.Logout" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="Common.Labels.MedicalCertificateFrom" xml:space="preserve">
+    <value>Läkarintyg från</value>
+  </data>
+  <data name="Common.Labels.MedicalCertificatePercentage" xml:space="preserve">
+    <value>Läkarintyg i procent</value>
+  </data>
+  <data name="Common.Labels.MinutesShort" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Common.Labels.Months" xml:space="preserve">
+    <value>Månader</value>
+  </data>
+  <data name="Common.Labels.More" xml:space="preserve">
+    <value>Mer</value>
+  </data>
+  <data name="Common.Labels.MoreRegistrations" xml:space="preserve">
+    <value>Fler registreringar</value>
+  </data>
+  <data name="Common.Labels.MultipleTasks" xml:space="preserve">
+    <value>Flera uppgifter räknas:</value>
+  </data>
+  <data name="Common.Labels.Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Common.Labels.New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Common.Labels.Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="Common.Labels.NextVacationYear" xml:space="preserve">
+    <value>Nästa semesterår</value>
+  </data>
+  <data name="Common.Labels.None" xml:space="preserve">
+    <value>Inget</value>
+  </data>
+  <data name="Common.Labels.Notes" xml:space="preserve">
+    <value>Notering</value>
+  </data>
+  <data name="Common.Labels.Nr" xml:space="preserve">
+    <value>Nr</value>
+  </data>
+  <data name="Common.Labels.Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Common.Labels.NumEmployeesChanges" xml:space="preserve">
+    <value>{0} förändringar på anställda</value>
+    <comment>num</comment>
+  </data>
+  <data name="Common.Labels.Open" xml:space="preserve">
+    <value>Öppen</value>
+  </data>
+  <data name="Common.Labels.Organization" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="Common.Labels.Other" xml:space="preserve">
+    <value>Annan</value>
+  </data>
+  <data name="Common.Labels.OtherAbsence" xml:space="preserve">
+    <value>Annan frånvaro</value>
+  </data>
+  <data name="Common.Labels.Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="Common.Labels.PayoutRequest" xml:space="preserve">
+    <value>Saldouttag</value>
+  </data>
+  <data name="Common.Labels.Percent" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="Common.Labels.Periods" xml:space="preserve">
+    <value>Period(er)</value>
+  </data>
+  <data name="Common.Labels.PositionNumber" xml:space="preserve">
+    <value>Kontraktsnummer</value>
+  </data>
+  <data name="Common.Labels.Previous" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="Common.Labels.PreviousVacationYear" xml:space="preserve">
+    <value>Föregående semesterår</value>
+  </data>
+  <data name="Common.Labels.Refundable" xml:space="preserve">
+    <value>Återbetalning</value>
+  </data>
+  <data name="Common.Labels.RequiresNewStartValues" xml:space="preserve">
+    <value>Behöver startvärden</value>
+  </data>
+  <data name="Common.Labels.Roster" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="Common.Labels.RosterTemplate" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="Common.Labels.RosterTemplates" xml:space="preserve">
+    <value>Scheman</value>
+  </data>
+  <data name="Common.Labels.Scheduled" xml:space="preserve">
+    <value>Schemalagda timmar</value>
+  </data>
+  <data name="Common.Labels.ScheduledHours" xml:space="preserve">
+    <value>Schemalagd tid</value>
+  </data>
+  <data name="Common.Labels.Script" xml:space="preserve">
+    <value>Formel</value>
+  </data>
+  <data name="Common.Labels.ScriptCode" xml:space="preserve">
+    <value>Formel innehåller</value>
+  </data>
+  <data name="Common.Labels.ScriptType" xml:space="preserve">
+    <value>Formel typ</value>
+  </data>
+  <data name="Common.Labels.ScriptUsed" xml:space="preserve">
+    <value>Använd formel</value>
+  </data>
+  <data name="Common.Labels.Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="Common.Labels.SelfCertifiedSickness" xml:space="preserve">
+    <value>Egen sjukanmälan</value>
+  </data>
+  <data name="Common.Labels.SettingsFor" xml:space="preserve">
+    <value>Inställningar för {0}</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Labels.SkipGuide" xml:space="preserve">
+    <value>Hoppa över guiden</value>
+  </data>
+  <data name="Common.Labels.SpecialDay" xml:space="preserve">
+    <value>Helgdag</value>
+  </data>
+  <data name="Common.Labels.SpecialDays" xml:space="preserve">
+    <value>Helgdagar</value>
+  </data>
+  <data name="Common.Labels.StartDate" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+  <data name="Common.Labels.StartOfDaySelection" xml:space="preserve">
+    <value>Början(-)</value>
+  </data>
+  <data name="Common.Labels.StartTime" xml:space="preserve">
+    <value>Från tid</value>
+  </data>
+  <data name="Common.Labels.StartValue" xml:space="preserve">
+    <value>Start saldo</value>
+  </data>
+  <data name="Common.Labels.Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Common.Labels.TimeAgreement" xml:space="preserve">
+    <value>Tidsavtal</value>
+  </data>
+  <data name="Common.Labels.TimeBalanceDefinitions" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Common.Labels.TimeModule" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="Common.Labels.TimeOfDay" xml:space="preserve">
+    <value>Tidpunkt</value>
+  </data>
+  <data name="Common.Labels.Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Common.Labels.To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Common.Labels.Total" xml:space="preserve">
+    <value>Totalt</value>
+  </data>
+  <data name="Common.Labels.Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Common.Labels.Undo" xml:space="preserve">
+    <value>Ångra</value>
+  </data>
+  <data name="Common.Labels.Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Common.Labels.Updated" xml:space="preserve">
+    <value>Uppdaterad</value>
+  </data>
+  <data name="Common.Labels.UserLoggedIn" xml:space="preserve">
+    <value>Inloggad</value>
+  </data>
+  <data name="Common.Labels.Username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="Common.Labels.VacationType" xml:space="preserve">
+    <value>Semester typ</value>
+  </data>
+  <data name="Common.Labels.VacationYear" xml:space="preserve">
+    <value>Semesterår</value>
+  </data>
+  <data name="Common.Labels.ValidAtDate" xml:space="preserve">
+    <value>Giltig på datum</value>
+  </data>
+  <data name="Common.Labels.ValidFrom" xml:space="preserve">
+    <value>Giltig från</value>
+  </data>
+  <data name="Common.Labels.ValidTo" xml:space="preserve">
+    <value>Giltig till</value>
+  </data>
+  <data name="Common.Labels.Weeks" xml:space="preserve">
+    <value>Veckor</value>
+  </data>
+  <data name="Common.NotificationTitles.Error" xml:space="preserve">
+    <value>Fel!</value>
+  </data>
+  <data name="Common.NotificationTitles.Info" xml:space="preserve">
+    <value>Information!</value>
+  </data>
+  <data name="Common.NotificationTitles.Success" xml:space="preserve">
+    <value>Succé!</value>
+  </data>
+  <data name="Common.NotificationTitles.Warning" xml:space="preserve">
+    <value>Varning!</value>
+  </data>
+  <data name="Common.Placeholders.StartTyping" xml:space="preserve">
+    <value>Skriv här för att söka</value>
+  </data>
+  <data name="Common.Texts.AddToGroup" xml:space="preserve">
+    <value>Lägg till nivå</value>
+  </data>
+  <data name="Common.Texts.ApprovedLeaveRequestWarning" xml:space="preserve">
+    <value>Denna ledighet är redan godkänd. Om du gör ändringar måste ledigheten godkännas på nytt.</value>
+  </data>
+  <data name="Common.Texts.Basic" xml:space="preserve">
+    <value>Basuppgifter</value>
+  </data>
+  <data name="Common.Texts.ChangeOfValue" xml:space="preserve">
+    <value>Ändring av värden eller data i detta fönster, kan ha en påverkan av redovisningen för semesterersättning. Det finns ingen automatisk hantering av detta i systemet. Detta måste tas omhand manuellt.</value>
+  </data>
+  <data name="Common.Texts.ConcurrencyException" xml:space="preserve">
+    <value>Aktuell sida har ny information. Uppdatera sidan genom att klicka på OK.</value>
+  </data>
+  <data name="Common.Texts.ConfirmCancel" xml:space="preserve">
+    <value>Är du säker på att du vill avbryta?</value>
+  </data>
+  <data name="Common.Texts.ConfirmDelete" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort?</value>
+  </data>
+  <data name="Common.Texts.ConfirmDeleteAllVersions" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort posten och alla dess versioner?</value>
+  </data>
+  <data name="Common.Texts.Create" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="Common.Texts.Created" xml:space="preserve">
+    <value>Skapat {0}.</value>
+    <comment>entity</comment>
+  </data>
+  <data name="Common.Texts.DataNotFound" xml:space="preserve">
+    <value>Sidan kunde inte laddas korrekt. Prova att ladda om sidan.</value>
+  </data>
+  <data name="Common.Texts.DateMissing" xml:space="preserve">
+    <value>Datum är ett obligatoriskt fält</value>
+  </data>
+  <data name="Common.Texts.Deleted" xml:space="preserve">
+    <value>Borttagen</value>
+  </data>
+  <data name="Common.Texts.DeleteEventcode" xml:space="preserve">
+    <value>Ta bort händelsekod?</value>
+  </data>
+  <data name="Common.Texts.DeleteScript" xml:space="preserve">
+    <value>Ta bort formel?</value>
+  </data>
+  <data name="Common.Texts.DeleteVacationAgreement" xml:space="preserve">
+    <value>Ta bort semesteravtal?</value>
+  </data>
+  <data name="Common.Texts.DoesNotExist" xml:space="preserve">
+    <value>{0} finns inte</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Texts.EventDeleted" xml:space="preserve">
+    <value>Händelsen kommer nu att tas bort</value>
+  </data>
+  <data name="Common.Texts.EventType" xml:space="preserve">
+    <value>Händelsetyper</value>
+  </data>
+  <data name="Common.Texts.ExternalSystem" xml:space="preserve">
+    <value>Externt system</value>
+  </data>
+  <data name="Common.Texts.FilterContent" xml:space="preserve">
+    <value>Välj kolumner</value>
+  </data>
+  <data name="Common.Texts.Forbidden" xml:space="preserve">
+    <value>Förbjuden åtgärd!</value>
+  </data>
+  <data name="Common.Texts.FromExisting" xml:space="preserve">
+    <value>från befintlig</value>
+  </data>
+  <data name="Common.Texts.FromScratch" xml:space="preserve">
+    <value>från grunden</value>
+  </data>
+  <data name="Common.Texts.FutureVersionExists" xml:space="preserve">
+    <value>Denna regel har en nyare / framtida version. Ändringar i denna version, ingår inte i framtida versioner.</value>
+  </data>
+  <data name="Common.Texts.HowChangesTakeEffect" xml:space="preserve">
+    <value>Hur ska ändringar påverka?</value>
+  </data>
+  <data name="Common.Texts.InheritedFrom" xml:space="preserve">
+    <value>ärver från {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Common.Texts.LeaveRequestApprovedBy" xml:space="preserve">
+    <value>Denna ledighetsansökan kommer att behandlas av {0}</value>
+    <comment> name</comment>
+  </data>
+  <data name="Common.Texts.LeaveRequestComment" xml:space="preserve">
+    <value>Lägg till en kommentar för denna ledighetsansökan</value>
+  </data>
+  <data name="Common.Texts.LeaveRequestDeleted" xml:space="preserve">
+    <value>Du har tagit bort en godkänd ledighet från din kalender.</value>
+  </data>
+  <data name="Common.Texts.LeaveRequestDeniedBy" xml:space="preserve">
+    <value>Din ledighetsansökan blev inte godkänd av {0}</value>
+    <comment>name</comment>
+  </data>
+  <data name="Common.Texts.LeaveRequestsCommentRequired" xml:space="preserve">
+    <value>En kommentar måste anges för denna händelse</value>
+  </data>
+  <data name="Common.Texts.LeaveRequestSent" xml:space="preserve">
+    <value>Din ledighetsansökan kommer nu att behandlas av din chef!</value>
+  </data>
+  <data name="Common.Texts.Loading" xml:space="preserve">
+    <value>Laddar...</value>
+  </data>
+  <data name="Common.Texts.LoadingData" xml:space="preserve">
+    <value>Laddar...</value>
+  </data>
+  <data name="Common.Texts.LocalizedStringRequired" xml:space="preserve">
+    <value>Du måste fylla i minst en översättning.</value>
+  </data>
+  <data name="Common.Texts.Locked" xml:space="preserve">
+    <value>Låst</value>
+  </data>
+  <data name="Common.Texts.Logout" xml:space="preserve">
+    <value>Du har blivit utloggad!</value>
+  </data>
+  <data name="Common.Texts.Maintenence" xml:space="preserve">
+    <value>Underhåll</value>
+  </data>
+  <data name="Common.Texts.MaxResult" xml:space="preserve">
+    <value>Förfina sökningen
+</value>
+  </data>
+  <data name="Common.Texts.Miscellaneous" xml:space="preserve">
+    <value>Övrigt</value>
+  </data>
+  <data name="Common.Texts.Mobile" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="Common.Texts.MustBeLargerThan" xml:space="preserve">
+    <value>{0} måste vara större än {1}</value>
+    <comment>p1,p2</comment>
+  </data>
+  <data name="Common.Texts.MustBeZeroOrLarger" xml:space="preserve">
+    <value>{0} måste vara noll eller större.</value>
+    <comment>p1</comment>
+  </data>
+  <data name="Common.Texts.NbrOfHits" xml:space="preserve">
+    <value>{0} träffar</value>
+    <comment>count</comment>
+  </data>
+  <data name="Common.Texts.NewInGroup" xml:space="preserve">
+    <value>{0} skapas i nivå:</value>
+    <comment>0</comment>
+  </data>
+  <data name="Common.Texts.NoGroups" xml:space="preserve">
+    <value>Ingen nivå att välja</value>
+  </data>
+  <data name="Common.Texts.NoResult" xml:space="preserve">
+    <value>Inga träffar</value>
+  </data>
+  <data name="Common.Texts.NotEmployed" xml:space="preserve">
+    <value>Det finns ingen anställning på valt datum</value>
+  </data>
+  <data name="Common.Texts.NotEmployedText" xml:space="preserve">
+    <value>Ej anställd</value>
+  </data>
+  <data name="Common.Texts.NumberSelected" xml:space="preserve">
+    <value>{0} valda</value>
+    <comment>count</comment>
+  </data>
+  <data name="Common.Texts.OperationTimeout" xml:space="preserve">
+    <value>HOPPSAN! Det tog längre tid än väntat. Var god vänta, eller ladda om sidan och försök igen.</value>
+  </data>
+  <data name="Common.Texts.OverwriteCurrentValues" xml:space="preserve">
+    <value>Vill du skriva över aktuella värden?</value>
+  </data>
+  <data name="Common.Texts.ProcessingData" xml:space="preserve">
+    <value>Bearbetar data...</value>
+  </data>
+  <data name="Common.Texts.RangeFromTo" xml:space="preserve">
+    <value>{0} till {1}</value>
+    <comment>from,to</comment>
+  </data>
+  <data name="Common.Texts.Recalculate" xml:space="preserve">
+    <value>Beräkna om...</value>
+  </data>
+  <data name="Common.Texts.RegisteredBy" xml:space="preserve">
+    <value>Registrerad av {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Common.Texts.RegisteredIn" xml:space="preserve">
+    <value>Registrerad i</value>
+  </data>
+  <data name="Common.Texts.Remember" xml:space="preserve">
+    <value>Information!</value>
+  </data>
+  <data name="Common.Texts.RemoveAll" xml:space="preserve">
+    <value>Ta bort alla</value>
+  </data>
+  <data name="Common.Texts.SavedButContainsErrors" xml:space="preserve">
+    <value>Sparad, men innehåller felaktigheter. Var god korrigera dessa och försök spara igen.</value>
+  </data>
+  <data name="Common.Texts.Saving" xml:space="preserve">
+    <value>Sparar...</value>
+  </data>
+  <data name="Common.Texts.SavingData" xml:space="preserve">
+    <value>Sparar...</value>
+  </data>
+  <data name="Common.Texts.SearchHere" xml:space="preserve">
+    <value>Sök här</value>
+  </data>
+  <data name="Common.Texts.SelectAll" xml:space="preserve">
+    <value>Välj alla</value>
+  </data>
+  <data name="Common.Texts.SelectEmployeeFromMenu" xml:space="preserve">
+    <value>Välj en anställd i menyn</value>
+  </data>
+  <data name="Common.Texts.SelectGroup" xml:space="preserve">
+    <value>Välj nivå</value>
+  </data>
+  <data name="Common.Texts.SelectReportFromMenu" xml:space="preserve">
+    <value>Välj rapport i menyn till vänster</value>
+  </data>
+  <data name="Common.Texts.SettingsBlankMenu" xml:space="preserve">
+    <value>Välkommen till administrationssidorna för ditt företag. Som systemadministratör kan du uppdatera reglerna för ditt företag, t.ex. för händelsekoder och semesterberäkningen. Välj ett av alternativen i menyn till vänster.</value>
+  </data>
+  <data name="Common.Texts.SettingsCalendar" xml:space="preserve">
+    <value>Inställningar för kalendern</value>
+  </data>
+  <data name="Common.Texts.SettingsRoster" xml:space="preserve">
+    <value>Inställningar för schema</value>
+  </data>
+  <data name="Common.Texts.SettingsRules" xml:space="preserve">
+    <value>Inställningar för avancerade regler</value>
+  </data>
+  <data name="Common.Texts.SettingsTime" xml:space="preserve">
+    <value>Inställningar för Tid</value>
+  </data>
+  <data name="Common.Texts.SettingsVacationAgreement" xml:space="preserve">
+    <value>Inställningar för semesteravtal</value>
+  </data>
+  <data name="Common.Texts.TypeHereToSearch" xml:space="preserve">
+    <value>Skriv här för att söka</value>
+  </data>
+  <data name="Common.Texts.Updated" xml:space="preserve">
+    <value>Uppdaterat {0}.</value>
+    <comment>entity</comment>
+  </data>
+  <data name="Common.Texts.VacationHolidayPercantageChange" xml:space="preserve">
+    <value>Ändringar som gjorts i semesterlöneprocent kommer att ha effekt på semesterberäkningen från det datum som valts som Giltig from. Förändringar i antalet semesterdagar på semesteravtalet, kommer inte att påverka de anställda semesterrätt för nuvarande eller kommande år. Detta måste ändras manuellt på varje anställds semesterrätt.</value>
+  </data>
+  <data name="Common.Texts.ValidationSummaryTitle" xml:space="preserve">
+    <value>Felmeddelande!</value>
+  </data>
+  <data name="Common.Texts.ValidFrom" xml:space="preserve">
+    <value>Giltig från</value>
+  </data>
+  <data name="Common.Texts.ValidFromEdit" xml:space="preserve">
+    <value>Gör ändringar giltiga från och med</value>
+  </data>
+  <data name="Common.Texts.ValuesForVacation" xml:space="preserve">
+    <value>Semesterrätten är högre än vad som anges på semester avtalet. Är du säker?</value>
+  </data>
+  <data name="Common.Texts.Web" xml:space="preserve">
+    <value>Webb</value>
+  </data>
+  <data name="Common.Texts.WorkshiftMissingUnableToRegister" xml:space="preserve">
+    <value>Du kan inte registrera en ny händelse eftersom arbetspass saknas på valt datum</value>
+  </data>
+  <data name="Common.Texts.YearsOld" xml:space="preserve">
+    <value>{0} år gammal</value>
+    <comment>p1</comment>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.CalculateSalary" xml:space="preserve">
+    <value>Till löneberäkning</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.FinnishedWithPeriod" xml:space="preserve">
+    <value>Periodens registrering är klara (anställd)</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.LockPeriod" xml:space="preserve">
+    <value>Period godkänd (admin/chef)</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.Note" xml:space="preserve">
+    <value>* En ledighetsansökan måste alltid godkännas innan den är med i denna process </value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.Registration" xml:space="preserve">
+    <value>Registrering</value>
+  </data>
+  <data name="CompanySettings.ConfirmApprove.Title" xml:space="preserve">
+    <value>Överföring av registreringar till löneberäkningen</value>
+  </data>
+  <data name="ComponentModel.DataAnnotations.DataTypeAttribute" xml:space="preserve">
+    <value>Ogiltigt värde {0}, måste vara av typen {1}.</value>
+    <comment>value,datatype</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.DateAttribute" xml:space="preserve">
+    <value>Fältet {0} måste vara ett datum</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.NumberAttribute" xml:space="preserve">
+    <value>Fältet {0} måste vara siffror.</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.NumericAttribute" xml:space="preserve">
+    <value>Fältet {0} måste vara numeriskt</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RangeAttribute" xml:space="preserve">
+    <value>Fältet {0} måste vara mellan {1} och {2}.</value>
+    <comment>name,min,max</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RegularExpressionAttribute" xml:space="preserve">
+    <value>Fältet {0} måste matcha uttrycket {1}.</value>
+    <comment>name,pattern</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RequiredAttribute" xml:space="preserve">
+    <value>Fältet {0} är obligatorisk</value>
+    <comment>name</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.RequiredAttributes" xml:space="preserve">
+    <value>Fälten {0} och {1} är tvingande.</value>
+    <comment>name1,name2</comment>
+  </data>
+  <data name="ComponentModel.DataAnnotations.StringLengthAttribute" xml:space="preserve">
+    <value>Fältet {0} måste vara en sträng med en maximal längd på {1}.</value>
+    <comment>name,maximumLength</comment>
+  </data>
+  <data name="Control.DataTables.ButtonClose" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Control.DataTables.ButtonOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Control.DataTables.ButtonReset" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="Control.DataTables.Comment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="Control.DataTables.Display" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Control.DataTables.GridEmptyPagingInfo" xml:space="preserve">
+    <value>Visar 0 till 0 av 0</value>
+  </data>
+  <data name="Control.DataTables.GridEmptyTable" xml:space="preserve">
+    <value>Ingen data att visa i tabellen</value>
+  </data>
+  <data name="Control.DataTables.GridFilterEnterAValue" xml:space="preserve">
+    <value>Skriv ett värde</value>
+  </data>
+  <data name="Control.DataTables.GridFilterNoFilter" xml:space="preserve">
+    <value>Inget filter</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTitle" xml:space="preserve">
+    <value>Välj filter</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeBetweenLabel" xml:space="preserve">
+    <value>Mellan</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeContainsLabel" xml:space="preserve">
+    <value>Innehåller</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeEqualsToLabel" xml:space="preserve">
+    <value>Lika med</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeGreaterThanLabel" xml:space="preserve">
+    <value>Större än</value>
+  </data>
+  <data name="Control.DataTables.GridFilterTypeLessThanLabel" xml:space="preserve">
+    <value>Mindre än</value>
+  </data>
+  <data name="Control.DataTables.GridLoadingData" xml:space="preserve">
+    <value>Laddar...</value>
+  </data>
+  <data name="Control.DataTables.GridPagingInfo" xml:space="preserve">
+    <value>Visar {0} till {1} av {2}</value>
+    <comment>0,1,2</comment>
+  </data>
+  <data name="Control.DataTables.GridPagingInfoFiltered" xml:space="preserve">
+    <value>(filtered from {0} total entries)</value>
+    <comment>0</comment>
+  </data>
+  <data name="Control.DataTables.GridSettingsHeaderSelectColumns" xml:space="preserve">
+    <value>Välj kolumner</value>
+  </data>
+  <data name="Control.DataTables.GridSettingsShowFilterRow" xml:space="preserve">
+    <value>Visa filterrad</value>
+  </data>
+  <data name="Control.DataTables.GridZeroRecords" xml:space="preserve">
+    <value>Inget resultat</value>
+  </data>
+  <data name="Control.DataTables.RangeFrom" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Control.DataTables.RangeTo" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Control.DataTables.ValueFalse" xml:space="preserve">
+    <value>Falskt</value>
+  </data>
+  <data name="Control.DataTables.ValueTrue" xml:space="preserve">
+    <value>Sant</value>
+  </data>
+  <data name="Controls.Buttons.Add" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="Controls.Buttons.AddAgreement" xml:space="preserve">
+    <value>Lägg till semesteravtal</value>
+  </data>
+  <data name="Controls.Buttons.AddEventCode" xml:space="preserve">
+    <value>Lägg till händelsekod</value>
+  </data>
+  <data name="Controls.Buttons.AddParallelPayCode" xml:space="preserve">
+    <value>Lägg till parallell löneart</value>
+  </data>
+  <data name="Controls.Buttons.AddScript" xml:space="preserve">
+    <value>Lägg till formel</value>
+  </data>
+  <data name="Controls.Buttons.Approve" xml:space="preserve">
+    <value>Godkänn</value>
+  </data>
+  <data name="Controls.Buttons.ApproveAll" xml:space="preserve">
+    <value>Godkänn alla </value>
+  </data>
+  <data name="Controls.Buttons.Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Controls.Buttons.Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Controls.Buttons.Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Controls.Buttons.Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Controls.Buttons.Deny" xml:space="preserve">
+    <value>Avvisa</value>
+  </data>
+  <data name="Controls.Buttons.Edit" xml:space="preserve">
+    <value>Ändra</value>
+  </data>
+  <data name="Controls.Buttons.Keep" xml:space="preserve">
+    <value>Behåll</value>
+  </data>
+  <data name="Controls.Buttons.Login" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="Controls.Buttons.Logout" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="Controls.Buttons.New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Controls.Buttons.Next" xml:space="preserve">
+    <value>Nästa</value>
+  </data>
+  <data name="Controls.Buttons.Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Controls.Buttons.Overwrite" xml:space="preserve">
+    <value>Skriv över</value>
+  </data>
+  <data name="Controls.Buttons.Pending" xml:space="preserve">
+    <value>För godkännande</value>
+  </data>
+  <data name="Controls.Buttons.Previous" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="Controls.Buttons.Reject" xml:space="preserve">
+    <value>Avvisa</value>
+  </data>
+  <data name="Controls.Buttons.RemoveParallelPayCode" xml:space="preserve">
+    <value>Ta bort parallel löneart</value>
+  </data>
+  <data name="Controls.Buttons.Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Controls.Buttons.Uppdate" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="Database.ErrorMessages.DatabaseUndefined" xml:space="preserve">
+    <value>Ingen databasanslutning vald.</value>
+  </data>
+  <data name="Employee.Texts.Employee" xml:space="preserve">
+    <value>Anställd</value>
+  </data>
+  <data name="Employee.Texts.EmployeeHasNoEmploymentInPeriod" xml:space="preserve">
+    <value>Personen är inte anställd under tiden för ändringen</value>
+  </data>
+  <data name="Employee.Texts.EmployeeIsMissingVacationAgreement" xml:space="preserve">
+    <value>Anställd saknar semesteravtal</value>
+  </data>
+  <data name="Employee.Texts.EmployeePositionEndDateIsLessThanAgreementStartDate" xml:space="preserve">
+    <value>Kontraktets slutdatum är tidigare än anställningens start datum</value>
+  </data>
+  <data name="Employee.Texts.EmployeePositionIsNotFound" xml:space="preserve">
+    <value>Kontrakt på anställd hittades inte</value>
+  </data>
+  <data name="Employee.Texts.ManualChangesCurrentYearError" xml:space="preserve">
+    <value>Du gör nu ändringar i semesteravtalet. Eftersom du redan har gjort manuella ändringar i Semesterberäkning, kommer saldon för det aktuella året INTE att uppdateras. Vänligen gå igenom semesterberäkningsbalansen efter det här spara</value>
+  </data>
+  <data name="Employee.Texts.TimeAgreeementIsNotValidForChoosenPeriod" xml:space="preserve">
+    <value>Tidsavtal är inte giltigt för den valda perioden</value>
+  </data>
+  <data name="Employee.Texts.TimeAgreementSettings" xml:space="preserve">
+    <value>Inställningar tidsavtal</value>
+  </data>
+  <data name="Employee.Texts.VacationAgreeementIsNotValidForChoosenPeriod" xml:space="preserve">
+    <value>Semesteravtalet är inte giltigt för vald period</value>
+  </data>
+  <data name="Employee.Texts.VacationSettings" xml:space="preserve">
+    <value>Semesterinställningar</value>
+  </data>
+  <data name="Employee.Texts.ValidToGreaterOrEqualToValidFrom" xml:space="preserve">
+    <value>Giltigt till måste vara större än Gäller från</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.AdditionalVacationEntitlement" xml:space="preserve">
+    <value>Extra semesterrätt enligt avtal</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.AdditionalVacationEntitlementFromAge" xml:space="preserve">
+    <value>Extra semesterrätt efter ålder</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.Agreement" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.Quota" xml:space="preserve">
+    <value>Kvot</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.VacationEntitlement" xml:space="preserve">
+    <value>Semesterrätt</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.VactionAgreementEndDate" xml:space="preserve">
+    <value>Kontrakt till datum</value>
+  </data>
+  <data name="EmployeeAgreement.Labels.VactionAgreementStartDate" xml:space="preserve">
+    <value>Kontrakt från datum</value>
+  </data>
+  <data name="EmployeeVacation.Texts.EmployeeVacation" xml:space="preserve">
+    <value>Anställds semester</value>
+  </data>
+  <data name="EmployeeWorkshift.Texts.EmployeeWorkshift" xml:space="preserve">
+    <value>Anställds arbetspass</value>
+  </data>
+  <data name="Employment.Lables.ControlLengthBeforeValidRegistration" xml:space="preserve">
+    <value>Kontrollera minsta anställningstid innan händelskoden kan användas</value>
+  </data>
+  <data name="Employment.Lables.LengthBeforeValidAbsence" xml:space="preserve">
+    <value>Anställningstid för giltig frånvaro</value>
+  </data>
+  <data name="Employment.Lables.NewControlAfter" xml:space="preserve">
+    <value>Om avbrottet är max {0} {1}</value>
+    <comment>amount,unit</comment>
+  </data>
+  <data name="Employment.Lables.NewControlWhenInterruptions" xml:space="preserve">
+    <value>Behandla flera anställningar tillsammans</value>
+  </data>
+  <data name="Employment.Lables.PossibleToRegisterAfter" xml:space="preserve">
+    <value>Möjlig att använda efter {0} {1} av anställningstid</value>
+    <comment>amount,unit</comment>
+  </data>
+  <data name="Enums.LeaveRequests.Approved" xml:space="preserve">
+    <value>Godkänd</value>
+  </data>
+  <data name="Enums.LeaveRequests.Denied" xml:space="preserve">
+    <value>Avvisad</value>
+  </data>
+  <data name="Enums.LeaveRequests.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Enums.LeaveRequests.NotApproved" xml:space="preserve">
+    <value>Ej godkänd</value>
+  </data>
+  <data name="Enums.LeaveRequests.Pending" xml:space="preserve">
+    <value>För godkännande</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Days" xml:space="preserve">
+    <value>Dgr</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Hours" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Kilometers" xml:space="preserve">
+    <value>Km</value>
+  </data>
+  <data name="Enums.PaycodeUnit.Mil" xml:space="preserve">
+    <value>Mil</value>
+  </data>
+  <data name="Enums.PaycodeUnit.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Enums.PaycodeUnit.Piece" xml:space="preserve">
+    <value>St</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.Approved" xml:space="preserve">
+    <value>Godkända registreringar</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.Confirmed" xml:space="preserve">
+    <value>Klarmarkerade registreringar</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.NotApproved" xml:space="preserve">
+    <value>Ej godkända registreringar</value>
+  </data>
+  <data name="Enums.TimesheetListViewRegistrationStatus.NotConfirmed" xml:space="preserve">
+    <value>Ej klarmarkerade registreringar</value>
+  </data>
+  <data name="Enums.TransactionStatus.Approved" xml:space="preserve">
+    <value>Godkänd</value>
+  </data>
+  <data name="Enums.TransactionStatus.ApprovedAndLocked" xml:space="preserve">
+    <value>Godkänd och låst</value>
+  </data>
+  <data name="Enums.TransactionStatus.None" xml:space="preserve">
+    <value>För godkännande</value>
+  </data>
+  <data name="Enums.TransactionStatus.Processed" xml:space="preserve">
+    <value>Bearbetad</value>
+  </data>
+  <data name="Enums.TransactionStatus.ProcessedAndLocked" xml:space="preserve">
+    <value>Bearbetad och låst</value>
+  </data>
+  <data name="Enums.TransactionStatus.Received" xml:space="preserve">
+    <value>Mottagen</value>
+  </data>
+  <data name="Enums.TransactionStatus.ReceivedAndLocked" xml:space="preserve">
+    <value>Mottagen och låst</value>
+  </data>
+  <data name="Enums.TransactionStatus.Sent" xml:space="preserve">
+    <value>Skickad till lön</value>
+  </data>
+  <data name="Enums.TransactionStatus.SentAndLocked" xml:space="preserve">
+    <value>Skickad till lön och låst</value>
+  </data>
+  <data name="Enums.TransactionUnit.CalendarDays" xml:space="preserve">
+    <value>Kalenderdagar</value>
+  </data>
+  <data name="Enums.TransactionUnit.Hours" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="Enums.TransactionUnit.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Enums.TransactionUnit.WorkingDays" xml:space="preserve">
+    <value>Arbetsdagar</value>
+  </data>
+  <data name="Enums.TransactionUnit.WorkShifts" xml:space="preserve">
+    <value>Arbetspass</value>
+  </data>
+  <data name="EventCode.Texts.EventCode" xml:space="preserve">
+    <value>Händelsekod</value>
+  </data>
+  <data name="EventCodeEnums.Exceptions.InvalidEnumKey" xml:space="preserve">
+    <value>Ogiltig enum nyckel {0}</value>
+    <comment>key</comment>
+  </data>
+  <data name="Exceptions.Avvikelse.IsMissing" xml:space="preserve">
+    <value>Registreringen saknas.</value>
+  </data>
+  <data name="Exceptions.Avvikelsetype.IsNotValid" xml:space="preserve">
+    <value>Händelsekoden är felaktig</value>
+  </data>
+  <data name="Exceptions.DatePeriod.Exception" xml:space="preserve">
+    <value>Från datum får inte vara större än till datum</value>
+  </data>
+  <data name="Exceptions.DatePeriod.StartAndEndAreSame" xml:space="preserve">
+    <value>Start kan inte vara samma tidpunkt som slut.</value>
+  </data>
+  <data name="Exceptions.DateWithTimePeriod.Exception" xml:space="preserve">
+    <value>Från datum får inte vara större än till datum</value>
+  </data>
+  <data name="Exceptions.HoursInvalidFormat.LessOrEqualToZero" xml:space="preserve">
+    <value>Antal timmar måste anges (större än 0).</value>
+  </data>
+  <data name="Exceptions.HoursInvalidFormat.ParseError" xml:space="preserve">
+    <value>Ogiltligt format för antal timmar</value>
+  </data>
+  <data name="Exceptions.Overlapping.OverlappingPeriod" xml:space="preserve">
+    <value>Perioden är överlappande mellan år {0} och {1}</value>
+    <comment>from_year,to_year</comment>
+  </data>
+  <data name="Exceptions.PercentInvalidFormat.Exception" xml:space="preserve">
+    <value>Ogiltligt format för procent</value>
+  </data>
+  <data name="Exceptions.PercentLargerThan100.Exception" xml:space="preserve">
+    <value>Procentsats kan max vara 100 %.</value>
+  </data>
+  <data name="Exceptions.PercentZeroOrLess.Exception" xml:space="preserve">
+    <value>Procentsats måste anges (större än 0).</value>
+  </data>
+  <data name="Exceptions.Person.IsMissing" xml:space="preserve">
+    <value>Personen saknas</value>
+  </data>
+  <data name="Exceptions.Script.DoesNotExist" xml:space="preserve">
+    <value>Formeln finns inte</value>
+  </data>
+  <data name="Facades.Exceptions.NoActiveWageRunPeriod" xml:space="preserve">
+    <value>Ingen aktiv löneperiod</value>
+  </data>
+  <data name="Globalization.Culture.English" xml:space="preserve">
+    <value>Engelska</value>
+  </data>
+  <data name="Globalization.Culture.Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Globalization.Culture.Languages" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Globalization.Culture.LanguagesArray" xml:space="preserve">
+    <value>1053.Svenska, 1033.English</value>
+  </data>
+  <data name="Globalization.Culture.Swedish" xml:space="preserve">
+    <value>Svenska</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ArtDecimalAlreadyExists" xml:space="preserve">
+    <value>Det finns redan en {0} kortkod med artdecimal {1}.</value>
+    <comment>shortname,artdecimal</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ArtDecimalMustBeZero" xml:space="preserve">
+    <value>Det måste finnas minst en artdecimal 0 (noll) för kortkoden {0}.</value>
+    <comment>shortcode</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.EventCodeInUse" xml:space="preserve">
+    <value>Händelsekoden används av anställda: {0}</value>
+    <comment>emp</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.GeneralSetting_No_FullDay_or_PartDay_ForThisRegistrationType" xml:space="preserve">
+    <value>Inställningarna "Endast heldag giltig" och "Endast en del dag giltig" kan inte kontrolleras för registreringar som gäller "Utanför schematid" och "Alltid".</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.GeneralSetting_OnlyOneChoice_FullDay_or_PartDay" xml:space="preserve">
+    <value>Båda alternativen "Endast hel dag giltig" och "Bara del dag giltig" kan inte väljas samtidigt.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.HandelsekodAlreadyExists" xml:space="preserve">
+    <value>Kortnamnet används redan. Kortnamnet måste vara unikt.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.HandelsekodDoesNotExistOrHasBeenRemoved" xml:space="preserve">
+    <value>Händelsekoden finns inte eller är redan borttaget</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.HandelsekodIsUsed" xml:space="preserve">
+    <value>Händelsekoden finns registrerad på anställd och kan därför inte tas bort!</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.InvalidArtDecimal" xml:space="preserve">
+    <value>Ogiltig artdecimal för kortnamnet.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.MultipleArtDecimalWithZero" xml:space="preserve">
+    <value>Det finns {0}st {1} kortkoder med artdecimal 0. Det får endast finnas en.</value>
+    <comment>antal,shortname</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.NameAlreadyExists" xml:space="preserve">
+    <value>Värdet i fältet Namn eller dess översättning finns redan i detta företag. Namn måste vara unikt.</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ShortCodeTooLong" xml:space="preserve">
+    <value>Fältet Kortnamn får inte vara längre än {0} tecken</value>
+    <comment>antal</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ShortCodeTooShort" xml:space="preserve">
+    <value>Fältet Kortnamn måste vara minst {0} tecken långt</value>
+    <comment>antal</comment>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ThresholdEndMustBeGreaterThanOrEqualToPrevious" xml:space="preserve">
+    <value>Sista brytgränsen måste ha ett högre eller samma värde som tidigare rad</value>
+  </data>
+  <data name="Handelsekod.ErrorMessages.ThresholdEndMustBeGreaterThanZero" xml:space="preserve">
+    <value>Sista brytgränsen måste ha ett högre värde än noll</value>
+  </data>
+  <data name="Handelsekod.Exceptions.HandelsekodMissing" xml:space="preserve">
+    <value>Händelsekoden saknas</value>
+  </data>
+  <data name="Handelsekod.Exceptions.HandelsekodMissingOrDeleted" xml:space="preserve">
+    <value>Händelsekoden finns inte</value>
+  </data>
+  <data name="Handelsekod.Labels.ArtDecimal" xml:space="preserve">
+    <value>Art decimal</value>
+  </data>
+  <data name="Handelsekod.Labels.CommonRule" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="Handelsekod.Labels.Handelsekod" xml:space="preserve">
+    <value>Händelsekod</value>
+  </data>
+  <data name="Handelsekod.Labels.HandelseType" xml:space="preserve">
+    <value>Händelsetyp</value>
+  </data>
+  <data name="Handelsekod.Labels.LimitsRule" xml:space="preserve">
+    <value>Gränser</value>
+  </data>
+  <data name="Handelsekod.Labels.QsdRule" xml:space="preserve">
+    <value>Karensdag</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInAMessage" xml:space="preserve">
+    <value>Rapportera i A-melding</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInAMessageReportType" xml:space="preserve">
+    <value>Rapportkod A-meddelande</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInFnoPensionReport" xml:space="preserve">
+    <value>Rapportera i FNO Pensionsrapport</value>
+  </data>
+  <data name="Handelsekod.Labels.ReportedInFnoPensionReportType" xml:space="preserve">
+    <value>Rapportkod FNO</value>
+  </data>
+  <data name="Handelsekod.Labels.Reports" xml:space="preserve">
+    <value>Rapporter</value>
+  </data>
+  <data name="Handelsekod.Labels.ResultRule" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="Handelsekod.Labels.SelfCertificationRule" xml:space="preserve">
+    <value>Egen sjukanmälan</value>
+  </data>
+  <data name="Handelsekod.Labels.ShortName" xml:space="preserve">
+    <value>Kortnamn</value>
+  </data>
+  <data name="Handelsekod.Labels.ThresholdRule" xml:space="preserve">
+    <value>Brytgränser</value>
+  </data>
+  <data name="Handelsekod.Labels.Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Handelsekod.Labels.VacationRule" xml:space="preserve">
+    <value>Semesterpåverkande</value>
+  </data>
+  <data name="Handelsekod.Texts.SelectEventType" xml:space="preserve">
+    <value>Välj händelsetyp</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.CompassionateLeave" xml:space="preserve">
+    <value>Permission vid dödsfall</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.EducationalLeave" xml:space="preserve">
+    <value>Permission för studier</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.MilitaryLeave" xml:space="preserve">
+    <value>Permission för militärtjänst</value>
+  </data>
+  <data name="HandelsekodEnums.AMessageReportType.ParentalLeave" xml:space="preserve">
+    <value>Permission för föräldraledighet</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransDagTyp.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Barn" xml:space="preserve">
+    <value>Barn</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.KalenderAr" xml:space="preserve">
+    <value>Kalenderår</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Narstaende" xml:space="preserve">
+    <value>Närstående</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Semester" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.Tillfalle" xml:space="preserve">
+    <value>Tillfälle</value>
+  </data>
+  <data name="HandelsekodEnums.BrytgransPer.TolvManader" xml:space="preserve">
+    <value>12 månader</value>
+  </data>
+  <data name="HandelsekodEnums.ConsiderAsType.Absence" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="HandelsekodEnums.ConsiderAsType.WorkTime" xml:space="preserve">
+    <value>Arbetad tid</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Absence" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Attendance" xml:space="preserve">
+    <value>Närvaro</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Leave" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.ParentalLeave" xml:space="preserve">
+    <value>Föräldraledighet</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.PayoutRequest" xml:space="preserve">
+    <value>Saldouttag</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.SickChild" xml:space="preserve">
+    <value>Sjukt barn</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Sickness" xml:space="preserve">
+    <value>Sjukdom</value>
+  </data>
+  <data name="HandelsekodEnums.EventCodeType.Vacation" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="HandelsekodEnums.Exceptions.InvalidEnumKey" xml:space="preserve">
+    <value>Ogiltig enum nyckel {0}</value>
+    <comment>key</comment>
+  </data>
+  <data name="HandelsekodEnums.FnoPensionReportType.AgreedLeave" xml:space="preserve">
+    <value>(AP) Avtalad permission</value>
+  </data>
+  <data name="HandelsekodEnums.FnoPensionReportType.RegulatoryLeave" xml:space="preserve">
+    <value>(LP) Lagstadgad permission</value>
+  </data>
+  <data name="HandelsekodEnums.FnoPensionReportType.Sick" xml:space="preserve">
+    <value>(S) Sjuk</value>
+  </data>
+  <data name="HandelsekodEnums.PeriodType.Days" xml:space="preserve">
+    <value>dagar</value>
+  </data>
+  <data name="HandelsekodEnums.PeriodType.Months" xml:space="preserve">
+    <value>månader</value>
+  </data>
+  <data name="HandelsekodEnums.PeriodType.Weeks" xml:space="preserve">
+    <value>veckor</value>
+  </data>
+  <data name="HandelsekodEnums.QsdBoundaryType.KalenderAr" xml:space="preserve">
+    <value>Kalenderår</value>
+  </data>
+  <data name="HandelsekodEnums.QsdBoundaryType.TolvManader" xml:space="preserve">
+    <value>12 månader</value>
+  </data>
+  <data name="HandelsekodEnums.RosterRegistrationType.Anytime" xml:space="preserve">
+    <value>Alltid</value>
+  </data>
+  <data name="HandelsekodEnums.RosterRegistrationType.Inside" xml:space="preserve">
+    <value>Inom schematid</value>
+  </data>
+  <data name="HandelsekodEnums.RosterRegistrationType.Outside" xml:space="preserve">
+    <value>Utanför schematid</value>
+  </data>
+  <data name="HandelsekodEnums.SelfCertificationPeriod.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.SelfCertificationPeriod.TwelveMonths" xml:space="preserve">
+    <value>12 månader</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Arbetsdagar" xml:space="preserve">
+    <value>Arbetsdagar</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Arbetspass" xml:space="preserve">
+    <value>Arbetspass</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Kalenderdagar" xml:space="preserve">
+    <value>Kalenderdagar</value>
+  </data>
+  <data name="HandelsekodEnums.SemesterBevakningEmot.Semesterdagar" xml:space="preserve">
+    <value>Semesterdagar</value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.Barn" xml:space="preserve">
+    <value>Barn</value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.KalenderAr" xml:space="preserve">
+    <value>Kalenderår</value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.SemestergrundadePeriod.SemesterAr" xml:space="preserve">
+    <value>Semesterår</value>
+  </data>
+  <data name="HandelsekodEnums.SjuklonBrytgransPer.KalenderAr" xml:space="preserve">
+    <value>Kalenderår</value>
+  </data>
+  <data name="HandelsekodEnums.SjuklonBrytgransPer.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.SjuklonBrytgransPer.TolvManader" xml:space="preserve">
+    <value>12 månader</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.CalendarDayOneToOne" xml:space="preserve">
+    <value>Kalenderdagar 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.CalendarDayPercent" xml:space="preserve">
+    <value>Kalenderdagar %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.EightHourLimit" xml:space="preserve">
+    <value>Karens max 8 timmar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.Hours" xml:space="preserve">
+    <value>Timmar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.NotApplicable" xml:space="preserve">
+    <value>Inte tillämplig</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.OtherAbsenceNav" xml:space="preserve">
+    <value>NAV</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.OtherAbsencePrepaid" xml:space="preserve">
+    <value>Förskotteras</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.QsdFifthOfWeeklyWorkingTime" xml:space="preserve">
+    <value>Karens 1/5 av veckoarbetstiden</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.QsdHours" xml:space="preserve">
+    <value>Karens timmar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.QsdWorkingDayOneToOne" xml:space="preserve">
+    <value>Karens arbetsdagar 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessChronical" xml:space="preserve">
+    <value>Högkostnadsskydd</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessNav" xml:space="preserve">
+    <value>NAV</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessPrepaid" xml:space="preserve">
+    <value>Sjuklön i förskott</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.SicknessSelfCertified" xml:space="preserve">
+    <value>Egen sjukanmälan</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAdvanceDaysNO" xml:space="preserve">
+    <value>Förskottsdagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAdvanceDaysSE" xml:space="preserve">
+    <value>Förskottsdagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAgreement1SE" xml:space="preserve">
+    <value>Avtalssemester 1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationAgreement2SE" xml:space="preserve">
+    <value>Avtalssemester 2</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationDaysOver60YearsNO" xml:space="preserve">
+    <value>Dagar från 60 år</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationExcessPaidDaysSE" xml:space="preserve">
+    <value>Överskjutande betalda dagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationExcessPaidDaysYearFiveSE" xml:space="preserve">
+    <value>Överskjutande sparad år 5</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationNoDaysLeftSE" xml:space="preserve">
+    <value>Dagar &gt; semesterdagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationNormalDaysNO" xml:space="preserve">
+    <value>Normala dagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationPaidDaysSE" xml:space="preserve">
+    <value>Betalda semesterdagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE1" xml:space="preserve">
+    <value>Sparade semesterdagar år 1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE2" xml:space="preserve">
+    <value>Sparade semesterdagar år 2</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE3" xml:space="preserve">
+    <value>Sparade semesterdagar år 3</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE4" xml:space="preserve">
+    <value>Sparade semesterdagar år 4</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationSavedDaysSE5" xml:space="preserve">
+    <value>Sparade semesterdagar år 5</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationTransferredAdditionalDaysNO" xml:space="preserve">
+    <value>Överförda ytterligare dagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationTransferredDaysNO" xml:space="preserve">
+    <value>Överförda dagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationUnpaidDaysNO" xml:space="preserve">
+    <value>Obetalda dagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.VacationUnpaidDaysSE" xml:space="preserve">
+    <value>Obetalda semesterdagar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingDayOneToOne" xml:space="preserve">
+    <value>Arbetsdagar 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingDayPercent" xml:space="preserve">
+    <value>Arbetsdagar %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingShiftOneToOne" xml:space="preserve">
+    <value>Arbetspass 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdBreakType.WorkingShiftPercent" xml:space="preserve">
+    <value>Arbetspass %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterSickpayBeenProcessed" xml:space="preserve">
+    <value>När all sjuklön utbetalats</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold1" xml:space="preserve">
+    <value>Efter brytgräns 1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold2" xml:space="preserve">
+    <value>Efter brytgräns 2</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold3" xml:space="preserve">
+    <value>Efter brytgräns 3</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold4" xml:space="preserve">
+    <value>Efter brytgräns 4</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold5" xml:space="preserve">
+    <value>Efter brytgrans 5</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold6" xml:space="preserve">
+    <value>Efter brytgräns 6</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold7" xml:space="preserve">
+    <value>Efter brytgräns 7</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold8" xml:space="preserve">
+    <value>Efter brytgräns 8</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.AfterThreshold9" xml:space="preserve">
+    <value>Efter brytgräns 9</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.Always" xml:space="preserve">
+    <value>Alltid</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdCompleteMonthType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdDividing.LargestThreshold" xml:space="preserve">
+    <value>På största brytgräns</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdDividing.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdDividing.PerThreshold" xml:space="preserve">
+    <value>Per brytgräns</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdParallelBreakType.Always" xml:space="preserve">
+    <value>Generera alltid</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdParallelBreakType.DuringVacation" xml:space="preserve">
+    <value>Endast semgr frånvaro</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdParallelBreakType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdPartOfDayType.Divide" xml:space="preserve">
+    <value>Särbehandla</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdPartOfDayType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdPartOfDayType.SicknessNo" xml:space="preserve">
+    <value>Sjukdom</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.CalendarDayOneToOne" xml:space="preserve">
+    <value>Kalenderdagar 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.CalendarDayPercent" xml:space="preserve">
+    <value>Kalenderdagar %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.Hours" xml:space="preserve">
+    <value>Timmar</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingdayOneToOne" xml:space="preserve">
+    <value>Arbetsdag 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingdayPercent" xml:space="preserve">
+    <value>Arbetsdag %</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingShiftOneToOne" xml:space="preserve">
+    <value>Arbetspass 1:1</value>
+  </data>
+  <data name="HandelsekodEnums.ThresholdValueType.WorkingShiftPercent" xml:space="preserve">
+    <value>Arbetspass %</value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.CalendarDays" xml:space="preserve">
+    <value>Kalenderdagar</value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.SicknessBenefitDays" xml:space="preserve">
+    <value>Sjukpenningdagar</value>
+  </data>
+  <data name="HandelsekodEnums.VacationBasedQuantityType.Weeks" xml:space="preserve">
+    <value>Veckor</value>
+  </data>
+  <data name="HandelsekodRegel.Buttons.AddRule" xml:space="preserve">
+    <value>Ny brytgräns</value>
+  </data>
+  <data name="HandelsekodRegel.Buttons.RemoveRule" xml:space="preserve">
+    <value>Ta bort regel</value>
+  </data>
+  <data name="HandelsekodRegel.Errors.EventCodeExistsInAssociatedEventCodeIs" xml:space="preserve">
+    <value>Händelsekoden kan inte koppla till sig själv. Ta bort denna och spara igen.</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.AlternativtAntalSemestergrundadeDagar" xml:space="preserve">
+    <value>Alternativt antal för semestergrundande frånvaro</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.AmountOccasions" xml:space="preserve">
+    <value>Max antal tillfällen i perioden</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.AntalSemestergrundadeDagar" xml:space="preserve">
+    <value>Antal för semestergrundande frånvaro</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CanRegisterHours" xml:space="preserve">
+    <value>Möjlig att registrera i timmar</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CanRegisterPercent" xml:space="preserve">
+    <value>Möjlig att registrera i procent</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ConnectedToAI" xml:space="preserve">
+    <value>IA-avtal</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ConsiderAs" xml:space="preserve">
+    <value>Betrakta som</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ConsiderAsVacationBasedHours" xml:space="preserve">
+    <value>Räknas som semestergrundande timmar</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnArbetadTid" xml:space="preserve">
+    <value>Räkna som arbetad tid på Arbetad tid.</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnArbetsgivarintyg" xml:space="preserve">
+    <value>Räkna som arbetad tid för Arbetsgivarintyg</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnArbetstidsforkortning" xml:space="preserve">
+    <value>Räkna som arbetad tid för Arbetstidsförkortning</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CountAsWorkingHoursOnProcentuellFranvaro" xml:space="preserve">
+    <value>Räkna som arbetad tid på Procentuell frånvaro.</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.CronicalSickChild" xml:space="preserve">
+    <value>Kronisk sjukt barn under 18 år</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DaysPerOccasion" xml:space="preserve">
+    <value>Max antal dagar per tillfälle</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DaysPerOccasionIA" xml:space="preserve">
+    <value>Max antal dagar per tillfälle</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DaysPerPeriodIA" xml:space="preserve">
+    <value>Totalt antal dagar för perioden</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.DelAvDag" xml:space="preserve">
+    <value>Del av dag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.EmployerPeriod" xml:space="preserve">
+    <value>Arbetsgivarperiod</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.EnableVacationAbsence" xml:space="preserve">
+    <value>Denna frånvaro ska vara semestergrundande</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastgiltigtomsaldovillkoruppfyllts" xml:space="preserve">
+    <value>Endast giltigt om saldovillkor uppfyllts</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastheldag" xml:space="preserve">
+    <value>Endast heldag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastinnevarandedag" xml:space="preserve">
+    <value>Endast innevarande dag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Endastprocent" xml:space="preserve">
+    <value>Endast procent</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.EnligtForetagsInstallningar" xml:space="preserve">
+    <value>Enligt företagsinställningar</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Ett" xml:space="preserve">
+    <value>Ett</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ExcessDays" xml:space="preserve">
+    <value>Överskjutande dagar</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Flera" xml:space="preserve">
+    <value>Flera</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Fom" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Frandag" xml:space="preserve">
+    <value>Från dag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.From3children" xml:space="preserve">
+    <value>Från 3 barn och upp - 12 år</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.GeneratePaycode" xml:space="preserve">
+    <value>Generera löneart</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.GiltigLedigDag" xml:space="preserve">
+    <value>Giltig på ledig dag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Helmanad" xml:space="preserve">
+    <value>Hel månad</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.IsCommentMandatory" xml:space="preserve">
+    <value>En kommentar är obligatorisk!</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.IsEventValidUntilEmployment" xml:space="preserve">
+    <value>Anställning för giltig frånvaro</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.IsLeaveRequest" xml:space="preserve">
+    <value>Behandla som ledighetsansökan</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Kontrollavbrytgranser" xml:space="preserve">
+    <value>Kontroll av brytgränser</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.KoppladeHandelsekoder" xml:space="preserve">
+    <value>Kopplade händelsekoder</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.LimitsPerParent" xml:space="preserve">
+    <value>Gränser per förälder</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Max2children" xml:space="preserve">
+    <value>Max 2 barn - 12 år</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.MaxNumberOcurrences" xml:space="preserve">
+    <value>Max antal tillfällen</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.MustBeEmployed" xml:space="preserve">
+    <value>Ska varit anställd i</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.MutualCustody" xml:space="preserve">
+    <value>Gemensam vårdnad</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OBGrundande" xml:space="preserve">
+    <value>OB grundande</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OneOccasion" xml:space="preserve">
+    <value>Ett tillfälle</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OnlyFullDayValid" xml:space="preserve">
+    <value>Endast giltig vid hel dag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OnlyPartDayValid" xml:space="preserve">
+    <value>Endast giltig för del av dag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.OverskjutandeDagar" xml:space="preserve">
+    <value>Överskjutande dagar</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ParallelPaycode" xml:space="preserve">
+    <value>Parallell löneart</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Period" xml:space="preserve">
+    <value>Inom perioden</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.PossibleToRegister" xml:space="preserve">
+    <value>Möjligt att registrera</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.QualifyingPeriodCoverage" xml:space="preserve">
+    <value>Karensbevakning </value>
+  </data>
+  <data name="HandelsekodRegel.Labels.RecurringSicknessInterval" xml:space="preserve">
+    <value>Återinsjuknandeintervall</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.ReducePaycodeForWorkingHour" xml:space="preserve">
+    <value>Reducera lönearter för arbetad tid</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Reduceraarbetspasstillagg" xml:space="preserve">
+    <value>Reducera arbetspasstillägg</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Registration" xml:space="preserve">
+    <value>Registrering</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.RuleEmployment" xml:space="preserve">
+    <value>Regel för anställning</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.RulesIA" xml:space="preserve">
+    <value>IA-regler</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SelfCertificationPeriod" xml:space="preserve">
+    <value>Period för egen sjukanmälan</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SelfCertificationRules" xml:space="preserve">
+    <value>Regler för egen sjukanmälan</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Semestergrundadeperiod" xml:space="preserve">
+    <value>Semestergrundande period</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SeveralOccasions" xml:space="preserve">
+    <value>Flera tillfällen</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SingleCustody" xml:space="preserve">
+    <value>Ensam vårdnad</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Sjukavisering" xml:space="preserve">
+    <value>Sjukavisering</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Sjuklonenligtavtal" xml:space="preserve">
+    <value>Sjuklön enligt avtal</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Sjuktillfallen" xml:space="preserve">
+    <value>Sjuktillfällen</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.SocialSecurityLimit" xml:space="preserve">
+    <value>Gräns för rapportering till FK</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.StatisticsCodeBOA" xml:space="preserve">
+    <value>Statistikkod BAO/SPV</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.StatisticsCodeSPV" xml:space="preserve">
+    <value>Statistikkod SPV/PA03</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.StatisticsCodeSVN" xml:space="preserve">
+    <value>Statistikkod till Sv.N</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Thresholds" xml:space="preserve">
+    <value>Brytgränser</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tilldag" xml:space="preserve">
+    <value>Till dag</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tillfalle" xml:space="preserve">
+    <value>Tillfälle</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tillfallesbevakning" xml:space="preserve">
+    <value>Bevaka tillfällen under</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Tom" xml:space="preserve">
+    <value>Tom</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Typavbevakning" xml:space="preserve">
+    <value>Typ av bevakning</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.TypeOfPaycode" xml:space="preserve">
+    <value>Enhet på löneart</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Uppdelningavbrytgranser" xml:space="preserve">
+    <value>Uppdelning av brytgränser</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.UseParallelPaycode" xml:space="preserve">
+    <value>Använd parallell löneart</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.Utforkontrollper" xml:space="preserve">
+    <value>Utför kontroll per</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.VacationBasedAbsence" xml:space="preserve">
+    <value>Semestergrundande frånvaro</value>
+  </data>
+  <data name="HandelsekodRegel.Labels.VacationCalculation" xml:space="preserve">
+    <value>Semesterberäkning</value>
+  </data>
+  <data name="HandelsekodRegel.Names.CommonRule" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="HandelsekodRegel.Names.MonitorRule" xml:space="preserve">
+    <value>Bevakningsregel</value>
+  </data>
+  <data name="HandelsekodRegel.Names.QsdRule" xml:space="preserve">
+    <value>Karensdag</value>
+  </data>
+  <data name="HandelsekodRegel.Names.ThresholdRule" xml:space="preserve">
+    <value>Brytgränser</value>
+  </data>
+  <data name="HandelsekodRegel.Names.VacationRule" xml:space="preserve">
+    <value>Semesterpåverkande</value>
+  </data>
+  <data name="Hub.Labels.Absence" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="Hub.Labels.MultipleAbsences" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="Hub.Labels.Schema" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="Hub.Labels.TravelClaim" xml:space="preserve">
+    <value>Reseräkning</value>
+  </data>
+  <data name="LeaveRequest.Pdf.Comment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="LeaveRequest.Pdf.DueDate" xml:space="preserve">
+    <value>Förfallodag</value>
+  </data>
+  <data name="LeaveRequest.Pdf.LeaveRequest" xml:space="preserve">
+    <value>Ledighetsansökan</value>
+  </data>
+  <data name="LeaveRequest.Pdf.Page" xml:space="preserve">
+    <value>Sida</value>
+  </data>
+  <data name="LeaveRequest.Pdf.PartOfWorkShift" xml:space="preserve">
+    <value>Del av arbetsskift</value>
+  </data>
+  <data name="LeaveRequest.Pdf.Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="LeaveRequest.Pdf.RegisteredBy" xml:space="preserve">
+    <value>Registrerad av</value>
+  </data>
+  <data name="LeaveRequest.Pdf.TypeOfAbsence" xml:space="preserve">
+    <value>Typ av frånvaro</value>
+  </data>
+  <data name="LeaveRequest.Texts.NoLeaveRequestsToHandle" xml:space="preserve">
+    <value>Du har inga ledighetsansökningar att hantera!</value>
+  </data>
+  <data name="LeaveRequest.Texts.NoLeaveRequestsToHandleAction" xml:space="preserve">
+    <value>Du kan använda filter för att se tidigare godkända ledighetsansökningar</value>
+  </data>
+  <data name="Loneperiod.ErrorMessages.WageRunPeriodNotFound" xml:space="preserve">
+    <value>Kunde inte hitta aktuell löneperiod.</value>
+  </data>
+  <data name="Loneperiod.Labels.Absence" xml:space="preserve">
+    <value>Frånvaro</value>
+  </data>
+  <data name="Loneperiod.Labels.Attendance" xml:space="preserve">
+    <value>Närvaro</value>
+  </data>
+  <data name="Loneperiod.Labels.Attest" xml:space="preserve">
+    <value>Attest</value>
+  </data>
+  <data name="Loneperiod.Labels.DeductionPeriod" xml:space="preserve">
+    <value>Avräkningsperiod</value>
+  </data>
+  <data name="Loneperiod.Labels.Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Loneperiod.Labels.PayCode" xml:space="preserve">
+    <value>Löneart</value>
+  </data>
+  <data name="Loneperiod.Labels.PayDate" xml:space="preserve">
+    <value>Utbetalningsdatum</value>
+  </data>
+  <data name="Loneperiod.Labels.Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="Loneperiod.Labels.PeriodStatus" xml:space="preserve">
+    <value>Periodstatus</value>
+  </data>
+  <data name="Loneperiod.Labels.SalaryGroup" xml:space="preserve">
+    <value>Utbetalningsgrupp</value>
+  </data>
+  <data name="Loneperiod.Labels.Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Loneperiod.Labels.Unit" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Loneperiod.Labels.Value" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriod" xml:space="preserve">
+    <value>Löneperiod</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodClosed" xml:space="preserve">
+    <value>Stängd</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodNew" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodOpen" xml:space="preserve">
+    <value>Öppen</value>
+  </data>
+  <data name="Loneperiod.Labels.WageRunPeriodRunning" xml:space="preserve">
+    <value>Lön körs</value>
+  </data>
+  <data name="MonthView.DefaultValues.ChoosePerson" xml:space="preserve">
+    <value>Välj anställd</value>
+  </data>
+  <data name="MonthView.Labels.Schema" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="Navigation.Rules.Advanced" xml:space="preserve">
+    <value>Regler - avancerat</value>
+  </data>
+  <data name="Navigation.Rules.Scripts" xml:space="preserve">
+    <value>Formler</value>
+  </data>
+  <data name="Navigation.Settings.EmployeeSettings" xml:space="preserve">
+    <value>Inställningar anställd</value>
+  </data>
+  <data name="Paycode.Texts.Paycode" xml:space="preserve">
+    <value>Löneart</value>
+  </data>
+  <data name="Payroll.ErrorMessages.AbsenceRegistrationDoesNotMatchWorkshift" xml:space="preserve">
+    <value>Frånvaro {0} för anställningsnummer {1} den {2} matchar inte aktuellt arbetspass</value>
+    <comment>eventShort,employeeNu,pastigning</comment>
+  </data>
+  <data name="Payroll.ErrorMessages.AbsenceRegistrationUnknownError" xml:space="preserve">
+    <value>Frånvaro {0} för anställningsnummer {1} den {2} kunde inte hanteras</value>
+    <comment>eventShort,employeeNu,pastigning</comment>
+  </data>
+  <data name="Payroll.ErrorMessages.PaymentGroupNotFound" xml:space="preserve">
+    <value>Felaktig utbetalningsgrupp</value>
+  </data>
+  <data name="Payroll.ErrorMessages.PeriodNotFound" xml:space="preserve">
+    <value>Felaktig period</value>
+  </data>
+  <data name="Registration.ErrorMessages.NoWorkingTimeInPeriod" xml:space="preserve">
+    <value>För att kunna registrera behöver du ha minst en dag med arbetstid i den valda perioden.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.ApprovalOutsideConfirmationPeriod" xml:space="preserve">
+    <value>Datum för Godkänn är inte inom perioden för Bekräfta.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.ConfirmPeriod" xml:space="preserve">
+    <value>Vänligen bekräfta perioden, innan den godkänns.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.ConfirmPeriodInsideApprovePeriod" xml:space="preserve">
+    <value>Datum för Bekräfta, måste vara utanför datum för Godkänn
+</value>
+  </data>
+  <data name="RegistrationApproval.Errors.PeriodIsApproved" xml:space="preserve">
+    <value>Perioden är redan godkänd. Du kan inte lägga till, ändra eller uppdatera inom denna period.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.UnauthorizedForApprovalRewind" xml:space="preserve">
+    <value>Du har inte rättighet att flytta godkännande datum bakåt i tid. V.v. kontakta din systemadministratör.</value>
+  </data>
+  <data name="RegistrationApproval.Errors.UnhandledLeaveRequestExistInApprovalPeriod" xml:space="preserve">
+    <value>Det är inte möjligt att godkänna på det valda datumet, då det finns ledighetsansökan som inte är igenom sin process ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="RegistrationApproval.Errors.UnhandledLeaveRequestExistInConfirmationPeriod" xml:space="preserve">
+    <value>Det är inte möjligt att bekräfta på det valda datumet, då det finns ledighetsansökan som inte är igenom sin process ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="Reports.Absence.NAVOverview" xml:space="preserve">
+    <value>NAV frånvaroöversikt</value>
+  </data>
+  <data name="Reports.AttTransaction.DimensionOrder" xml:space="preserve">
+    <value>Dimensionsordning</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit1" xml:space="preserve">
+    <value>Dimension 1</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit2" xml:space="preserve">
+    <value>Dimension 2</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit3" xml:space="preserve">
+    <value>Dimension 3</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit4" xml:space="preserve">
+    <value>Dimension 4</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit5" xml:space="preserve">
+    <value>Dimension 5</value>
+  </data>
+  <data name="Reports.AttTransactions.CostUnit6" xml:space="preserve">
+    <value>Dimension 6</value>
+  </data>
+  <data name="Reports.AttTransactions.EarningDateFrom" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+  <data name="Reports.AttTransactions.EarningDateTo" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+  <data name="Reports.AttTransactions.EmployeeId" xml:space="preserve">
+    <value>Anställningsnr</value>
+  </data>
+  <data name="Reports.AttTransactions.Paycode" xml:space="preserve">
+    <value>Löneart</value>
+  </data>
+  <data name="Reports.AttTransactions.Quantity" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Reports.AttTransactions.Rate" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="Reports.AttTransactions.Reference" xml:space="preserve">
+    <value>Referens</value>
+  </data>
+  <data name="Reports.Common.DateFrom" xml:space="preserve">
+    <value>Datum från</value>
+  </data>
+  <data name="Reports.Common.DateInterval" xml:space="preserve">
+    <value>Datumintervall</value>
+  </data>
+  <data name="Reports.Common.DateTo" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Reports.Common.DisplaySelection" xml:space="preserve">
+    <value>Visa urval</value>
+  </data>
+  <data name="Reports.Common.EmployeeNumber" xml:space="preserve">
+    <value>Anställningsnummer</value>
+  </data>
+  <data name="Reports.Common.EmployeeNumberFrom" xml:space="preserve">
+    <value>Anställningsnummer från</value>
+  </data>
+  <data name="Reports.Common.EmployeeNumberTo" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Reports.Common.Employees" xml:space="preserve">
+    <value>Anställda</value>
+  </data>
+  <data name="Reports.Common.Eventcode" xml:space="preserve">
+    <value>Händelsekod</value>
+  </data>
+  <data name="Reports.Common.FilterEventCodes" xml:space="preserve">
+    <value>Filter händelsekoder</value>
+  </data>
+  <data name="Reports.Common.No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Reports.Common.OrganizationNumber" xml:space="preserve">
+    <value>Organisationsnummer</value>
+  </data>
+  <data name="Reports.Common.Page" xml:space="preserve">
+    <value>Sida</value>
+  </data>
+  <data name="Reports.Common.Selections" xml:space="preserve">
+    <value>Urval</value>
+  </data>
+  <data name="Reports.Common.SelectSorting" xml:space="preserve">
+    <value>Välj sortering</value>
+  </data>
+  <data name="Reports.Common.Sorting" xml:space="preserve">
+    <value>Sortering</value>
+  </data>
+  <data name="Reports.Common.Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Reports.RefundableAbsence.AbsencePercentage" xml:space="preserve">
+    <value>Frånvaro %</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Changed" xml:space="preserve">
+    <value>Ändrad</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Chronical" xml:space="preserve">
+    <value>Kronisk sjuk</value>
+  </data>
+  <data name="Reports.RefundableAbsence.DateFrom" xml:space="preserve">
+    <value>Datum från</value>
+  </data>
+  <data name="Reports.RefundableAbsence.DateTo" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeName" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeNumber" xml:space="preserve">
+    <value>Anställningsnummer</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeNumberFrom" xml:space="preserve">
+    <value>Anställningsnummer från</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployeeNumberTo" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmployersLiability" xml:space="preserve">
+    <value>Arbetsgivarperiod</value>
+  </data>
+  <data name="Reports.RefundableAbsence.EmploymentEnds" xml:space="preserve">
+    <value>Anställning slutar</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Eventcode" xml:space="preserve">
+    <value>Händelsekod</value>
+  </data>
+  <data name="Reports.RefundableAbsence.FromDate" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+  <data name="Reports.RefundableAbsence.MaxDate" xml:space="preserve">
+    <value>Max datum</value>
+  </data>
+  <data name="Reports.RefundableAbsence.NationalId" xml:space="preserve">
+    <value>Personnummer</value>
+  </data>
+  <data name="Reports.RefundableAbsence.NavOffice" xml:space="preserve">
+    <value>NAV kontor</value>
+  </data>
+  <data name="Reports.RefundableAbsence.OnlyPrepaidEmployees" xml:space="preserve">
+    <value>Endast anställda som förskotteras</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Selections" xml:space="preserve">
+    <value>Urval</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SelectSorting" xml:space="preserve">
+    <value>Välj sortering</value>
+  </data>
+  <data name="Reports.RefundableAbsence.Sorting" xml:space="preserve">
+    <value>Sortering</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SortingEmployeeName" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SortingEmployeeNumber" xml:space="preserve">
+    <value>Anställningsnummer</value>
+  </data>
+  <data name="Reports.RefundableAbsence.SortingNationalId" xml:space="preserve">
+    <value>Personnummer</value>
+  </data>
+  <data name="Reports.RefundableAbsence.ToDate" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+  <data name="Reports.Time.AttendanceTransactions" xml:space="preserve">
+    <value>Tidtransaktioner</value>
+  </data>
+  <data name="RestApi.ErrorMessages.AllEmployeesMustBelongToTheSameUser" xml:space="preserve">
+    <value>Alla anställda måste tillhöra samma användare</value>
+  </data>
+  <data name="RestApi.ErrorMessages.AtLeastOneEmployeeMustBeConnectedToUser" xml:space="preserve">
+    <value>Minst en anställd måste vara kopplad till användaren</value>
+  </data>
+  <data name="RestApi.ErrorMessages.CertificateNeededFromDate" xml:space="preserve">
+    <value>Läkarintyg krävs från {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="RestApi.ErrorMessages.EventcodeChangeNotAllowed" xml:space="preserve">
+    <value>Det är inte möjligt att ändra händelsekoden</value>
+  </data>
+  <data name="RestApi.ErrorMessages.InvalidValue" xml:space="preserve">
+    <value>{0} är inte ett giltigt värde för {1}</value>
+    <comment>value,name</comment>
+  </data>
+  <data name="RestApi.ErrorMessages.MissingWorkshiftForRange" xml:space="preserve">
+    <value>Schema saknas för period {0} - {1}</value>
+    <comment>from,to</comment>
+  </data>
+  <data name="RestApi.ErrorMessages.NotFound" xml:space="preserve">
+    <value>Hittades inte</value>
+  </data>
+  <data name="RestApi.ErrorMessages.RegistrationChangeNotAllowed" xml:space="preserve">
+    <value>Det är inte möjligt att ändra registreringen</value>
+  </data>
+  <data name="RestApi.ErrorMessages.RegistrationIsNotALeaverequest" xml:space="preserve">
+    <value>Registreringen är inte en ledighetsansökan</value>
+  </data>
+  <data name="RestApi.ErrorMessages.UnhandledError" xml:space="preserve">
+    <value>Ett fel uppstod</value>
+  </data>
+  <data name="RestApi.Labels.Registrations" xml:space="preserve">
+    <value>Registreringar</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalanceAmount" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalanceChangeBy" xml:space="preserve">
+    <value>Ändrat av</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalances" xml:space="preserve">
+    <value>Tidssaldon</value>
+  </data>
+  <data name="RestApi.Labels.TimeBalanceType" xml:space="preserve">
+    <value>Saldotyp</value>
+  </data>
+  <data name="Roster.ErrorMessages.AbsenceExistsForAdjustHours" xml:space="preserve">
+    <value>Du kan inte ändra dagar med registreringar</value>
+  </data>
+  <data name="Roster.ErrorMessages.AbsenceExistsForRosterTemplate" xml:space="preserve">
+    <value>Du kan inte ändra schema då det finns registreringar framåt i tiden</value>
+  </data>
+  <data name="Roster.ErrorMessages.ApprovalExistsForAdjustHours" xml:space="preserve">
+    <value>Du kan inte ändra arbetpass i en godkänd period</value>
+  </data>
+  <data name="Roster.ErrorMessages.ApprovalExistsForRosterTemplate" xml:space="preserve">
+    <value>Du kan inte ändra schema på en godkänd period</value>
+  </data>
+  <data name="Roster.ErrorMessages.ApprovalExistsForSelectedPeriod" xml:space="preserve">
+    <value>Du kan inte ändra schema på en godkänd period</value>
+  </data>
+  <data name="Roster.ErrorMessages.EmployeeIsNotEmployed" xml:space="preserve">
+    <value>Du kan inte ändra schema då personen inte är anställd</value>
+  </data>
+  <data name="Roster.ErrorMessages.HourFormatIncorrect" xml:space="preserve">
+    <value>Fel format! Du kan ange tid som 1:30 eller 1,5 </value>
+  </data>
+  <data name="Roster.ErrorMessages.RosterTemplateStartDateOutsideRange" xml:space="preserve">
+    <value>Schema kan inte skapas för mer än två år fram i tiden</value>
+  </data>
+  <data name="Roster.ErrorMessages.RosterUpdateFailedBecauseOfAbsence" xml:space="preserve">
+    <value>Schemat kunde inte ändras på följande anställda, då det finns registreringar på aktuell dag. Obs! Schemat har uppdaterats för alla som inte visas i listan</value>
+  </data>
+  <data name="Roster.ErrorMessages.SameWorkcycleRosterExists" xml:space="preserve">
+    <value>Schema med samma cykel finns redan! </value>
+  </data>
+  <data name="Roster.ErrorMessages.StartDateOutsideEmploymentDates" xml:space="preserve">
+    <value>Du kan inte spara schemat då startdatum är utanför anställningsperioden</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateNameNotUnique" xml:space="preserve">
+    <value>Det finns redan ett schema med samma namn. Namnet måste vara unikt!</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateNameUndefined" xml:space="preserve">
+    <value>Ange namn på schemat</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateNotFoundForSelectedDate" xml:space="preserve">
+    <value>Inget schema hittades</value>
+  </data>
+  <data name="Roster.ErrorMessages.TemplateStartDateUndefined" xml:space="preserve">
+    <value>Ange startdatum!</value>
+  </data>
+  <data name="Roster.ErrorMessages.WorkcycleNotMatchingContractedHours" xml:space="preserve">
+    <value>Schema med startdag {0} matchar inte veckoarbetstiden i Visma.net Employee. Ändra schemat eller veckoarbetstiden så att dessa stämmer överens.</value>
+    <comment>0</comment>
+  </data>
+  <data name="Roster.ErrorMessages.WorkHoursNotUpdatedAbsence" xml:space="preserve">
+    <value>Ändringar kan inte göras eftersom det finns registreringar</value>
+  </data>
+  <data name="Roster.ErrorMessages.WorkHoursNotUpdatedApproval" xml:space="preserve">
+    <value>Timmarna kan inte ändras då perioden är attesterad</value>
+  </data>
+  <data name="Roster.Labels.AllYears" xml:space="preserve">
+    <value>Alla år</value>
+  </data>
+  <data name="Roster.Labels.AverageWeeklyWorkingHours" xml:space="preserve">
+    <value>Genomsnittlig veckoarbetstid</value>
+  </data>
+  <data name="Roster.Labels.Change" xml:space="preserve">
+    <value>Ändra</value>
+  </data>
+  <data name="Roster.Labels.ConfirmHoursNotMatchingContractHours" xml:space="preserve">
+    <value>Antal timmar i schemat matchar inte avtalade timmar. Vill du använda schemat ändå?</value>
+  </data>
+  <data name="Roster.Labels.ConnectedFrom" xml:space="preserve">
+    <value>Giltig från</value>
+  </data>
+  <data name="Roster.Labels.ContractedPartTimeFactor" xml:space="preserve">
+    <value>Sysselsättningsgrad</value>
+  </data>
+  <data name="Roster.Labels.ContractedWorkTime" xml:space="preserve">
+    <value>Arbetstid enligt kontrakt</value>
+  </data>
+  <data name="Roster.Labels.DayOfWeek" xml:space="preserve">
+    <value>Veckodag</value>
+  </data>
+  <data name="Roster.Labels.DayType" xml:space="preserve">
+    <value>Dagtyp</value>
+  </data>
+  <data name="Roster.Labels.DublicateWorkcycle" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Roster.Labels.ExistingRoster" xml:space="preserve">
+    <value>Använd ett befintligt schema</value>
+  </data>
+  <data name="Roster.Labels.FreeDay" xml:space="preserve">
+    <value>Ledig dag</value>
+  </data>
+  <data name="Roster.Labels.NewRoster" xml:space="preserve">
+    <value>Skapa nytt schema</value>
+  </data>
+  <data name="Roster.Labels.NormalDay" xml:space="preserve">
+    <value>Normal dag</value>
+  </data>
+  <data name="Roster.Labels.PlannedHoursLessThanContract" xml:space="preserve">
+    <value>Antal timmar är färre än avtalad arbetstid</value>
+  </data>
+  <data name="Roster.Labels.PlannedHoursMoreThanContract" xml:space="preserve">
+    <value>Antal timmar är mer än avtalad arbetstid</value>
+  </data>
+  <data name="Roster.Labels.RosterUpdateFailed" xml:space="preserve">
+    <value>Schemat kunde inte uppdateras</value>
+  </data>
+  <data name="Roster.Labels.ScheduleHoursConflictAgainstContract" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Roster.Labels.TreatAs" xml:space="preserve">
+    <value>Hantera som</value>
+  </data>
+  <data name="Roster.Labels.UseExisting" xml:space="preserve">
+    <value>Visa befintligt schema</value>
+  </data>
+  <data name="Roster.Labels.UseThisRoster" xml:space="preserve">
+    <value>Spara ändå</value>
+  </data>
+  <data name="Roster.Labels.Workcycle" xml:space="preserve">
+    <value>Schemacykel</value>
+  </data>
+  <data name="Script.EditScript.NameIsRequired" xml:space="preserve">
+    <value>Namn är ett obligatoriskt fält.</value>
+  </data>
+  <data name="Script.EditScript.ScriptContent" xml:space="preserve">
+    <value>Formel</value>
+  </data>
+  <data name="Script.EditScript.ScriptIsRequired" xml:space="preserve">
+    <value>Formel är obligatoriskt</value>
+  </data>
+  <data name="Script.EditScript.VacationAgreement" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="Script.Exceptions.ScriptDisplayNameMustBeUnique" xml:space="preserve">
+    <value>Formeln måste ha ett unikt visningsnamn</value>
+  </data>
+  <data name="Script.Exceptions.ScriptIdentifierNotValid" xml:space="preserve">
+    <value>Formeln saknar giltigt id</value>
+  </data>
+  <data name="Script.Exceptions.ScriptNameMustBeUnique" xml:space="preserve">
+    <value>Formeln måste ha ett unikt namn</value>
+  </data>
+  <data name="Script.Exceptions.ScriptNameSyntax" xml:space="preserve">
+    <value>Formelnamnet måste följa standarden ´ämne.namn´</value>
+  </data>
+  <data name="Script.Exceptions.SelectedReturnTypeIsNotSupported" xml:space="preserve">
+    <value>Vald svarstyp supporteras inte för närvarande</value>
+  </data>
+  <data name="Script.Exceptions.VacationScriptInUse" xml:space="preserve">
+    <value>Formeln används av följande semesteravtal: {0}.</value>
+    <comment>agreements</comment>
+  </data>
+  <data name="Script.Labels.ReturnType" xml:space="preserve">
+    <value>Svarstyp</value>
+  </data>
+  <data name="Script.Labels.ScriptType" xml:space="preserve">
+    <value>Formeltyp</value>
+  </data>
+  <data name="Script.Texts.Script" xml:space="preserve">
+    <value>Formel</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.EventCode" xml:space="preserve">
+    <value>Händelsekod</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.Utility" xml:space="preserve">
+    <value>Verktyg</value>
+  </data>
+  <data name="ScriptEnums.ScriptType.VacationCalculation" xml:space="preserve">
+    <value>Semesterberäkning</value>
+  </data>
+  <data name="Security.User.InvalidIdentity" xml:space="preserve">
+    <value>Ogiltig eller inte satt AgdaIdentity.</value>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.MissingCertificate" xml:space="preserve">
+    <value>Läkarintyg saknas ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyDaysInOccurance" xml:space="preserve">
+    <value>För många egenanmälningsdagar per tillfälle ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyDaysInPeriod" xml:space="preserve">
+    <value>För många egenanmälningsdagar i en period av 12 månader ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyOccationsInEmployerPeriod" xml:space="preserve">
+    <value>Det är inte möjligt att registrera egenmelding utanför arbetsgivarperioden ({0}).</value>
+    <comment>date</comment>
+  </data>
+  <data name="SelfCertifiedSickness.Exceptions.TooManyOccurrences" xml:space="preserve">
+    <value>För många egenanmälningstillfällen ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="SickChild.Exceptions.TooManyDaysInPeriod" xml:space="preserve">
+    <value>Gränsen för antal dagar med vård av barn under året är nådd ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="Strings.Labels.ChooseHere" xml:space="preserve">
+    <value>Välj här</value>
+  </data>
+  <data name="Support.Resend.ButtonResend" xml:space="preserve">
+    <value>Skicka igen</value>
+  </data>
+  <data name="Support.Resend.ButtonStatus" xml:space="preserve">
+    <value>Hämta status</value>
+  </data>
+  <data name="Support.Resend.Completed" xml:space="preserve">
+    <value>Klart</value>
+  </data>
+  <data name="Support.Resend.DateFrom" xml:space="preserve">
+    <value>Datum från</value>
+  </data>
+  <data name="Support.Resend.DateTo" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Support.Resend.Failed" xml:space="preserve">
+    <value>Misslyckades</value>
+  </data>
+  <data name="Support.Resend.PayrollTransaction" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="Support.Resend.Pending" xml:space="preserve">
+    <value>Avvaktar</value>
+  </data>
+  <data name="Support.Resend.StatusTitle" xml:space="preserve">
+    <value>Status för meddelande i vald period</value>
+  </data>
+  <data name="Support.Resend.Title" xml:space="preserve">
+    <value>Välj datumperiod för att skicka meddelande igen</value>
+  </data>
+  <data name="System.ErrorMessages.AccessDenied" xml:space="preserve">
+    <value>Behörighet saknas</value>
+  </data>
+  <data name="System.ErrorMessages.AccessDeniedText" xml:space="preserve">
+    <value>Du har inte behörighet att visa sidan. V.v. kontakta din systemadministratör.</value>
+  </data>
+  <data name="System.ErrorMessages.BackToPreviousPage" xml:space="preserve">
+    <value>Tillbaka till föregående sida</value>
+  </data>
+  <data name="System.ErrorMessages.CompanyAccessDenied" xml:space="preserve">
+    <value>Du har inte behörighet till valt företag. V.v. kontakta din systemadministratör.</value>
+  </data>
+  <data name="System.ErrorMessages.ConcurrencyError" xml:space="preserve">
+    <value>Data har ändrats av en annan användare. Vänligen försök igen. Om det inte hjälper, måste du börja om från början för att få de senaste ändringarna.</value>
+  </data>
+  <data name="System.ErrorMessages.DefaultVacationAgreementCannotBeRemoved" xml:space="preserve">
+    <value>Standard semesteravtal kan inte tas bort</value>
+  </data>
+  <data name="System.ErrorMessages.ErrorHeadline" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="System.ErrorMessages.LogInformation" xml:space="preserve">
+    <value>Logginformation! Vänligen kopiera detta samt skicka via e-post till support</value>
+  </data>
+  <data name="System.ErrorMessages.PageNotFound" xml:space="preserve">
+    <value>Sidan kunde inte hittas.</value>
+  </data>
+  <data name="System.ErrorMessages.PageNotFoundText" xml:space="preserve">
+    <value>Tyvärr kan inte sidan du letade efter hittas. Den kan ha flyttats eller har fel adress angetts.</value>
+  </data>
+  <data name="System.ErrorMessages.UnexpectedError" xml:space="preserve">
+    <value>Ett ohanterat fel har inträffat.</value>
+  </data>
+  <data name="System.ErrorMessages.UnexpectedErrorSupport" xml:space="preserve">
+    <value>Ett ohanterat fel har inträffat!</value>
+  </data>
+  <data name="System.ErrorMessages.UnexpectedErrorText" xml:space="preserve">
+    <value>Vi är ledsna, men det har uppstått ett oväntat fel. Prova att navigera tillbaka och eller uppdatera sidan.</value>
+  </data>
+  <data name="Threading.Exceptions.MonitorTryEnterFailed" xml:space="preserve">
+    <value>Ett låsförsök misslyckades inom angiven tid ({0})</value>
+    <comment>lockTimeout</comment>
+  </data>
+  <data name="Time.Controls.AddBalanceDefinition" xml:space="preserve">
+    <value>Skapa saldo</value>
+  </data>
+  <data name="Time.Labels.BalanceDefinition" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Time.Labels.BalanceDefinitions" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="Time.Labels.Balances" xml:space="preserve">
+    <value>Saldon</value>
+  </data>
+  <data name="Time.Labels.ChangeBy" xml:space="preserve">
+    <value>Ändras med</value>
+  </data>
+  <data name="Time.Labels.ChangeTimeBalances" xml:space="preserve">
+    <value>Ändra tidssaldo</value>
+  </data>
+  <data name="Time.Labels.DateToChangeBalances" xml:space="preserve">
+    <value>Ändra tidssaldo per datum</value>
+  </data>
+  <data name="Time.Labels.DimensionDefinitions" xml:space="preserve">
+    <value>Dimensionsdefinitioner</value>
+  </data>
+  <data name="Time.Labels.DimensionsLoading" xml:space="preserve">
+    <value>Laddar dimensioner</value>
+  </data>
+  <data name="Time.Labels.Identifier" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Time.Labels.OriginalBalance" xml:space="preserve">
+    <value>Ursprungligt saldo</value>
+  </data>
+  <data name="Time.Labels.RegisterTimeOn" xml:space="preserve">
+    <value>Registrera tid på</value>
+  </data>
+  <data name="Time.Labels.SelectDimensionValue" xml:space="preserve">
+    <value>Välj dimension</value>
+  </data>
+  <data name="Time.Labels.TimeConfig" xml:space="preserve">
+    <value>Time konfig.</value>
+  </data>
+  <data name="TimeBalances.Labels.AmountHoursToConvert" xml:space="preserve">
+    <value>Antal timmar för utbetalning</value>
+  </data>
+  <data name="TimeBalances.Labels.AvailableHoursSaved" xml:space="preserve">
+    <value>Sparad övertid i timmar</value>
+  </data>
+  <data name="TimeBalances.Labels.ChangeTimeBalances" xml:space="preserve">
+    <value>Ändra saldo</value>
+  </data>
+  <data name="TimeBalances.Labels.ConvertHoursToMoney" xml:space="preserve">
+    <value>Omvandla timmar till lön</value>
+  </data>
+  <data name="TimeBalances.Labels.PayoutSavedOvertime" xml:space="preserve">
+    <value>Betala ut sparad övertid</value>
+  </data>
+  <data name="TimeSheet.Labels.ChangeDateRangeOrFilter" xml:space="preserve">
+    <value>Inget att visa! Försök att ändra datumintervall eller filtrering.</value>
+  </data>
+  <data name="TimeSheet.Labels.ErrorStatus" xml:space="preserve">
+    <value>Något gick fel - kontakta support</value>
+  </data>
+  <data name="TimeSheet.Labels.NothingToShow" xml:space="preserve">
+    <value>Inget att visa</value>
+  </data>
+  <data name="TimeSheet.Labels.ReasonForReject" xml:space="preserve">
+    <value>Anledning till avslag</value>
+  </data>
+  <data name="TimeSheet.Labels.ReasonForRejectLong" xml:space="preserve">
+    <value>Du måste ange en orsak till avslaget</value>
+  </data>
+  <data name="TimeSheet.Labels.RejectRegistrations" xml:space="preserve">
+    <value>Avvisa registrering</value>
+  </data>
+  <data name="Title.Labels.Calendar" xml:space="preserve">
+    <value>Kalendarie | Visma Calendar</value>
+  </data>
+  <data name="Title.Labels.EventCodes" xml:space="preserve">
+    <value>Händelsekoder | Visma Calendar</value>
+  </data>
+  <data name="TransactionReceipt.Texts.TransactionReceipt" xml:space="preserve">
+    <value>Transaktionskvitto</value>
+  </data>
+  <data name="Vacation.Navigation.Agreements" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="Vacation.Navigation.AgreementsPageTitle" xml:space="preserve">
+    <value>Semesteravtal för {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.ApplicationName" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Vacation.Navigation.ApprovalProcessEnable" xml:space="preserve">
+    <value>Använd process</value>
+  </data>
+  <data name="Vacation.Navigation.Calendar" xml:space="preserve">
+    <value>Händelseregistrering</value>
+  </data>
+  <data name="Vacation.Navigation.CompanySettings" xml:space="preserve">
+    <value>Företagsinställningar</value>
+  </data>
+  <data name="Vacation.Navigation.EmployeesPageTitle" xml:space="preserve">
+    <value>Anställda för {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.EventCodes" xml:space="preserve">
+    <value>Händelsekoder</value>
+  </data>
+  <data name="Vacation.Navigation.EventCodesPageTitle" xml:space="preserve">
+    <value>Händelsekoder för {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.LeaveRequests" xml:space="preserve">
+    <value>Ledighetsansökningar</value>
+  </data>
+  <data name="Vacation.Navigation.Me" xml:space="preserve">
+    <value>Min kalender</value>
+  </data>
+  <data name="Vacation.Navigation.Recalculate" xml:space="preserve">
+    <value>Beräkna om</value>
+  </data>
+  <data name="Vacation.Navigation.RefundableAbsence" xml:space="preserve">
+    <value>Återbetalningsbar frånvaro</value>
+  </data>
+  <data name="Vacation.Navigation.Reports" xml:space="preserve">
+    <value>Rapporter</value>
+  </data>
+  <data name="Vacation.Navigation.Resend" xml:space="preserve">
+    <value>Skicka om meddelanden</value>
+  </data>
+  <data name="Vacation.Navigation.ScriptsPageTitle" xml:space="preserve">
+    <value>Formler för {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="Vacation.Navigation.Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="Vacation.Navigation.Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Vacation.Navigation.Team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Vacation.Navigation.TimeAgreements" xml:space="preserve">
+    <value>Tidsavtal</value>
+  </data>
+  <data name="Vacation.Navigation.Vacation" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="Vacation.Navigation.VacationAgreements" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="Vacation.Navigation.VacationCalculation" xml:space="preserve">
+    <value>Semesterberäkning</value>
+  </data>
+  <data name="Vacation.Navigation.VacationCalculationPageTitle" xml:space="preserve">
+    <value>Semesterberäkning för {0}</value>
+    <comment>0</comment>
+  </data>
+  <data name="VacationAgreement.Exceptions.InvalidVacationAgreementPeriod" xml:space="preserve">
+    <value>Ogiltig period för semesteravtalet ({0})</value>
+    <comment>period</comment>
+  </data>
+  <data name="VacationAgreement.Exceptions.MissingVacationAgreement" xml:space="preserve">
+    <value>Semesteravtal saknas.</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.MonthsEmploymentMinLimitGreaterThanMaxLimit" xml:space="preserve">
+    <value>Värdet för minsta anställningstid får inte vara större än värdet för antalet senaste månader</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.NotFound" xml:space="preserve">
+    <value>Det går inte att hitta semesteravtal</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.PaycodeExcessPaidDaysMandatory" xml:space="preserve">
+    <value>Löneart för Överskjutande betalda dagar till lön är obligatoriskt</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.PaycodeExcessSavedDaysYearFiveMandatory" xml:space="preserve">
+    <value>Löneart för Överskjutande sparade dagar år 5 till lön är obligatoriskt</value>
+  </data>
+  <data name="VacationAgreement.Exceptions.VacationAgreementInUse" xml:space="preserve">
+    <value>Semesteravtalet används av: {0}.</value>
+    <comment>emp</comment>
+  </data>
+  <data name="VacationAgreement.Exceptions.VacationAgreementNameMustBeUnique" xml:space="preserve">
+    <value>Semesteravtalet måste ha ett unikt namn.</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDays" xml:space="preserve">
+    <value>Extra semesterdagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDaysFromAge" xml:space="preserve">
+    <value>Extra dagar från ålder</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDaysFromAgeVacationEntitlement" xml:space="preserve">
+    <value>Semesterrätt för extra dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalDaysFromAgeVacationPayInPercent" xml:space="preserve">
+    <value>Extra dagar semesterlön i %</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalVacationEntitlement" xml:space="preserve">
+    <value>Extra semesterrätt</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionalVacationPayInPercent" xml:space="preserve">
+    <value>Extra semesterersättning i %</value>
+  </data>
+  <data name="VacationAgreement.Labels.AdditionVacationBasedAbsenceScript" xml:space="preserve">
+    <value>Tillägg semestergrundande frånvaro</value>
+  </data>
+  <data name="VacationAgreement.Labels.AddVacationAgreement" xml:space="preserve">
+    <value>Lägg till semesteravtal</value>
+  </data>
+  <data name="VacationAgreement.Labels.Agreement" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="VacationAgreement.Labels.AverageEarning" xml:space="preserve">
+    <value>Snittlöneberäkning</value>
+  </data>
+  <data name="VacationAgreement.Labels.AverageEarningScript" xml:space="preserve">
+    <value>Snittlöneberäkning</value>
+  </data>
+  <data name="VacationAgreement.Labels.Balances" xml:space="preserve">
+    <value>Saldon</value>
+  </data>
+  <data name="VacationAgreement.Labels.CalculationOfVacationPay" xml:space="preserve">
+    <value>Beräkning av semesterersättning</value>
+  </data>
+  <data name="VacationAgreement.Labels.DaysPerWeek" xml:space="preserve">
+    <value>Dagar per vecka</value>
+  </data>
+  <data name="VacationAgreement.Labels.DefaultVacationAgreement" xml:space="preserve">
+    <value>Standard semesteravtal</value>
+  </data>
+  <data name="VacationAgreement.Labels.DeviantVacationPayFounding" xml:space="preserve">
+    <value>Semesterlönegrundande period</value>
+  </data>
+  <data name="VacationAgreement.Labels.EarnedDaysCalculatedInAverageUtilization" xml:space="preserve">
+    <value>Beräkna intjänade dagar med genomsnittlig sysselsättningsgrad</value>
+  </data>
+  <data name="VacationAgreement.Labels.EarnedPaidDaysScript" xml:space="preserve">
+    <value>Betalda dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.Entitlement" xml:space="preserve">
+    <value>Semesterrätt- och procent</value>
+  </data>
+  <data name="VacationAgreement.Labels.ExcessPaidDays" xml:space="preserve">
+    <value>Överskjutande betalda dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.ExcessPaidDaysToPayroll" xml:space="preserve">
+    <value>Överskjutande betalda dagar till lön</value>
+  </data>
+  <data name="VacationAgreement.Labels.ExcessSavedDaysYearFiveToPayroll" xml:space="preserve">
+    <value>Överskjutande sparade dagar år 5 till lön</value>
+  </data>
+  <data name="VacationAgreement.Labels.Factor1" xml:space="preserve">
+    <value>Faktor 1</value>
+  </data>
+  <data name="VacationAgreement.Labels.Factor2" xml:space="preserve">
+    <value>Faktor 2</value>
+  </data>
+  <data name="VacationAgreement.Labels.InitialBalances" xml:space="preserve">
+    <value>Start värden</value>
+  </data>
+  <data name="VacationAgreement.Labels.IntermittentMethodType" xml:space="preserve">
+    <value>Beräkning för intermittent anställd</value>
+  </data>
+  <data name="VacationAgreement.Labels.MaxAdvancedDays" xml:space="preserve">
+    <value>Max förskottsdagar
+</value>
+  </data>
+  <data name="VacationAgreement.Labels.Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="VacationAgreement.Labels.NonVacationBasedAbsence" xml:space="preserve">
+    <value>Ej semestergrundande frånvaro</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeAdvancedDays" xml:space="preserve">
+    <value>Förskottsdagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeEarnedDays" xml:space="preserve">
+    <value>Intjänade dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeExcessPaidDays" xml:space="preserve">
+    <value>Överskjutande betalda dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeExcessSavedDaysYearFive" xml:space="preserve">
+    <value>Överskjutande dagar spar år 5</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeFullCalendarDays" xml:space="preserve">
+    <value>Hela kalenderdagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodePaidDays" xml:space="preserve">
+    <value>Betalda dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodePartOfCalendarDays" xml:space="preserve">
+    <value>Del av kalenderdag</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodePostponedDays" xml:space="preserve">
+    <value>Förskjutna dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayCodes" xml:space="preserve">
+    <value>Löneart</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear1" xml:space="preserve">
+    <value>Sparade dagar år 1</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear2" xml:space="preserve">
+    <value>Sparade dagar år 2</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear3" xml:space="preserve">
+    <value>Sparade dagar år 3</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear4" xml:space="preserve">
+    <value>Sparade dagar år 4</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeSavedDaysYear5" xml:space="preserve">
+    <value>Sparade dagar år 5</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeUsedVacationDays" xml:space="preserve">
+    <value>Uttagna semesterdagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaycodeVacationBasedAbsenceInHours" xml:space="preserve">
+    <value>Timmar</value>
+  </data>
+  <data name="VacationAgreement.Labels.PaymentPeriod" xml:space="preserve">
+    <value>Utbetalningsperiod</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayoutPeriodFixedSalary" xml:space="preserve">
+    <value>Utbetalning semesterlön för fast avlönade</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayoutPeriodHourlyPaid" xml:space="preserve">
+    <value>Utbetalning semesterlön för timavlönade</value>
+  </data>
+  <data name="VacationAgreement.Labels.PayoutVacationPay" xml:space="preserve">
+    <value>Utbetalning av semesterlön</value>
+  </data>
+  <data name="VacationAgreement.Labels.PercentageRule" xml:space="preserve">
+    <value>Procentregeln</value>
+  </data>
+  <data name="VacationAgreement.Labels.Position" xml:space="preserve">
+    <value>Kontrakt</value>
+  </data>
+  <data name="VacationAgreement.Labels.Quota" xml:space="preserve">
+    <value>Kvot</value>
+  </data>
+  <data name="VacationAgreement.Labels.ReduceDeficientDays" xml:space="preserve">
+    <value>Reducera bristande dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.RemoveAdvancedDays" xml:space="preserve">
+    <value>Ta bort förskottsdagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.SameWageRule" xml:space="preserve">
+    <value>Sammalöneregeln</value>
+  </data>
+  <data name="VacationAgreement.Labels.SavedDaysYearFive" xml:space="preserve">
+    <value>Överskjutna sparade dagar år fem</value>
+  </data>
+  <data name="VacationAgreement.Labels.SavedPaidDays" xml:space="preserve">
+    <value>Spara betalda dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.SaveOptionalPaidDays" xml:space="preserve">
+    <value>Dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.SeniorWeek" xml:space="preserve">
+    <value>Extra semesterdagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.TotalVacationBasedSalaryScript" xml:space="preserve">
+    <value>Total semestergrundande lön</value>
+  </data>
+  <data name="VacationAgreement.Labels.TotalVacationPayScript" xml:space="preserve">
+    <value>Total semesterlön</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDays" xml:space="preserve">
+    <value>Obetalda dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDaysAfterThreshold" xml:space="preserve">
+    <value>Obetalda dagar efter gränsen</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDaysBeforeThreshold" xml:space="preserve">
+    <value>Obetalda dagar före gränsen</value>
+  </data>
+  <data name="VacationAgreement.Labels.UnpaidDaysThreshold" xml:space="preserve">
+    <value>Datum gräns för obetalda dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.UseLimitValueForVacationPayment" xml:space="preserve">
+    <value>Använd gränsvärde för semesterlön</value>
+  </data>
+  <data name="VacationAgreement.Labels.UseVacationFactorInHours" xml:space="preserve">
+    <value>Använd semesterfaktor i timmar</value>
+  </data>
+  <data name="VacationAgreement.Labels.UseVacationInAdvance" xml:space="preserve">
+    <value>Använd förskottssemester</value>
+  </data>
+  <data name="VacationAgreement.Labels.UtilizationRate" xml:space="preserve">
+    <value>Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationAgreement.Labels.UtilizationType" xml:space="preserve">
+    <value>Syss.grad</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationBalance" xml:space="preserve">
+    <value>Semestersaldon</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationBasedAbsence" xml:space="preserve">
+    <value>Semestergrundande frånvaro</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationBasedHours" xml:space="preserve">
+    <value>Semestergrundande timmar</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationDays" xml:space="preserve">
+    <value>Semesterdagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationDaysInNetOnPayslip" xml:space="preserve">
+    <value>Semesterdagar i netto på lönespecifikation</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationEntitlement" xml:space="preserve">
+    <value>Semesterrätt</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationFactorInHours" xml:space="preserve">
+    <value>Semesterfaktor i timmar</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPay" xml:space="preserve">
+    <value>Semesterlön</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayAdditionPerDay" xml:space="preserve">
+    <value>Semesterlönetillägg per dag</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayAdditionPerDayInPercent" xml:space="preserve">
+    <value>Semesterlönetillägg per dag i %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayInPercent" xml:space="preserve">
+    <value>Semesterlön i %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPaymentSavedDays" xml:space="preserve">
+    <value>Semesterlön för sparade dagar</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayPerDay" xml:space="preserve">
+    <value>Semesterlön per dag</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayPerDayInPercent" xml:space="preserve">
+    <value>Semesterlön per dag i %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayPerDayScript" xml:space="preserve">
+    <value>Semesterlön per dag</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationPayRefillPerDayScript" xml:space="preserve">
+    <value>Semesterlönutfyllnad per dag</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationType" xml:space="preserve">
+    <value>Semestertyp</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationYear" xml:space="preserve">
+    <value>Semesteråret börjar</value>
+  </data>
+  <data name="VacationAgreement.Labels.VacationYearTo" xml:space="preserve">
+    <value>till</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayPerDay" xml:space="preserve">
+    <value>Rörlig semesterlön per dag</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayPerDayInPercent" xml:space="preserve">
+    <value>Rörlig semesterlön per dag i %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayPerDayScript" xml:space="preserve">
+    <value>Rörlig semesterlön per dag</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayTotal" xml:space="preserve">
+    <value>Rörlig semesterlön totalt</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayTotalInPercent" xml:space="preserve">
+    <value>Rörlig semesterlön totalt i %</value>
+  </data>
+  <data name="VacationAgreement.Labels.VariableVacationPayTotalScript" xml:space="preserve">
+    <value>Totalt rörlig semesterlön</value>
+  </data>
+  <data name="VacationAgreement.Labels.WithholdMoneyForFixedPaid" xml:space="preserve">
+    <value>Semesteravdrag för månadsavlönade</value>
+  </data>
+  <data name="VacationAgreement.Tabs.FinalWages" xml:space="preserve">
+    <value>Slutlön</value>
+  </data>
+  <data name="VacationAgreement.Tabs.Generic" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="VacationAgreement.Tabs.HandlingVacationDay" xml:space="preserve">
+    <value>Hantering semesterdagar</value>
+  </data>
+  <data name="VacationAgreement.Tabs.LimitValues" xml:space="preserve">
+    <value>Gränsvärden för semesterlön</value>
+  </data>
+  <data name="VacationAgreement.Tabs.Scripts" xml:space="preserve">
+    <value>Formler</value>
+  </data>
+  <data name="VacationAgreement.Tabs.VacationEarning" xml:space="preserve">
+    <value>Semesterintjänande</value>
+  </data>
+  <data name="VacationAgreement.Tabs.VacationPayLiability" xml:space="preserve">
+    <value>Semesterlöneskuld</value>
+  </data>
+  <data name="VacationAgreement.Texts.VacationAgreement" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="VacationAgreementEnums.AverageEarningType.AverageHourlyWage" xml:space="preserve">
+    <value>Genomsnittlig timlön</value>
+  </data>
+  <data name="VacationAgreementEnums.AverageEarningType.FixedHourlyWage" xml:space="preserve">
+    <value>Fast timlön</value>
+  </data>
+  <data name="VacationAgreementEnums.CalculationOfVacationPayType.FullAccrual" xml:space="preserve">
+    <value>Full ackumulering</value>
+  </data>
+  <data name="VacationAgreementEnums.CalculationOfVacationPayType.Limited" xml:space="preserve">
+    <value>Begränsad, till 6G</value>
+  </data>
+  <data name="VacationAgreementEnums.DaysPerWeekType.Five" xml:space="preserve">
+    <value>Fem</value>
+  </data>
+  <data name="VacationAgreementEnums.DaysPerWeekType.FiveRounded" xml:space="preserve">
+    <value>Fem, avrundat</value>
+  </data>
+  <data name="VacationAgreementEnums.DaysPerWeekType.Six" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="VacationAgreementEnums.IntermittentMethodType.GrossDays" xml:space="preserve">
+    <value>Brutto</value>
+  </data>
+  <data name="VacationAgreementEnums.IntermittentMethodType.NetDays" xml:space="preserve">
+    <value>Netto</value>
+  </data>
+  <data name="VacationAgreementEnums.PaymentPeriod.Continuously" xml:space="preserve">
+    <value>Kontinuerligt</value>
+  </data>
+  <data name="VacationAgreementEnums.PaymentPeriod.OnceAYear" xml:space="preserve">
+    <value>Årligen</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveAllPaidDays" xml:space="preserve">
+    <value>Spara alla betalda dagar</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveMax5PaidDays" xml:space="preserve">
+    <value>Spara max 5 betalda dagar</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveMoreThan20PaidDays" xml:space="preserve">
+    <value>Spara mer än 20 betalda dagar</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveMoreThan20PaidDaysOrEntitlement" xml:space="preserve">
+    <value>Spara mer än 20 betalda dagar eller berättigade </value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SaveOptionalPaidDays" xml:space="preserve">
+    <value>Spara valfritt antal dagar</value>
+  </data>
+  <data name="VacationAgreementEnums.SavedPaidDaysType.SavePaidDaysMaxEntitlement" xml:space="preserve">
+    <value>Spara max personens semesterrätt</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.AverageRate" xml:space="preserve">
+    <value>Snittsyssgrad</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.AverageRateReducedByPartTimeAbsence" xml:space="preserve">
+    <value>Snittsyssgrad, reducerat med deltidsfrånvaro</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.FactorHours" xml:space="preserve">
+    <value>Faktor timmar</value>
+  </data>
+  <data name="VacationAgreementEnums.UtilizationType.TopicalRate" xml:space="preserve">
+    <value>Aktuell syss.grad</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.BasedOnFixedSalary" xml:space="preserve">
+    <value>Baserat på månadslön</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.Commensurate" xml:space="preserve">
+    <value>Sammanfallande (månadslön)</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.None" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.Percentage" xml:space="preserve">
+    <value>Procentberäkning</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.PercentageWithReclaim" xml:space="preserve">
+    <value>Procent med återföring</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.SeasonalAndExtraEmployee" xml:space="preserve">
+    <value>Säsongs- och extra anställda</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.TechnicPercentage" xml:space="preserve">
+    <value>Teknik procentberäkning</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.TechnicWithFixedSalary" xml:space="preserve">
+    <value>Teknik månadslön</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationAgreementType.VacationLaw" xml:space="preserve">
+    <value>Semesterlagen</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationDaysHandlingType.Remain" xml:space="preserve">
+    <value>Ligga kvar</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationDaysHandlingType.ToPayment" xml:space="preserve">
+    <value>Betalas ut</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationPaymentSavedDaysType.Remain" xml:space="preserve">
+    <value>Ligga kvar</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationPaymentSavedDaysType.SameAsPaidDays" xml:space="preserve">
+    <value>Som betalda dagar</value>
+  </data>
+  <data name="VacationAgreementEnums.VacationPaymentSavedDaysType.SameAsPaidDaysRecountWithUtilizationRate" xml:space="preserve">
+    <value>Som betalda dagar, omräknat med syss.grad</value>
+  </data>
+  <data name="VacationAgreementEnums.WithholdMoneyForFixedPaidType.NotWithhold" xml:space="preserve">
+    <value>Inget semesteravdrag</value>
+  </data>
+  <data name="VacationAgreementEnums.WithholdMoneyForFixedPaidType.Withhold" xml:space="preserve">
+    <value>Dra av för semester</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimitValueOver" xml:space="preserve">
+    <value>Gränsvärde giltigt yngre än {0} år</value>
+    <comment>age</comment>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimitValueUnder" xml:space="preserve">
+    <value>Gränsvärde gäller från {0} år</value>
+    <comment>age</comment>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimit_Part1" xml:space="preserve">
+    <value>Ta hänsyn till ålder</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.AgeLimit_Part2" xml:space="preserve">
+    <value> år</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.Caption" xml:space="preserve">
+    <value>Gränsvärden</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.LimitValue" xml:space="preserve">
+    <value>Gränsvärde (belopp)</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsBusinessExperienceLimit" xml:space="preserve">
+    <value>Ta hänsyn till branchvana</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsEmploymentLimit_Part1" xml:space="preserve">
+    <value>Gränsvärde giltigt vid minst anställningstid av</value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsEmploymentLimit_Part2" xml:space="preserve">
+    <value> månader under de senaste </value>
+  </data>
+  <data name="VacationAgreementPanels.LimitValues.MonthsEmploymentLimit_Part3" xml:space="preserve">
+    <value> månader</value>
+  </data>
+  <data name="VacationBalances.Exceptions.AdvancedDaysExceedsVacationAgreement" xml:space="preserve">
+    <value>Antalet förskottsdagar kan inte vara fler än vad som angetts på semesteravtalet</value>
+  </data>
+  <data name="VacationBalances.Exceptions.DaysOver60ExceedsVacationEntitlement" xml:space="preserve">
+    <value>Antalet dagar över 60 kan inte vara fler än vad som angetts som semesterrätt för den anställde</value>
+  </data>
+  <data name="VacationBalances.Exceptions.NormalDaysExceedsVacationEntitlement" xml:space="preserve">
+    <value>Antalet normala dagar kan inte vara fler än vad som angetts som semesterrätt för den anställde</value>
+  </data>
+  <data name="VacationBalances.Exceptions.VacationBalancesExceedsEntitlement" xml:space="preserve">
+    <value>Nytt saldo är mer än semesterrätten</value>
+  </data>
+  <data name="VacationBalances.Exceptions.VacationBalancesVacationDaysExceedsBalance" xml:space="preserve">
+    <value>Värdet kan inte vara mindre än uttagna semesterdagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.AdditionalDays" xml:space="preserve">
+    <value>Ytterligare dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.AdvanceDays" xml:space="preserve">
+    <value>Förskottsdagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.Changed" xml:space="preserve">
+    <value>Saldon har blivit manuellt ändrade</value>
+  </data>
+  <data name="VacationCalculation.Balances.EarnedPaidDays" xml:space="preserve">
+    <value>Betalda dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.EarnedUnpaidVacationDays" xml:space="preserve">
+    <value>Obetalda dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeFirstName" xml:space="preserve">
+    <value>Förnamn</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeId" xml:space="preserve">
+    <value>Anställningsnr</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeLastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeLevel" xml:space="preserve">
+    <value>Nivå</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmployeeVacationBalance" xml:space="preserve">
+    <value>Anställds semestersaldon</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmploymentEndDate" xml:space="preserve">
+    <value>Anställningens slutdatum</value>
+  </data>
+  <data name="VacationCalculation.Balances.EmploymentStartDate" xml:space="preserve">
+    <value>Anställningens startdatum</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessPaidDays" xml:space="preserve">
+    <value>Betalda dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessPaidDaysUtilizationRate" xml:space="preserve">
+    <value>Betalda dagar - Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessSavedDaysYear5" xml:space="preserve">
+    <value>Sparade dagar år 5</value>
+  </data>
+  <data name="VacationCalculation.Balances.ExcessSavedDaysYear5UtilizationRate" xml:space="preserve">
+    <value>Sparade dagar år 5 - Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculation.Balances.InitialBalanceDaysOver60Years" xml:space="preserve">
+    <value>Start värde för saldo Dagar från 60 år</value>
+  </data>
+  <data name="VacationCalculation.Balances.InitialBalanceNormalDays" xml:space="preserve">
+    <value>Start värde för saldo Normala dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.NonVacationBasedFullCalendardays" xml:space="preserve">
+    <value>Ej semestergr. frånvaro hela kalenderdagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.NormalDays" xml:space="preserve">
+    <value>Normala dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDays" xml:space="preserve">
+    <value>Betalda dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDaysVacationPayPerDay" xml:space="preserve">
+    <value>Betalda dagar - Semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDaysVacationPayRefillPerDay" xml:space="preserve">
+    <value>Betalda dagar - Semesterlöneutfyllnad per dag</value>
+  </data>
+  <data name="VacationCalculation.Balances.PaidDaysVariabelVacationPayPerDay" xml:space="preserve">
+    <value>Betalda dagar - Rörlig semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculation.Balances.ParttimeFactor" xml:space="preserve">
+    <value>Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculation.Balances.Remainder" xml:space="preserve">
+    <value>Redigering av semestersaldo gäller endast för innevarande år och kommer inte att påverka de nästa års semesterdagar. Ändring av värden i detta fönster kan ha en inverkan på redovisningen för semesterskuld. Det finns ingen automatisk hantering av detta i systemet. Detta måste tas hand om manuellt i bokföringssystemet.</value>
+  </data>
+  <data name="VacationCalculation.Balances.RemainingDays" xml:space="preserve">
+    <value>Resterande dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.RemainingDaysVacationYear" xml:space="preserve">
+    <value>Resterande semesterdagar </value>
+  </data>
+  <data name="VacationCalculation.Balances.SavedDaysYear5VacationPayPerDay" xml:space="preserve">
+    <value>Sparade dagar år 5 - Semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculation.Balances.SavedDaysYear5VacationPayRefillPerDay" xml:space="preserve">
+    <value>Sparade dagar år 5 - Semesterlöneutfyllnad per dag</value>
+  </data>
+  <data name="VacationCalculation.Balances.SavedDaysYear5VariabelVacationPayPerDay" xml:space="preserve">
+    <value>Sparade dagar år 5 - Rörlig semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculation.Balances.TotalDays" xml:space="preserve">
+    <value>Totalt antal dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.TransferredAdditionalDays" xml:space="preserve">
+    <value>Överförda ytterligare dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.TransferredDays" xml:space="preserve">
+    <value>Överförda dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.UnpaidDays" xml:space="preserve">
+    <value>Obetalda dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.UsedAdvanceDays" xml:space="preserve">
+    <value>Uttagna förskottsdagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.UtilizationRate" xml:space="preserve">
+    <value>Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedAbsenceFullWorkdays" xml:space="preserve">
+    <value>Semestergr. frånvaro arbetsdagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedAbsenceHours" xml:space="preserve">
+    <value>Semestergr. frånvarotimmar</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedDays" xml:space="preserve">
+    <value>Semestergrundande dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedFullCalendardays" xml:space="preserve">
+    <value>Semestergr. frånvaro hela kalenderdagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationBasedPartCalendardays" xml:space="preserve">
+    <value>Semestergr. frånvaro del av dag</value>
+  </data>
+  <data name="VacationCalculation.Balances.VacationDays" xml:space="preserve">
+    <value>Semester dagar</value>
+  </data>
+  <data name="VacationCalculation.Balances.WorkdaysFromRoster" xml:space="preserve">
+    <value>Arbetsdagar i schema</value>
+  </data>
+  <data name="VacationCalculation.Exceptions.PayCodeNotFound" xml:space="preserve">
+    <value>Löneart kunde inte hittas {0}</value>
+    <comment>payCodeId</comment>
+  </data>
+  <data name="VacationCalculation.Exceptions.TooManyDays" xml:space="preserve">
+    <value>Du har tyvärr inte tillräckligt med semesterdagar att använda ({0})</value>
+    <comment>date</comment>
+  </data>
+  <data name="VacationCalculation.Filters.DeaviatingparttimePercentage" xml:space="preserve">
+    <value>Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculation.Filters.DeaviatingVacationEntitlement" xml:space="preserve">
+    <value>Semesterrätt</value>
+  </data>
+  <data name="VacationCalculation.Filters.ExcessDays" xml:space="preserve">
+    <value>Har överskjutande dagar</value>
+  </data>
+  <data name="VacationCalculation.Filters.Group" xml:space="preserve">
+    <value>Avvikelser</value>
+  </data>
+  <data name="VacationCalculation.Filters.UnpaidDays" xml:space="preserve">
+    <value>Har obetalda dagar</value>
+  </data>
+  <data name="VacationCalculation.Labels.Accrued" xml:space="preserve">
+    <value>Ackumulerad</value>
+  </data>
+  <data name="VacationCalculation.Labels.Balances" xml:space="preserve">
+    <value>Saldon</value>
+  </data>
+  <data name="VacationCalculation.Labels.Calculate" xml:space="preserve">
+    <value>Beräkna</value>
+  </data>
+  <data name="VacationCalculation.Labels.CurrentValue" xml:space="preserve">
+    <value>Nuvarande värde</value>
+  </data>
+  <data name="VacationCalculation.Labels.EndOfThisMonth" xml:space="preserve">
+    <value>Aktuell månad</value>
+  </data>
+  <data name="VacationCalculation.Labels.For" xml:space="preserve">
+    <value>för </value>
+  </data>
+  <data name="VacationCalculation.Labels.Information" xml:space="preserve">
+    <value>Information!</value>
+  </data>
+  <data name="VacationCalculation.Labels.MethodInformation" xml:space="preserve">
+    <value>Sammalöneregel är standard beräkningsmetod för en anställd med fast månadslön \n 
+\n
+Procentregeln ska användas när en anställd inte har någon fast lön, till exempel timavlönad. \n
+En anställd med fast månadslön skall använda procentregel när; \n
+- rörliga lönedelar är mer än 10% av den totala lönen \n
+- sysselsättningsgraden har varierat under semesteråret \n
+- syssesättningsgraden under intjjänandeåret och semesteruttaget har varierat \n</value>
+  </data>
+  <data name="VacationCalculation.Labels.OpeningValue" xml:space="preserve">
+    <value>Start värde</value>
+  </data>
+  <data name="VacationCalculation.Labels.Owed" xml:space="preserve">
+    <value>Skyldig</value>
+  </data>
+  <data name="VacationCalculation.Labels.PaidVacationPayAddition" xml:space="preserve">
+    <value>Utbet. semesterlönetillägg</value>
+  </data>
+  <data name="VacationCalculation.Labels.PaidVacationPayPerDay" xml:space="preserve">
+    <value>Utbet. semesterlön/dag</value>
+  </data>
+  <data name="VacationCalculation.Labels.PaidVariableVacationPay" xml:space="preserve">
+    <value>Utbet. rörlig semesterlön</value>
+  </data>
+  <data name="VacationCalculation.Labels.Remaining" xml:space="preserve">
+    <value>Resterande</value>
+  </data>
+  <data name="VacationCalculation.Labels.Result" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="VacationCalculation.Labels.ShowCurrentYear" xml:space="preserve">
+    <value>Visa aktuellt år</value>
+  </data>
+  <data name="VacationCalculation.Labels.Used" xml:space="preserve">
+    <value>Uttagna</value>
+  </data>
+  <data name="VacationCalculation.Labels.UtilizationRate" xml:space="preserve">
+    <value>Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculation.Labels.UtilizationRatePercent" xml:space="preserve">
+    <value>Sysselsättningsgrad %</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBalance" xml:space="preserve">
+    <value>Semestersaldon</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBalanceLabel" xml:space="preserve">
+    <value>Semestersaldon är enbart möjliga att redigera när aktuellt semesterår är valt</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBasedHours" xml:space="preserve">
+    <value>Semestergrundade timmar</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBasedReductionForAbsence" xml:space="preserve">
+    <value>Semestergrundade frånvaroavdrag</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationBasedSalary" xml:space="preserve">
+    <value>Semestergrundande lön</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationEarning" xml:space="preserve">
+    <value>Semesterintjänande</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationInput" xml:space="preserve">
+    <value>Semestervärden</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationLawCalculationMethod" xml:space="preserve">
+    <value>Beräkningsmetod</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationLawCalculationMethodDescription" xml:space="preserve">
+    <value>Använd sammalöneregeln om...</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationPayFillUp" xml:space="preserve">
+    <value>Semesterlöneutfyllnad</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationPayPerDay" xml:space="preserve">
+    <value>Semesterlön/dag</value>
+  </data>
+  <data name="VacationCalculation.Labels.VacationYear" xml:space="preserve">
+    <value>Semesterår</value>
+  </data>
+  <data name="VacationCalculation.Labels.VariableVacationBasedSalary" xml:space="preserve">
+    <value>Semestergrundade rörlig lön</value>
+  </data>
+  <data name="VacationCalculation.Labels.VariableVacationPayPerDay" xml:space="preserve">
+    <value>Rörlig semesterlön/dag</value>
+  </data>
+  <data name="VacationCalculation.Receipt.Confirm" xml:space="preserve">
+    <value>Aktuellt semesterår kommer att slutföras. Vill du fortsätta?</value>
+  </data>
+  <data name="VacationCalculation.Receipt.DeviantVacationPayFounding" xml:space="preserve">
+    <value>Semesterlönegrundande period</value>
+  </data>
+  <data name="VacationCalculation.Receipt.ExcessDays" xml:space="preserve">
+    <value>Överskjutande dagar kommer att betalas ut i nästa möjliga löneperiod</value>
+  </data>
+  <data name="VacationCalculation.Receipt.NextVacationYear" xml:space="preserve">
+    <value>Nästa semesterår</value>
+  </data>
+  <data name="VacationCalculation.Receipt.StartDate" xml:space="preserve">
+    <value>Startdatum</value>
+  </data>
+  <data name="VacationCalculation.VacationLawCalculationMethodEnum.NoRule" xml:space="preserve">
+    <value>Inget värde</value>
+  </data>
+  <data name="VacationCalculation.VacationLawCalculationMethodEnum.PercentageRule" xml:space="preserve">
+    <value>Procentuell beräkning</value>
+  </data>
+  <data name="VacationCalculation.VacationLawCalculationMethodEnum.SameWageRule" xml:space="preserve">
+    <value>Sammalöneregeln</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.AdvancedDays" xml:space="preserve">
+    <value>Förskottsdagar</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.Agreement" xml:space="preserve">
+    <value>Vacation agreement {0}</value>
+    <comment>num</comment>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.ExcessPaidDays" xml:space="preserve">
+    <value>Överskjutande betalda dagar</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.ExcessSavedDaysYear5" xml:space="preserve">
+    <value>Överskjutande sparade dagar år 5</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.PaidDays" xml:space="preserve">
+    <value>Betalda dagar</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.PaidPrelDays" xml:space="preserve">
+    <value>Prel. betalda dagar</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.PostponedDays" xml:space="preserve">
+    <value>Förskjutna dagar</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.RemovedAdvancedDays" xml:space="preserve">
+    <value>Borttagna förskottsdagar</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear1" xml:space="preserve">
+    <value>Sparade dagar år 1</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear2" xml:space="preserve">
+    <value>Sparade dagar år 2</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear3" xml:space="preserve">
+    <value>Sparade dagar år 3</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear4" xml:space="preserve">
+    <value>Sparade dagar år 4</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.SavedDaysYear5" xml:space="preserve">
+    <value>Sparade dagar år 5</value>
+  </data>
+  <data name="VacationCalculation.VacationSettingsDays.UnpaidDays" xml:space="preserve">
+    <value>Obetalda dagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.Dept" xml:space="preserve">
+    <value>Skuld</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.DueDate" xml:space="preserve">
+    <value>Förfallodag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EarnedPaidDays" xml:space="preserve">
+    <value>Intjänade betalda dagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EarnedUnpaidVacationDays" xml:space="preserve">
+    <value>Obetalda dagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeFirstName" xml:space="preserve">
+    <value>Förnamn</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeId" xml:space="preserve">
+    <value>Anställningsnr</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeLastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmployeeLevel" xml:space="preserve">
+    <value>Nivå</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.EmploymentStartDate" xml:space="preserve">
+    <value>Anställningens startdatum</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessPaidDays" xml:space="preserve">
+    <value>Betalda dagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessPaidDaysUtilizationRate" xml:space="preserve">
+    <value>Betalda dagar - Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessSavedDaysYear5" xml:space="preserve">
+    <value>Sparade dagar år 5</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.ExcessSavedDaysYear5UtilizationRate" xml:space="preserve">
+    <value>Sparade dagar år 5 - Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.NonVacationBasedFullCalendardays" xml:space="preserve">
+    <value>Ej semestergr. frånvaro hela kalenderdagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.PaidDaysVacationPayPerDay" xml:space="preserve">
+    <value>Betalda dagar - Semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.PaidDaysVacationPayRefillPerDay" xml:space="preserve">
+    <value>Betalda dagar - Semesterlöneutfyllnad per dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.PaidDaysVariabelVacationPayPerDay" xml:space="preserve">
+    <value>Betalda dagar - Rörlig semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.SavedDaysYear5VacationPayPerDay" xml:space="preserve">
+    <value>Sparade dagar år 5 - Semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.SavedDaysYear5VacationPayRefillPerDay" xml:space="preserve">
+    <value>Sparade dagar år 5 - Semesterlöneutfyllnad per dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.SavedDaysYear5VariabelVacationPayPerDay" xml:space="preserve">
+    <value>Sparade dagar år 5 - Rörlig semesterlön per dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.TotalAmountOfVacationDays" xml:space="preserve">
+    <value>Totalt antal semesterdagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.UsedDays" xml:space="preserve">
+    <value>Uttagna dagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.UsedVacationDays" xml:space="preserve">
+    <value>Uttagna sem.dagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.UtilizationRate" xml:space="preserve">
+    <value>Sysselsättningsgrad</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationAgreementName" xml:space="preserve">
+    <value>Semesteravtal</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedAbsenceFullWorkdays" xml:space="preserve">
+    <value>Semestergr. frånvaro arbetsdagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedAbsenceHours" xml:space="preserve">
+    <value>Semestergr. frånvarotimmar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedAbsencePartCalendarDays" xml:space="preserve">
+    <value>Semestergr. frånvaro del av dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedDays" xml:space="preserve">
+    <value>Semestergrundande dagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedFullCalendardays" xml:space="preserve">
+    <value>Semestergr. frånvaro hela kalenderdagar</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.VacationBasedPartCalendardays" xml:space="preserve">
+    <value>Semestergr. frånvaro del av dag</value>
+  </data>
+  <data name="VacationCalculationGrid.Labels.WorkdaysFromRoster" xml:space="preserve">
+    <value>Arbetsdagar i schema</value>
+  </data>
+  <data name="VismaODP.Environment.HomePage" xml:space="preserve">
+    <value>Informationssida</value>
+  </data>
+  <data name="VismaODP.Environment.UserSettings" xml:space="preserve">
+    <value>Mina uppgifter</value>
+  </data>
+  <data name="VismaODP.Labels.SelectContext" xml:space="preserve">
+    <value>Välj område</value>
+  </data>
+  <data name="Workshift.Texts.Organization" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="Workshift.Texts.Workshift" xml:space="preserve">
+    <value>Arbetspass</value>
+  </data>
+  <data name="YearAndMonth.ErrorMessages.MonthIsNotValid" xml:space="preserve">
+    <value>månaden är inte giltig: {0}</value>
+    <comment>month</comment>
+  </data>
+  <data name="YearAndMonth.ErrorMessages.YearIsNotValid" xml:space="preserve">
+    <value>år är inte giltigt: {0}</value>
+    <comment>year</comment>
+  </data>
+</root>
