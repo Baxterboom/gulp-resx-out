@@ -1,6 +1,6 @@
 {
   "name": "gulp-resx-out",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gulp plugin to allow custom formatting of resx files through callbacks.",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "axis.js": "^1.2.1",
-    "buffer": "^5.0.8",
+    "buffer": "^5.1.0",
     "fancy-log": "^1.3.2",
     "gulp-debug": "^3.2.0",
     "gulp-ext-replace": "^0.3.0",

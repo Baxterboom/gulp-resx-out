@@ -39,7 +39,7 @@ module.exports = function (options) {
         name: element.attr("name").value(),
         value: element.get("value").text()
       };
-      parse(options.onparse(item, result, file), result);
+      parse(options.onparse(item, element, result, file), result);
     });
 
     const out = options.onwrite(result, file) || {};

@@ -17,7 +17,7 @@ npm install gulp-resx-out --save-dev
 Options
 -------
 - `onwrite?: (obj, file) => string|obj` - Callback to change the final output. 
-- `onparse?: (item, result, file) => { item: string, value: string }` - Callback to change item in the resx before its attatched to output.
+- `onparse?: (item, result, file) => { item: string, value: string } | null` - Callback to change item in the resx before its attatched to output.
 - `delimiter?: string` - split character for resx name(s)
 
 Basic Usage
@@ -32,12 +32,17 @@ const ext_replace = require('gulp-ext-replace');
 
 gulp.task("default", () => {
 
+  //return string that should be written to file
   function onwrite(result, file) {
     return `const Phrases = ${JSON.stringify(result, null, "\t")};`;
   }
 
-  function onparse(item, result, file) {
-    return item;
+  //return null to skip, or object { name: '', value: '' }
+  function onparse(item, element, result, file) {
+    return { 
+      name: item.name, 
+      value: item.value
+    };
   }
 
   return gulp.src("./res/*.resx")
@@ -51,10 +56,39 @@ gulp.task("default", () => {
     .pipe(gulp.dest("./out"));
 });
 ```
+Examples of onparse
+----------
+```javascript
+
+  //simple ignore
+  function onparse(item, element, result, file) {
+    var name = element.attr("name").value();
+    return name.indexOf(".skip.") > -1 ? null : item;
+  }
+
+  //cencor special words (regex)
+  var nasties = ["list", "of", "word[s]?", "resulting", "in", "censoring"];
+  var match = new RegExp("(" + nasties.join(")|(") + ")", "gi");
+
+  function onparse(item, element, result, file) {
+    var result = item.value;
+
+    item.value = {
+      value: result,
+      cencored: match.test(result) ? result.replace(match, "*censored*") : null
+    };
+
+    return item;
+  }
+
+```
 ```xml
 //resx file
 <?xml version="1.0" encoding="utf-8"?>
 <root>
+  <data name="Censor.This.One">
+    <value>This should be subject of censoring</value>
+  </data>
   <data name="Common.Labels.DefiniteTime">
     <value>Definite time</value>
   </data>
