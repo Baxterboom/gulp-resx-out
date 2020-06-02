@@ -61,21 +61,21 @@ Examples of onparse
 ```javascript
 
   //simple ignore
-  function onparse(item, element, result, file) {
+  function onparse(item, result, file) {
     var name = element.attr("name").value();
     return name.indexOf(".skip.") > -1 ? null : item;
   }
 
-  //cencor special words (regex)
+  //censor special words (regex)
   var nasties = ["list", "of", "word[s]?", "resulting", "in", "censoring"];
   var match = new RegExp("(" + nasties.join(")|(") + ")", "gi");
 
-  function onparse(item, element, result, file) {
+  function onparse(item, result, file) {
     var result = item.value;
 
     item.value = {
       value: result,
-      cencored: match.test(result) ? result.replace(match, "*censored*") : null
+      censored: match.test(result) ? result.replace(match, "*censored*") : null
     };
 
     return item;

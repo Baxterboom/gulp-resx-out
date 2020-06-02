@@ -1,8 +1,8 @@
 const log = require('fancy-log');
 const Type = require('axis.js');
-const libxmljs = require("libxmljs");
 const through2 = require('through2');
 const PluginError = require('plugin-error');
+const xmlParser = require('fast-xml-parser');
 
 const PLUGIN_NAME = "gulp-resx-out";
 const PLUGIN_OPTIONS = {
@@ -30,21 +30,25 @@ module.exports = function (options) {
 
   function convert(file) {
     const result = {};
-    const xml = file.contents;
-    const doc = libxmljs.parseXml(xml);
-    const root = doc.root();
-    const nodes = root.find("data");
-    nodes.forEach(function (element) {
+    const json = xmlParser.parse(file.contents.toString(), {
+      ignoreNameSpace: false,
+      ignoreAttributes: false,
+      attributeNamePrefix: "@"
+    });
+
+    const nodes = json.root.data;
+    nodes.forEach(function (node) {
       const item = {
-        name: element.attr("name").value(),
-        value: element.get("value").text()
+        name: node["@name"],
+        value: node["value"]
       };
-      parse(options.onparse(item, element, result, file), result);
+
+      parse(options.onparse(item, result, file), result);
     });
 
     const out = options.onwrite(result, file) || {};
     return Type.isString(out) ? out : JSON.stringify(out, null, "\t");
-  };
+  }
 
   function throughCallback(file, enc, cb) {
     if (file.isStream()) {
@@ -53,7 +57,7 @@ module.exports = function (options) {
     }
 
     if (file.isBuffer()) {
-      file.contents = new Buffer(convert(file));
+      file.contents = Buffer.from(convert(file));
     }
 
     this.push(file);
