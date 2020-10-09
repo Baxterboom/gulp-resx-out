@@ -1,4 +1,3 @@
-const log = require('fancy-log');
 const Type = require('axis.js');
 const through2 = require('through2');
 const xmlParser = require('fast-xml-parser');
@@ -12,6 +11,7 @@ const PLUGIN_OPTIONS = {
 };
 
 module.exports = function (options) {
+  const log = [];
   options = Object.assign({}, PLUGIN_OPTIONS, options);
 
   function parse(item, result) {
@@ -22,7 +22,7 @@ module.exports = function (options) {
       const part = parts.shift();
       const target = current[part];
       if (target && target.length) {
-        return log(PLUGIN_NAME + ": ignoring [" + item.name + "] since [" + part + "] already exists.");
+        log.push(PLUGIN_NAME + ": ignoring [" + item.name + "] since [" + part + "] already exists.");
       }
       current = target || (current[part] = parts.length == 0 ? item.value : {});
     }
@@ -61,6 +61,8 @@ module.exports = function (options) {
     }
 
     this.push(file);
+    log.forEach(e => console.warn(e));
+    log.length = 0;
     return cb();
   };
 
