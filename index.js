@@ -1,8 +1,8 @@
 const log = require('fancy-log');
 const Type = require('axis.js');
 const through2 = require('through2');
-const PluginError = require('plugin-error');
 const xmlParser = require('fast-xml-parser');
+const PluginError = require('plugin-error');
 
 const PLUGIN_NAME = "gulp-resx-out";
 const PLUGIN_OPTIONS = {
