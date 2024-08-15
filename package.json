@@ -1,6 +1,5 @@
 {
   "name": "gulp-resx-out",
-  "version": "1.1.1",
   "description": "Gulp plugin to allow custom formatting of resx files through callbacks.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Baxterboom/gulp-resx-out.git"
+    "url": "git+https://github.com/Baxterboom/gulp-resx-out.git"
   },
   "author": "Thor-björn Andersson <baxterboom.1@gmail.com>",
   "license": "ISC",
@@ -25,14 +24,14 @@
     "yargs-parser": ">=13.1.2"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-debug": "^3.2.0",
     "gulp-ext-replace": "^0.3.0"
   },
   "dependencies": {
     "axis.js": "^1.2.1",
     "buffer": "^5.1.0",
-    "fast-xml-parser": "^3.17.4",
+    "fast-xml-parser": "^4.4.1",
     "plugin-error": "^1.0.1"
   },
   "files": []

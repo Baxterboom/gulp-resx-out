@@ -1,6 +1,6 @@
 const Type = require('axis.js');
 const through2 = require('through2');
-const xmlParser = require('fast-xml-parser');
+const { XMLParser } = require('fast-xml-parser');
 const PluginError = require('plugin-error');
 
 const PLUGIN_NAME = "gulp-resx-out";
@@ -30,13 +30,13 @@ module.exports = function (options) {
 
   function convert(file) {
     const result = {};
-    const json = xmlParser.parse(file.contents.toString(), {
+    const json = new XMLParser({
       ignoreNameSpace: false,
       ignoreAttributes: false,
       attributeNamePrefix: "@"
     });
 
-    const nodes = json.root.data;
+    const nodes = json.parse(file.contents.toString()).root.data;
     nodes.forEach(function (node) {
       const item = {
         name: node["@name"],
